@@ -387,7 +387,7 @@ stock KetThucChiemGianKhoan(playerid)
 	{
 		idGangSoHuuGianKhoan = 0;
 		tenGangSoHuuGianKhoan = "Chinh Phu Los Santos";
-		format(string, sizeof(string), "{F5F5F5}[THONG BAO] {F54D42}CHINH PHU LOS SANTOS{F5F5F5}da chiem thanh cong \n{FFCD00}Gian Khoan Bach Ho");
+		format(string, sizeof(string), "{F5F5F5}[THONG BAO] {F54D42}CHINH PHU LOS SANTOS {F5F5F5}da chiem thanh cong \n{FFCD00}Gian Khoan Bach Ho");
 	}
 	else if(PhanLoaiGianKhoan == 2)
 	{
@@ -398,7 +398,7 @@ stock KetThucChiemGianKhoan(playerid)
 	SendClientMessageToAll(0xF5F5F5FF, string);
 	if(PhanLoaiGianKhoan == 1)
 	{
-		format(string, sizeof(string), "{F54D42}CHINH PHU LOS SANTOS{F5F5F5}da chiem thanh cong \n{FFCD00}Gian Khoan Bach Ho");
+		format(string, sizeof(string), "{F54D42}CHINH PHU LOS SANTOS {F5F5F5}da chiem thanh cong \n{FFCD00}Gian Khoan Bach Ho");
 	}
 	else if(PhanLoaiGianKhoan == 2)
 	{

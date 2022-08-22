@@ -202,6 +202,7 @@ CMD:dorac(playerid,  params[])
                 format(string, sizeof(string), "Ban da do {ff5e5e}%d tui rac{5effff} va nhan duoc {ff5e5e}%d diem cong huan{5effff} tu chinh phu.", DonRacSave[GetPlayerVehicleID(playerid)], DonRacSave[GetPlayerVehicleID(playerid)]*3);
                 SendClientMessage(playerid, 0x5effffff, string);
                 PlayerInfo[playerid][pDiemCongDan] += DonRacSave[GetPlayerVehicleID(playerid)]*3;
+                TinhToanNVChinh(playerid, 10);
                 if(PlayerInfo[playerid][pDiemCongDan] > 100)
                 {
                     PlayerInfo[playerid][pDiemCongDan] = 100;

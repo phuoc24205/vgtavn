@@ -24,6 +24,7 @@ Store:Ammo_Shop(playerid, response, itemid, modelid, price, amount, itemname[])
             GivePlayerWeapon(playerid, PlayerInfo[playerid][pGuns][2], amount);
             format(stringss, sizeof(stringss), "{ffff00}[MUA DAN] {ff335c}%d {ffff00}vien dan cho sung Luc voi gia {ff335c}%d {ffff00}Vat Lieu (so dan hien co: {ff335c}%s{ffff00}) ", amount, price, number_format(PlayerInfo[playerid][pAmmo][1]));
             SendClientMessageEx(playerid, COLOR_YELLOW, stringss);
+            TinhToanNVChinh(playerid, 8);
             return 1;
         }
         case 2:
@@ -43,6 +44,7 @@ Store:Ammo_Shop(playerid, response, itemid, modelid, price, amount, itemname[])
             GivePlayerWeapon(playerid, PlayerInfo[playerid][pGuns][3], 10);
             format(stringss, sizeof(stringss), "{ffff00}[MUA DAN] {ff335c}%d {ffff00}vien dan cho sung Shotgun voi gia {ff335c}%d {ffff00}Vat Lieu (so dan hien co: {ff335c}%d{ffff00}) ", amount, price, PlayerInfo[playerid][pAmmo][2]);
             SendClientMessageEx(playerid, COLOR_YELLOW, stringss);
+            TinhToanNVChinh(playerid, 8);
             return 1;
         }
         case 3:
@@ -63,6 +65,7 @@ Store:Ammo_Shop(playerid, response, itemid, modelid, price, amount, itemname[])
             GivePlayerWeapon(playerid, PlayerInfo[playerid][pGuns][4], amount);
             format(stringss, sizeof(stringss), "{ffff00}[MUA DAN] {ff335c}%d {ffff00}vien dan cho sung May MP5 voi gia {ff335c}%d {ffff00}Vat Lieu (so dan hien co: {ff335c}%d{ffff00}) ", amount, price, PlayerInfo[playerid][pAmmo][3]);
             SendClientMessageEx(playerid, COLOR_YELLOW, stringss);
+            TinhToanNVChinh(playerid, 8);
             return 1;
         }
         case 4:
@@ -83,6 +86,7 @@ Store:Ammo_Shop(playerid, response, itemid, modelid, price, amount, itemname[])
             GivePlayerWeapon(playerid, PlayerInfo[playerid][pGuns][5], amount);
             format(stringss, sizeof(stringss), "{ffff00}[MUA DAN] {ff335c}%d {ffff00}vien dan cho sung AK/M4 voi gia {ff335c}%d {ffff00}Vat Lieu (so dan hien co: {ff335c}%d{ffff00}) ", amount, price, PlayerInfo[playerid][pAmmo][4]);
             SendClientMessageEx(playerid, COLOR_YELLOW, stringss);
+            TinhToanNVChinh(playerid, 8);
             return 1;
         }
         case 5:
@@ -103,6 +107,7 @@ Store:Ammo_Shop(playerid, response, itemid, modelid, price, amount, itemname[])
             GivePlayerWeapon(playerid, PlayerInfo[playerid][pGuns][6], amount);
             format(stringss, sizeof(stringss), "{ffff00}[MUA DAN] {ff335c}%d {ffff00}vien dan cho sung Nham voi gia {ff335c}%d {ffff00}Vat Lieu (so dan hien co: {ff335c}%d{ffff00}) ", amount, price, PlayerInfo[playerid][pAmmo][5]);
             SendClientMessageEx(playerid, COLOR_YELLOW, stringss);
+            TinhToanNVChinh(playerid, 8);
             return 1;
         }
     }

@@ -1,0 +1,46 @@
+new g_Object[41];
+g_Object[0] = CreateObject(1463, 2056.0234, -2266.3789, 12.8290, 0.0000, 0.0000, 0.0000); //DYN_WOODPILE2
+g_Object[1] = CreateObject(3474, 2081.0541, -2283.9152, 19.3029, 0.0000, 0.0000, 0.0000); //Freightcrane1
+g_Object[2] = CreateObject(1463, 2056.0234, -2265.6308, 12.8290, 0.0000, 0.0000, 0.0000); //DYN_WOODPILE2
+g_Object[3] = CreateObject(1463, 2056.0234, -2264.9218, 12.8290, 0.0000, 0.0000, 0.0000); //DYN_WOODPILE2
+g_Object[4] = CreateObject(1463, 2056.0234, -2265.7126, 13.3690, 0.0000, 0.0000, 0.0000); //DYN_WOODPILE2
+g_Object[5] = CreateObject(841, 2056.1555, -2269.2861, 12.5827, 0.0000, 0.0000, 0.0000); //DEAD_TREE_13
+g_Object[6] = CreateObject(2957, 2023.2110, -2271.1352, 14.1695, 0.0000, 0.0000, 0.0000); //chinaTgarageDoor
+g_Object[7] = CreateObject(841, 2057.7351, -2265.6889, 12.5827, 0.0000, 0.0000, 0.0000); //DEAD_TREE_13
+g_Object[8] = CreateObject(846, 2057.8139, -2255.9970, 13.2187, 0.0000, 0.0000, 0.0000); //DEAD_TREE_18
+g_Object[9] = CreateObject(846, 2057.8139, -2248.1660, 13.2826, -12.5999, 0.0000, 0.0000); //DEAD_TREE_18
+g_Object[10] = CreateObject(833, 2080.1784, -2287.5593, 18.1133, 0.0000, 0.0000, 0.0000); //DEAD_TREE_6
+g_Object[11] = CreateObject(837, 2075.3913, -2299.5441, 12.9802, 0.0000, 0.0000, -65.2998); //DEAD_TREE_1
+g_Object[12] = CreateObject(839, 2111.1789, -2213.9184, 13.8873, 0.0000, 0.0000, 0.0000); //DEAD_TREE_11
+g_Object[13] = CreateObject(18248, 2113.2832, -2227.3415, 20.3815, 0.0000, 0.0000, 150.1999); //cuntwjunk01
+g_Object[14] = CreateObject(835, 2107.8845, -2210.1325, 14.9235, 0.0000, 0.0000, 0.0000); //DEAD_TREE_8
+g_Object[15] = CreateObject(840, 2099.9960, -2230.9797, 13.8184, 0.0000, 0.0000, 0.0000); //DEAD_TREE_12
+g_Object[16] = CreateObject(844, 2056.8627, -2240.2717, 13.3437, 0.0000, 0.0000, 0.0000); //DEAD_TREE_16
+g_Object[17] = CreateObject(844, 2062.8752, -2224.8332, 13.5368, 0.0000, 0.0000, 0.0000); //DEAD_TREE_16
+g_Object[18] = CreateObject(2957, 2030.1806, -2271.1352, 14.1695, 0.0000, 0.0000, 0.0000); //chinaTgarageDoor
+g_Object[19] = CreateObject(9093, 2027.0450, -2293.3530, 14.2828, 0.0000, 0.0000, 90.0000); //cmdgrgdoor_lvs
+g_Object[20] = CreateObject(3761, 2414.7900, -2454.3203, 14.6069, 0.0000, 0.0000, -44.9000); //industshelves
+g_Object[21] = CreateObject(14584, 2409.8413, -2489.6979, 14.3403, 0.0000, 0.0000, -44.7999); //ab_abbatoir05
+g_Object[22] = CreateObject(5262, 2408.7302, -2475.3835, 15.5083, 0.0000, 0.0000, -134.8999); //las2dkwar04
+g_Object[23] = CreateObject(3761, 2410.3842, -2458.7392, 14.6069, 0.0000, 0.0000, -44.9000); //industshelves
+g_Object[24] = CreateObject(3761, 2405.9726, -2463.1647, 14.6069, 0.0000, 0.0000, -44.9000); //industshelves
+g_Object[25] = CreateObject(846, 2422.1201, -2477.7380, 14.2787, -0.2999, -41.1000, -45.2999); //DEAD_TREE_18
+g_Object[26] = CreateObject(841, 2419.7624, -2470.7260, 12.6333, 0.0000, 0.0000, 0.0000); //DEAD_TREE_13
+g_Object[27] = CreateObject(841, 2414.6396, -2475.6027, 12.6333, 0.0000, 0.0000, -38.2000); //DEAD_TREE_13
+g_Object[28] = CreateObject(841, 2419.2141, -2479.2016, 12.6333, 0.0000, 0.0000, -38.2000); //DEAD_TREE_13
+g_Object[29] = CreateObject(841, 2428.0930, -2467.9167, 12.6333, 0.0000, 0.0000, -89.7000); //DEAD_TREE_13
+g_Object[30] = CreateObject(934, 2429.7302, -2466.1809, 13.7836, 0.0000, 0.0000, -132.9999); //GENERATOR_BIG
+g_Object[31] = CreateObject(1463, 2410.6857, -2471.0773, 12.9671, 0.0000, 0.0000, -46.2999); //DYN_WOODPILE2
+g_Object[32] = CreateObject(1463, 2409.3522, -2469.6823, 12.9671, 0.0000, 0.0000, -46.2999); //DYN_WOODPILE2
+g_Object[33] = CreateObject(1463, 2407.7731, -2470.7351, 14.0471, 0.0000, 0.0000, -46.2999); //DYN_WOODPILE2
+g_Object[34] = CreateObject(1463, 2407.9548, -2468.5224, 12.9971, 0.0000, 0.0000, -4.8999); //DYN_WOODPILE2
+g_Object[35] = CreateObject(1463, 2402.5751, -2466.4934, 12.9971, 0.0000, 0.0000, 47.7000); //DYN_WOODPILE2
+g_Object[36] = CreateObject(1460, 2417.2343, -2457.0642, 12.7444, 90.0000, 35.5000, 0.0000); //DYN_F_R_WOOD_3
+g_Object[37] = CreateObject(1460, 2411.7343, -2471.1572, 12.7444, 90.0000, 68.7000, 0.0000); //DYN_F_R_WOOD_3
+g_Object[38] = CreateObject(2991, 2402.2556, -2472.0263, 13.1838, 0.0000, 0.0000, -46.5999); //imy_bbox
+g_Object[39] = CreateObject(2991, 2402.2556, -2472.0263, 14.2938, 0.0000, 0.0000, -46.5999); //imy_bbox
+g_Object[40] = CreateObject(19339, 2418.5632, -2479.6464, 12.9698, 0.0000, 0.0000, 0.0000); //coffin01
+RemoveBuildingForPlayer(playerid, 3574, 2082.4099, -2269.6599, 14.9609, 0.10); // lasdkrtgrp2
+RemoveBuildingForPlayer(playerid, 3744, 2082.4099, -2269.6599, 14.9609, 0.10); // LOD Model of lasdkrtgrp2
+RemoveBuildingForPlayer(playerid, 1308, 2089.3000, -2289.8898, 12.7500, 0.10); // telgrphpole02
+RemoveBuildingForPlayer(playerid, 1290, 2088.6101, -2281.3999, 18.3827, 0.10); // lamppost2

@@ -1,0 +1,138 @@
+// --- Script has been created by Riddick ---
+#include    <a_samp>
+
+#define HOLDING(%0)  ((newkeys & (%0)) == (%0))
+#define RELEASED(%0) (((newkeys & (%0)) != (%0)) && ((oldkeys & (%0)) == (%0)))
+
+new Float:NITRO_MAX = -180.0;
+new Float:VehCurrentNOS[MAX_VEHICLES];
+
+new PlayerText:E_PLAYER_NITRO_BAR_TD[3];
+new bool:PlayerUsingNitro[MAX_PLAYERS];
+
+public OnFilterScriptInit()
+{
+	for(new i = 0; i != MAX_VEHICLES; i++)
+	{
+	    VehCurrentNOS[i] = NITRO_MAX;
+	}
+	return true;
+}
+
+public OnPlayerConnect(playerid)
+{
+	E_PLAYER_NITRO_BAR_TD[0] = CreatePlayerTextDraw(playerid, 25.937042, 263.416564, "OUTLINE");
+	PlayerTextDrawLetterSize(playerid, E_PLAYER_NITRO_BAR_TD[0], 0.0, 17.266113);
+	PlayerTextDrawTextSize(playerid, E_PLAYER_NITRO_BAR_TD[0], 4.500000, 0.0);
+	PlayerTextDrawAlignment(playerid, E_PLAYER_NITRO_BAR_TD[0], 1);
+	PlayerTextDrawColor(playerid, E_PLAYER_NITRO_BAR_TD[0], 0);
+	PlayerTextDrawUseBox(playerid, E_PLAYER_NITRO_BAR_TD[0], true);
+	PlayerTextDrawBoxColor(playerid, E_PLAYER_NITRO_BAR_TD[0], 255);
+	PlayerTextDrawSetShadow(playerid, E_PLAYER_NITRO_BAR_TD[0], 0);
+	PlayerTextDrawSetOutline(playerid, E_PLAYER_NITRO_BAR_TD[0], 0);
+	PlayerTextDrawFont(playerid, E_PLAYER_NITRO_BAR_TD[0], 0);
+
+	E_PLAYER_NITRO_BAR_TD[1] = CreatePlayerTextDraw(playerid, 24.437034, 422.083190, "BLUE_BAR");
+	PlayerTextDrawLetterSize(playerid, E_PLAYER_NITRO_BAR_TD[1], 0.0, -18.0);
+	PlayerTextDrawTextSize(playerid, E_PLAYER_NITRO_BAR_TD[1], 5.999989, 0.0);
+	PlayerTextDrawAlignment(playerid, E_PLAYER_NITRO_BAR_TD[1], 1);
+	PlayerTextDrawColor(playerid, E_PLAYER_NITRO_BAR_TD[1], 0);
+	PlayerTextDrawUseBox(playerid, E_PLAYER_NITRO_BAR_TD[1], true);
+	PlayerTextDrawBoxColor(playerid, E_PLAYER_NITRO_BAR_TD[1], 1085196799);
+	PlayerTextDrawSetShadow(playerid, E_PLAYER_NITRO_BAR_TD[1], 0);
+	PlayerTextDrawSetOutline(playerid, E_PLAYER_NITRO_BAR_TD[1], 0);
+	PlayerTextDrawFont(playerid, E_PLAYER_NITRO_BAR_TD[1], 0);
+
+	E_PLAYER_NITRO_BAR_TD[2] = CreatePlayerTextDraw(playerid, 9.0, 261.916931, "N~n~2~n~O");
+	PlayerTextDrawLetterSize(playerid, E_PLAYER_NITRO_BAR_TD[2], 0.449999, 1.600000);
+	PlayerTextDrawAlignment(playerid, E_PLAYER_NITRO_BAR_TD[2], 1);
+	PlayerTextDrawColor(playerid, E_PLAYER_NITRO_BAR_TD[2], 255);
+	PlayerTextDrawSetShadow(playerid, E_PLAYER_NITRO_BAR_TD[2], 0);
+	PlayerTextDrawSetOutline(playerid, E_PLAYER_NITRO_BAR_TD[2], 0);
+	PlayerTextDrawBackgroundColor(playerid, E_PLAYER_NITRO_BAR_TD[2], 51);
+	PlayerTextDrawFont(playerid, E_PLAYER_NITRO_BAR_TD[2], 1);
+	PlayerTextDrawSetProportional(playerid, E_PLAYER_NITRO_BAR_TD[2], 1);
+ 	return true;
+}
+
+public OnPlayerStateChange(playerid, newstate, oldstate)
+{
+	if(newstate == PLAYER_STATE_DRIVER)
+	{
+		for(new i = 0; i != 3; i++)
+		{
+			PlayerTextDrawShow(playerid, E_PLAYER_NITRO_BAR_TD[i]);
+		}
+	}
+	
+	else
+	{
+		for(new i = 0; i != 3; i++)
+		{
+			PlayerTextDrawHide(playerid, E_PLAYER_NITRO_BAR_TD[i]);
+		}
+	}
+	return true;
+}
+
+public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
+{
+	if(HOLDING(KEY_ACTION))PlayerUsingNitro[playerid] = true;
+	else if(RELEASED(KEY_ACTION))PlayerUsingNitro[playerid] = false; RemoveVehicleComponent(GetPlayerVehicleID(playerid), 1010);
+	return true;
+}
+
+public OnPlayerUpdate(playerid)
+{
+	if(GetPlayerState(playerid) == PLAYER_STATE_DRIVER)
+	{
+		if(PlayerUsingNitro[playerid])
+		{
+		    NITRO_BAR(playerid);
+		}
+
+		else
+		{
+			new Float:ST[4];
+			new vehicleid = GetPlayerVehicleID(playerid);
+			GetVehicleVelocity(vehicleid, ST[0], ST[1], ST[2]);
+			ST[3] = floatsqroot(floatpower(floatabs(ST[0]), 2.0) + floatpower(floatabs(ST[1]), 2.0) + floatpower(floatabs(ST[2]), 2.0)) * 110.28625;
+
+			if(ST[3] >= 80)
+			{
+			    if(VehCurrentNOS[vehicleid] >= NITRO_MAX)
+			    {
+			        VehCurrentNOS[vehicleid] -= 0.5;
+			        PlayerTextDrawLetterSize(playerid, E_PLAYER_NITRO_BAR_TD[1], 0.0, VehCurrentNOS[vehicleid] / 10);
+					PlayerTextDrawShow(playerid, E_PLAYER_NITRO_BAR_TD[1]);
+			    }
+			}
+		}
+	}
+	return true;
+}
+	
+forward NITRO_BAR(playerid);
+public 	NITRO_BAR(playerid)
+{
+	new vehicleid = GetPlayerVehicleID(playerid);
+	if(VehCurrentNOS[vehicleid] <= -3.5)
+	{
+	    VehCurrentNOS[vehicleid] += 1.0;
+	    if(!GetVehicleComponentInSlot(vehicleid, GetVehicleComponentType(1010)))
+	    {
+        	AddVehicleComponent(GetPlayerVehicleID(playerid), 1010);
+		}
+	}
+	
+	else
+	{
+	    VehCurrentNOS[vehicleid] = -1.0;
+	    if(GetVehicleComponentInSlot(vehicleid, GetVehicleComponentType(1010)))
+	    	RemoveVehicleComponent(GetPlayerVehicleID(playerid), 1010);
+	}
+	
+	PlayerTextDrawLetterSize(playerid, E_PLAYER_NITRO_BAR_TD[1], 0.0, VehCurrentNOS[vehicleid] / 10);
+	PlayerTextDrawShow(playerid, E_PLAYER_NITRO_BAR_TD[1]);
+	return true;
+}

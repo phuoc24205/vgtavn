@@ -1,0 +1,6 @@
+if(level >= 0 && level < 100) { SendClientMessageEx(playerid, COLOR_YELLOW, "Ky nang Nguoi dua hang cap do = 1."); format(string, sizeof(string), "You need to transport goods %d times to level up.", 101 - level); SendClientMessageEx(playerid, COLOR_YELLOW, string); }
+			else if(level >= 100 && level < 150) { SendClientMessageEx(playerid, COLOR_YELLOW, "Ky nang Nguoi dua hang cap do = 2."); format(string, sizeof(string), "You need to transport goods %d times to level up.", 151 - level); SendClientMessageEx(playerid, COLOR_YELLOW, string); }
+			else if(level >= 150 && level < 250) { SendClientMessageEx(playerid, COLOR_YELLOW, "Ky nang Nguoi dua hang cap do = 3."); format(string, sizeof(string), "You need to transport goods %d times to level up.", 251 - level); SendClientMessageEx(playerid, COLOR_YELLOW, string); }
+			else if(level >= 250 && level < 450) { SendClientMessageEx(playerid, COLOR_YELLOW, "Ky nang Nguoi dua hang cap do = 4."); format(string, sizeof(string), "You need to transport goods %d times to level up.", 451 - level); SendClientMessageEx(playerid, COLOR_YELLOW, string); }
+			else if(level >= 450 && level < 700) { SendClientMessageEx(playerid, COLOR_YELLOW, "Ky nang Nguoi dua hang cap do = 5."); }
+			else if(level >= 700) { SendClientMessageEx(player

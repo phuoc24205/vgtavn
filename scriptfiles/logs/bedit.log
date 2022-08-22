@@ -1,0 +1,959 @@
+﻿[2016/9/19 - 12:57:05] Thai Nguyen has changed BusinessID 0's Exterior to X:1938.589477 Y:-1775.284423 Z:13.382812
+[2016/9/19 - 12:57:14] Thai Nguyen has changed BusinessID 0's Interior to X:1935.896240 Y:-1777.675415 Z:13.382812
+[2016/9/19 - 12:57:27] Thai Nguyen has changed BusinessID 0's Price to $300000.
+[2016/9/19 - 12:58:11] Thai Nguyen has changed BusinessID 1's Type to Tram sua xe (7).
+[2016/9/19 - 12:58:14] Thai Nguyen has changed BusinessID 1's Type to 24/7 (8).
+[2016/9/19 - 12:58:17] Thai Nguyen has changed BusinessID 1's Type to Tram xang (1).
+[2016/9/19 - 12:59:43] Thai Nguyen has changed BusinessID 0's Type to Tram xang (1).
+[2016/9/19 - 12:59:46]  da tao ra mot tram xang cho  ()
+[2016/9/19 - 12:59:57]  da tao ra mot tram xang cho  ()
+[2016/9/19 - 13:00:14] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:00:24] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:00:44] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:00:56] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:01:04] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:01:18] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:01:49] Admin  xoa tram ga cua hang 
+[2016/9/19 - 13:01:50] Admin  xoa tram ga cua hang 
+[2016/9/19 - 13:02:00] Thai Nguyen has changed BusinessID 0's Exterior to X:1928.934326 Y:-1776.251953 Z:13.546875
+[2016/9/19 - 13:02:14]  da tao ra mot tram xang cho  ()
+[2016/9/19 - 13:02:28] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:03:21] Thai Nguyen da thay doi cong suat tram gas 0 cho  (0) den 1000.00
+[2016/9/19 - 13:03:29] Thai Nguyen da thay doi luong khi gas 0 cho  (0) den 1000.00
+[2016/9/19 - 13:03:40] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:04:34] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:08:04] Thai Nguyen has changed BusinessID 0's Exterior to X:1933.868041 Y:-1775.908569 Z:13.382812
+[2016/9/19 - 13:08:08] Thai Nguyen has changed BusinessID 0's Interior to X:1934.676635 Y:-1778.548095 Z:13.382812
+[2016/9/19 - 13:08:17] Thai Nguyen has changed BusinessID 0's Price to $10000.
+[2016/9/19 - 13:09:01] Thai Nguyen has changed BusinessID 0's Type to Tram xang (1).
+[2016/9/19 - 13:09:13]  da tao ra mot tram xang cho  ()
+[2016/9/19 - 13:09:18] Thai Nguyen thay doi vi tri tram gas 0 cho cua hang 0
+[2016/9/19 - 13:09:27] Thai Nguyen da thay doi cong suat tram gas 0 cho  (0) den 1000.00
+[2016/9/19 - 13:09:31] Thai Nguyen da thay doi luong khi gas 0 cho  (0) den 1000.00
+[2016/9/19 - 13:11:30] Thai Nguyen has deleted BusinessID 0.
+[2016/9/19 - 13:11:35] Thai Nguyen has changed BusinessID 1's Exterior to X:1934.981933 Y:-1778.709472 Z:13.382812
+[2016/9/19 - 13:11:42] Thai Nguyen has changed BusinessID 1's Interior to X:1934.982177 Y:-1782.714599 Z:13.382812
+[2016/9/19 - 13:11:46] Thai Nguyen has changed BusinessID 1's Type to Tram xang (1).
+[2016/9/19 - 13:11:51] Thai Nguyen has changed BusinessID 1's Price to $10000.
+[2016/9/19 - 13:12:57]  da tao ra mot tram xang cho  ()
+[2018/1/1 - 20:54:53] LongBi has deleted BusinessID 8.
+[2018/1/1 - 20:54:56] LongBi has deleted BusinessID 3.
+[2018/1/1 - 20:55:08] LongBi has deleted BusinessID 4.
+[2018/1/1 - 20:55:30] LongBi has deleted BusinessID 6.
+[2018/1/1 - 20:55:37] LongBi has deleted BusinessID 7.
+[2018/1/1 - 20:56:23] LongBi has changed BusinessID 3's Exterior to X:2137.592041 Y:1014.718383 Z:10.976562
+[2018/1/1 - 20:56:29] LongBi has changed BusinessID 3's Price to $0.
+[2018/1/1 - 20:56:40] LongBi has changed BusinessID 3's Type to Dai ly xe moi (5).
+[2018/1/1 - 20:56:42] LongBi has changed BusinessID 3's Type to Dai ly xe cu (6).
+[2018/1/1 - 20:56:44] LongBi has changed BusinessID 3's Type to Tram sua xe (7).
+[2018/1/1 - 20:56:46] LongBi has changed BusinessID 3's Type to Shop vu khi (4).
+[2018/1/1 - 20:56:48] LongBi has changed BusinessID 3's Type to Dai ly xe moi (5).
+[2018/1/1 - 21:27:21] loc vgta has changed BusinessID 0's Price to $999999999.
+[2018/1/1 - 21:29:02] loc vgta has changed BusinessID 1's Exterior to X:2117.201660 Y:897.276062 Z:11.179687
+[2018/1/1 - 21:51:21] LongBi has changed BusinessID 3's Exterior to X:2142.508544 Y:991.737854 Z:10.820312
+[2018/1/1 - 21:51:34] LongBi has changed BusinessID 3's Exterior to X:2137.717773 Y:1014.505981 Z:10.976562
+[2018/1/1 - 21:54:57] LongBi has changed BusinessID 4's Exterior to X:2194.940917 Y:1991.014526 Z:12.296875
+[2018/1/1 - 21:55:10] LongBi has changed BusinessID 4's Type to Tram xang (1).
+[2018/1/1 - 21:55:12] LongBi has changed BusinessID 4's Type to Shop quan ao (2).
+[2018/1/1 - 21:55:13] LongBi has changed BusinessID 4's Type to Nha hang (3).
+[2018/1/1 - 21:55:15] LongBi has changed BusinessID 4's Type to Shop vu khi (4).
+[2018/1/1 - 21:55:16] LongBi has changed BusinessID 4's Type to Dai ly xe moi (5).
+[2018/1/1 - 21:55:18] LongBi has changed BusinessID 4's Type to Tram sua xe (7).
+[2018/1/1 - 21:55:19] LongBi has changed BusinessID 4's Type to 24/7 (8).
+[2018/1/1 - 21:55:20] LongBi has changed BusinessID 4's Type to 24/7 (8).
+[2018/1/1 - 21:55:51] LongBi has changed BusinessID 4's Price to $50000000.
+[2018/1/1 - 21:56:17] LongBi has changed BusinessID 6's Exterior to X:2102.236572 Y:2257.357421 Z:11.023437
+[2018/1/1 - 21:56:18] LongBi has changed BusinessID 6's Exterior to X:2101.892578 Y:2257.416259 Z:11.023437
+[2018/1/1 - 21:56:24] LongBi has changed BusinessID 6's Price to $5000000.
+[2018/1/1 - 21:56:26] LongBi has changed BusinessID 6's Price to $50000000.
+[2018/1/1 - 21:56:33] LongBi has changed BusinessID 6's Type to Shop quan ao (2).
+[2018/1/1 - 21:58:37] LongBi has changed BusinessID 6's Interior to X:204.305023 Y:-168.857284 Z:1000.523437
+[2018/1/1 - 22:00:21] LongBi has changed BusinessID 10's Exterior to X:2159.544433 Y:943.404296 Z:10.820312
+[2018/1/2 - 15:56:18] Dat VGTA has deleted BusinessID 101.
+[2018/1/2 - 18:50:39] LongBi has changed BusinessID 4's Price to $0.
+[2018/1/2 - 18:50:55] LongBi has changed BusinessID 4's Price to $5000000.
+[2018/1/2 - 18:50:57] LongBi has changed BusinessID 4's Price to $50000000.
+[2018/1/2 - 18:53:11] LongBi has changed BusinessID 11's Exterior to X:2637.117675 Y:1129.440307 Z:11.179687
+[2018/1/2 - 18:53:17] LongBi has deleted BusinessID 11.
+[2018/1/2 - 18:53:19] LongBi has changed BusinessID 10's Exterior to X:2637.117675 Y:1129.440307 Z:11.179687
+[2018/1/2 - 18:53:35] LongBi has changed BusinessID 10's Exterior to X:2159.543457 Y:943.139099 Z:10.820312
+[2018/1/2 - 18:53:58] LongBi has changed BusinessID 11's Exterior to X:2638.751953 Y:1127.405151 Z:11.179687
+[2018/1/2 - 18:54:25] LongBi has changed BusinessID 5's Exterior to X:2637.284423 Y:1129.677001 Z:11.179687
+[2018/1/2 - 18:54:29] LongBi has deleted BusinessID 11.
+[2018/1/2 - 18:55:09] LongBi has changed BusinessID 1's Exterior to X:2117.443115 Y:896.775329 Z:11.179687
+[2018/1/2 - 18:55:15] LongBi has changed BusinessID 1's Type to Shop quan ao (2).
+[2018/1/2 - 18:55:16] LongBi has changed BusinessID 1's Type to Tram xang (1).
+[2018/1/2 - 20:33:41] LongBi has changed BusinessID 10's Exterior to X:2158.959716 Y:943.417724 Z:10.820312
+[2018/1/6 - 21:43:12] Loc Vgta has changed BusinessID 7's Exterior to X:1877.088012 Y:2268.339843 Z:10.671875
+[2018/1/6 - 21:43:31] Loc Vgta has changed BusinessID 7's Interior to X:774.022644 Y:-50.476711 Z:1000.585937
+[2018/1/6 - 21:43:45] Loc Vgta has changed BusinessID 7's Interior to X:774.091552 Y:-50.057109 Z:1000.585937
+[2018/1/6 - 21:44:00] Loc Vgta has changed BusinessID 1's Interior to X:762.943542 Y:-50.442264 Z:1000.585937
+[2018/1/6 - 21:44:02] Loc Vgta has changed BusinessID 7's Interior to X:763.516418 Y:-50.441764 Z:1000.585937
+[2018/1/6 - 21:44:38] Loc Vgta has changed BusinessID 1's Interior to X:-25.669229 Y:-188.163619 Z:1003.546875
+[2018/1/6 - 21:47:09] Loc Vgta has changed BusinessID 7's Interior to X:773.657836 Y:-78.844154 Z:1000.662780
+[2018/1/6 - 21:49:02] Loc Vgta has changed BusinessID 7's Interior to X:774.048400 Y:-50.476913 Z:1000.585937
+[2018/1/6 - 21:51:26] Loc Vgta has changed BusinessID 1's Interior to X:-25.640459 Y:-188.029632 Z:1003.546875
+[2018/1/6 - 21:53:46] Loc Vgta has deleted BusinessID 7.
+[2018/1/8 - 22:18:23] LongBi has changed BusinessID 7's Exterior to X:2229.871582 Y:-1721.229248 Z:13.560952
+[2018/1/8 - 22:18:26] LongBi has changed BusinessID 7's Type to Tram xang (1).
+[2018/1/8 - 22:18:28] LongBi has changed BusinessID 7's Type to Shop quan ao (2).
+[2018/1/8 - 22:18:30] LongBi has changed BusinessID 7's Type to Nha hang (3).
+[2018/1/8 - 22:18:31] LongBi has changed BusinessID 7's Type to Shop vu khi (4).
+[2018/1/8 - 22:18:32] LongBi has changed BusinessID 7's Type to Dai ly xe moi (5).
+[2018/1/8 - 22:18:33] LongBi has changed BusinessID 7's Type to Dai ly xe cu (6).
+[2018/1/8 - 22:18:34] LongBi has changed BusinessID 7's Type to Tram sua xe (7).
+[2018/1/8 - 22:18:36] LongBi has changed BusinessID 7's Type to 24/7 (8).
+[2018/1/8 - 22:18:37] LongBi has changed BusinessID 7's Type to Bar (9).
+[2018/1/8 - 22:18:38] LongBi has changed BusinessID 7's Type to Club (10).
+[2018/1/8 - 22:18:40] LongBi has changed BusinessID 7's Type to Shop nguoi lon (11).
+[2018/1/8 - 22:18:41] LongBi has changed BusinessID 7's Type to Gym (12).
+[2018/1/8 - 22:18:42] LongBi has changed BusinessID 7's Type to Gym (12).
+[2018/1/9 - 18:49:22] loc vgta has changed BusinessID 4's Price to $999999999.
+[2018/1/9 - 23:00:03] LongBi has changed BusinessID 8's Exterior to X:2085.665283 Y:2090.347900 Z:11.057899
+[2018/1/9 - 23:00:09] LongBi has changed BusinessID 8's Type to Tram xang (1).
+[2018/1/9 - 23:00:10] LongBi has changed BusinessID 8's Type to Dai ly xe moi (5).
+[2018/1/9 - 23:00:11] LongBi has changed BusinessID 8's Type to Dai ly xe cu (6).
+[2018/1/9 - 23:00:12] LongBi has changed BusinessID 8's Type to Tram sua xe (7).
+[2018/1/9 - 23:00:14] LongBi has changed BusinessID 8's Type to 24/7 (8).
+[2018/1/9 - 23:00:16] LongBi has changed BusinessID 8's Type to Bar (9).
+[2018/1/9 - 23:00:18] LongBi has changed BusinessID 8's Type to Bar (9).
+[2018/1/9 - 23:00:26] LongBi has changed BusinessID 8's Type to Club (10).
+[2018/1/9 - 23:00:31] LongBi has changed BusinessID 8's Type to Shop nguoi lon (11).
+[2018/1/9 - 23:00:33] LongBi has changed BusinessID 8's Type to Gym (12).
+[2018/1/9 - 23:00:35] LongBi has changed BusinessID 8's Type to Khong xac dinh (13).
+[2018/1/9 - 23:00:36] LongBi has changed BusinessID 8's Type to Khong xac dinh (14).
+[2018/1/9 - 23:00:38] LongBi has changed BusinessID 8's Type to Khong xac dinh (15).
+[2018/1/9 - 23:00:39] LongBi has changed BusinessID 8's Type to Khong xac dinh (13).
+[2018/1/9 - 23:00:42] LongBi has changed BusinessID 8's Type to Gym (12).
+[2018/1/9 - 23:00:44] LongBi has changed BusinessID 8's Type to Shop nguoi lon (11).
+[2018/1/9 - 23:02:39] LongBi has changed BusinessID 8's Interior to X:-100.365890 Y:-25.036920 Z:1000.718750
+[2018/1/11 - 21:09:26] LongBi has changed BusinessID 8's Exterior to X:2194.939941 Y:2002.289550 Z:12.289411
+[2018/1/11 - 21:09:43] LongBi has changed BusinessID 9's Interior to X:2089.635253 Y:2046.186279 Z:10.826112
+[2018/1/11 - 21:09:52] LongBi has changed BusinessID 9's Interior to X:2110.100830 Y:2048.347900 Z:10.820312
+[2018/1/11 - 21:10:07] LongBi has changed BusinessID 9's Exterior to X:2088.468994 Y:2041.916259 Z:10.826112
+[2018/1/11 - 21:10:59] LongBi has changed BusinessID 3's Price to $-727379969.
+[2018/1/11 - 21:11:04] LongBi has changed BusinessID 3's Price to $999999999.
+[2018/1/11 - 21:11:30] LongBi has changed BusinessID 9's Type to Shop vu khi (4).
+[2018/1/11 - 21:11:34] LongBi has changed BusinessID 9's Type to Dai ly xe moi (5).
+[2018/1/11 - 21:17:47] LongBi has changed BusinessID 1's Exterior to X:2078.191650 Y:2070.047851 Z:16.410776
+[2018/1/11 - 21:18:03] LongBi has changed BusinessID 1's Exterior to X:2117.399658 Y:896.775634 Z:11.179687
+[2018/1/11 - 21:18:13] LongBi has changed BusinessID 9's Exterior to X:2078.751220 Y:2070.418945 Z:16.410776
+[2018/1/11 - 21:36:26] LongBi has changed BusinessID 9's Exterior to X:2082.601074 Y:2077.866210 Z:16.404443
+[2018/1/11 - 21:43:59] LongBi has changed BusinessID 9's Exterior to X:2103.347656 Y:2063.751220 Z:10.820312
+[2018/1/11 - 21:46:17] LongBi has changed BusinessID 9's Exterior to X:2082.885742 Y:2034.425048 Z:16.404443
+[2018/1/11 - 21:48:06] LongBi has changed BusinessID 9's Interior to X:-25.944206 Y:-188.249664 Z:1003.546875
+[2018/1/11 - 21:50:52] LongBi has changed BusinessID 11's Exterior to X:2460.301025 Y:1325.186279 Z:10.820312
+[2018/1/11 - 21:50:59] LongBi has changed BusinessID 11's Type to Dai ly xe cu (6).
+[2018/1/11 - 21:51:15] LongBi has changed BusinessID 9's Price to $999999999.
+[2018/1/11 - 21:56:05] LongBi has changed BusinessID 11's Exterior to X:2461.304199 Y:1339.118774 Z:10.820312
+[2018/1/11 - 22:01:44] LongBi has changed BusinessID 11's Exterior to X:2467.288085 Y:1322.636596 Z:10.696897
+[2018/1/11 - 22:01:53] LongBi has changed BusinessID 11's Exterior to X:2459.916015 Y:1324.770263 Z:10.820312
+[2018/1/11 - 22:01:59] LongBi has changed BusinessID 11's Price to $999999999.
+[2018/1/11 - 22:12:49] LongBi has changed BusinessID 11's Exterior to X:2440.974609 Y:1336.563964 Z:10.820312
+[2018/1/11 - 22:13:00] LongBi has changed BusinessID 11's Price to $0.
+[2018/1/11 - 22:13:55] LongBi has changed BusinessID 11's Price to $999999999.
+[2018/1/11 - 22:14:37] LongBi has changed BusinessID 11's Exterior to X:2459.711425 Y:1324.905395 Z:10.820312
+[2018/1/11 - 22:20:35] LongBi has changed BusinessID 3's Price to $0.
+[2018/1/11 - 22:21:31] LongBi has changed BusinessID 3's Price to $999999999.
+[2018/1/11 - 22:21:39] LongBi has changed BusinessID 3's Price to $999999999.
+[2018/1/11 - 22:25:14] LongBi has changed BusinessID 11's Exterior to X:2461.536865 Y:1341.733398 Z:10.976562
+[2018/1/11 - 22:25:18] LongBi has changed BusinessID 11's Price to $0.
+[2018/1/11 - 22:25:25] LongBi has changed BusinessID 11's Price to $999999999.
+[2018/1/11 - 22:28:44] LongBi has changed BusinessID 11's Exterior to X:2459.710205 Y:1324.991699 Z:10.820312
+[2018/1/11 - 22:32:55] LongBi has changed BusinessID 12's Exterior to X:2372.048339 Y:2760.146484 Z:10.820312
+[2018/1/11 - 22:33:02] LongBi has changed BusinessID 12's Type to Dai ly xe moi (5).
+[2018/1/11 - 22:33:03] LongBi has changed BusinessID 12's Type to Shop vu khi (4).
+[2018/1/11 - 22:34:38] LongBi has changed BusinessID 12's Interior to X:285.812957 Y:-86.748313 Z:1001.522888
+[2018/1/11 - 23:35:13] LongBi has changed BusinessID 3's Price to $0.
+[2018/1/11 - 23:35:25] LongBi has changed BusinessID 3's Price to $99999999.
+[2018/1/11 - 23:35:32] LongBi has changed BusinessID 3's Price to $999999999.
+[2018/1/11 - 23:37:46] LongBi has changed BusinessID 9's Exterior to X:2080.193847 Y:2082.579345 Z:16.404443
+[2018/1/11 - 23:38:20] LongBi has changed BusinessID 9's Price to $0.
+[2018/1/11 - 23:47:55] LongBi has changed BusinessID 9's Exterior to X:2085.317871 Y:2034.634521 Z:10.826112
+[2018/1/11 - 23:48:47] LongBi has changed BusinessID 9's Exterior to X:2098.029296 Y:2047.973266 Z:10.826112
+[2018/1/11 - 23:48:52] LongBi has changed BusinessID 9's Interior to X:2101.907226 Y:2048.834228 Z:10.820312
+[2018/1/11 - 23:49:39] LongBi has changed BusinessID 9's Interior to X:2099.671142 Y:2076.467529 Z:10.820312
+[2018/1/11 - 23:50:20] LongBi has changed BusinessID 3's Interior to X:2137.616210 Y:997.197937 Z:10.820312
+[2018/1/14 - 20:01:31] LongBi has changed BusinessID 8's Price to $999999999.
+[2018/1/14 - 20:01:34] LongBi has changed BusinessID 8's Price to $999999999.
+[2018/1/20 - 23:11:00] LongBi has changed BusinessID 13's Exterior to X:2371.946289 Y:2760.149658 Z:10.820312
+[2018/1/20 - 23:11:05] LongBi has changed BusinessID 13's Type to Shop vu khi (4).
+[2018/1/25 - 21:44:46] LongBi has changed BusinessID 1's Exterior to X:2081.266845 Y:2068.389648 Z:16.410776
+[2018/1/25 - 21:45:01] LongBi has changed BusinessID 1's Exterior to X:2117.819580 Y:896.776489 Z:11.179687
+[2018/1/25 - 21:45:14] LongBi has changed BusinessID 9's Exterior to X:2082.257324 Y:2069.208496 Z:16.410776
+[2018/1/25 - 21:47:00] LongBi has changed BusinessID 9's Exterior to X:2088.313720 Y:2084.637451 Z:10.826112
+[2018/1/25 - 21:50:13] LongBi has changed BusinessID 9's Exterior to X:2090.679687 Y:2080.711425 Z:10.826112
+[2018/1/25 - 21:50:29] LongBi has changed BusinessID 9's Exterior to X:2096.079345 Y:2079.079345 Z:10.831289
+[2018/1/25 - 22:05:44] LongBi has changed BusinessID 9's Exterior to X:2080.264404 Y:2073.583740 Z:16.410776
+[2018/1/25 - 22:06:23] LongBi has changed BusinessID 9's Exterior to X:2097.438720 Y:2048.015869 Z:10.831289
+[2018/1/25 - 22:06:27] LongBi has changed BusinessID 9's Interior to X:2097.438720 Y:2048.015869 Z:10.831289
+[2018/1/25 - 22:06:39] LongBi has changed BusinessID 9's Interior to X:2101.039550 Y:2051.467285 Z:10.820312
+[2018/1/25 - 22:07:07] LongBi has changed BusinessID 9's Interior to X:2094.105224 Y:2052.579833 Z:23.060487
+[2018/1/25 - 23:21:37] LongBi has changed BusinessID 13's Exterior to X:1872.267333 Y:2071.707519 Z:11.062500
+[2018/1/25 - 23:21:43] LongBi has changed BusinessID 13's Type to Dai ly xe moi (5).
+[2018/1/25 - 23:21:44] LongBi has changed BusinessID 13's Type to Dai ly xe cu (6).
+[2018/1/25 - 23:21:46] LongBi has changed BusinessID 13's Type to Tram sua xe (7).
+[2018/1/25 - 23:21:47] LongBi has changed BusinessID 13's Type to 24/7 (8).
+[2018/1/25 - 23:21:48] LongBi has changed BusinessID 13's Type to Bar (9).
+[2018/1/25 - 23:21:49] LongBi has changed BusinessID 13's Type to Club (10).
+[2018/1/25 - 23:21:51] LongBi has changed BusinessID 13's Type to Shop nguoi lon (11).
+[2018/1/25 - 23:21:52] LongBi has changed BusinessID 13's Type to Gym (12).
+[2018/1/25 - 23:21:53] LongBi has changed BusinessID 13's Type to Khong xac dinh (13).
+[2018/1/25 - 23:21:54] LongBi has changed BusinessID 13's Type to Khong xac dinh (14).
+[2018/1/25 - 23:21:56] LongBi has changed BusinessID 13's Type to Tram xang (1).
+[2018/1/25 - 23:21:57] LongBi has changed BusinessID 13's Type to Shop quan ao (2).
+[2018/1/25 - 23:21:58] LongBi has changed BusinessID 13's Type to Nha hang (3).
+[2018/1/25 - 23:24:23] LongBi has changed BusinessID 13's Interior to X:372.377777 Y:-133.512268 Z:1001.492187
+[2018/1/25 - 23:25:59] LongBi has changed BusinessID 10's Exterior to X:2159.543212 Y:943.293579 Z:10.820312
+[2018/1/25 - 23:29:28] LongBi has changed BusinessID 5's Interior to X:-25.841667 Y:-188.251007 Z:1003.546875
+[2018/1/26 - 18:30:40] loc vgta has changed BusinessID 3's Interior to X:2138.047607 Y:1014.441772 Z:10.976562
+[2018/1/26 - 18:31:06] loc vgta has changed BusinessID 3's vw to 0
+[2018/1/26 - 18:31:32] loc vgta has edited BusinessID 3's CustomInterior.
+[2018/1/29 - 20:35:51] test hacne has changed BusinessID 12's Exterior to X:2109.235595 Y:2652.968261 Z:10.812969
+[2018/1/29 - 21:12:33] test hacne has changed BusinessID 9's Price to $999999999.
+[2018/1/29 - 22:56:29] Dat has changed BusinessID 1's Type to Tram xang (1).
+[2018/1/29 - 22:56:33] Dat has changed BusinessID 1's Type to Tram xang (1).
+[2018/1/29 - 22:56:51] Dat has changed BusinessID 1's Type to Dai ly xe moi (5).
+[2018/1/29 - 22:56:54] Dat has changed BusinessID 1's Type to Tram xang (1).
+[2018/1/29 - 22:57:16] Dat has changed BusinessID 1's Price to $50.
+[2018/1/29 - 22:58:28] 24/7 da tao ra mot tram xang cho  ()
+[2018/1/29 - 22:59:13] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 22:59:29] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 22:59:36] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 22:59:56] Dat da thay doi cong suat tram gas 0 cho 24/7 (1) den 0.00
+[2018/1/29 - 23:00:00] Dat da thay doi cong suat tram gas 0 cho 24/7 (1) den 5.00
+[2018/1/29 - 23:00:49] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 23:01:12] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 23:01:27] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 23:01:40] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 23:01:46] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 23:03:02] Dat thay doi vi tri tram gas 0 cho cua hang 1
+[2018/1/29 - 23:03:41] Dat da thay doi luong khi gas 0 cho 24/7 (1) den 1.00
+[2018/1/29 - 23:06:08] LongBi has changed BusinessID 1's Price to $999999999.
+[2018/1/29 - 23:14:50] TienTom has changed BusinessID 1's Price to $1.
+[2018/1/29 - 23:15:30] LongBi has changed BusinessID 1's Price to $999999999.
+[2018/1/29 - 23:16:43] TienTom has changed BusinessID 1's Interior to X:-25.919277 Y:-187.469070 Z:1003.546875
+[2018/1/29 - 23:16:46] TienTom has edited BusinessID 1's CustomInterior.
+[2018/1/29 - 23:16:56] TienTom has changed BusinessID 1's Exterior to X:2117.812011 Y:897.226318 Z:11.179687
+[2018/1/29 - 23:18:40] Dat has changed BusinessID 1's Price to $500000.
+[2018/1/29 - 23:21:44] Dat da thay doi cong suat tram gas 0 cho 24/7 (1) den 50.00
+[2018/1/29 - 23:24:28] 24/7 da tao ra mot tram xang cho  ()
+[2018/1/29 - 23:28:32] Admin  xoa tram ga cua hang 
+[2018/1/29 - 23:29:05] 24/7 da tao ra mot tram xang cho  ()
+[2018/1/30 - 17:28:37] TienTom has changed BusinessID 14's Exterior to X:2015.004394 Y:1106.720336 Z:10.820312
+[2018/1/30 - 17:28:51] TienTom has changed BusinessID 14's Type to Tram xang (1).
+[2018/1/30 - 17:28:53] TienTom has changed BusinessID 14's Type to Shop quan ao (2).
+[2018/1/30 - 17:30:30] TienTom has changed BusinessID 14's Interior to X:204.444046 Y:-168.286163 Z:1000.523437
+[2018/1/30 - 17:40:22] TienTom has changed BusinessID 1's Inventory to 10000000.
+[2018/1/30 - 17:40:38] TienTom has changed BusinessID 1's Inventory Capacity to 10000000.
+[2018/1/30 - 19:18:08] LongBi has changed BusinessID 3's Price to $1.
+[2018/1/30 - 19:18:15] LongBi has changed BusinessID 3's Price to $999999999.
+[2018/1/30 - 19:22:22] LongBi has changed BusinessID 9's Price to $1.
+[2018/1/30 - 19:22:29] LongBi has changed BusinessID 9's Price to $999999999.
+[2018/1/30 - 20:22:36] TienTom has edited business ID 9's name to Dai Ly Xe.
+[2018/1/30 - 20:23:01] TienTom has edited business ID 9's name to Shop Xe.
+[2018/1/30 - 22:49:22] LongBi has changed BusinessID 9's Exterior to X:2099.551757 Y:2047.971191 Z:10.820312
+[2018/1/30 - 22:49:29] LongBi has changed BusinessID 9's Exterior to X:2100.397216 Y:2049.032226 Z:10.820312
+[2018/8/27 - 22:56:13] Tien Tom has changed BusinessID 11's Price to $1.
+[2018/8/27 - 22:57:05] Tien Tom has changed BusinessID 11's Price to $1000000000.
+[2018/8/28 - 19:09:45] Beo has changed BusinessID 13's Interior to X:2324.444824 Y:-1149.004638 Z:1050.710083
+[2018/8/28 - 19:10:22] Beo has changed BusinessID 3's Interior to X:2324.656738 Y:-1149.546386 Z:1050.710083
+[2018/8/30 - 21:55:48] LongBi has changed BusinessID 9's Exterior to X:2085.721435 Y:2069.039306 Z:10.826112
+[2018/8/30 - 21:57:56] LongBi has changed BusinessID 9's Exterior to X:2081.974121 Y:2074.476318 Z:16.410776
+[2018/8/30 - 21:58:31] LongBi has changed BusinessID 9's Exterior to X:2084.316894 Y:2033.744384 Z:10.826112
+[2018/8/30 - 22:04:30] LongBi has changed BusinessID 3's Price to $999999999.
+[2018/8/30 - 22:05:42] LongBi has changed BusinessID 11's Price to $1.
+[2018/8/30 - 22:05:59] LongBi has changed BusinessID 11's Exterior to X:2457.527343 Y:1342.470703 Z:10.820312
+[2018/8/30 - 22:08:10] LongBi has changed BusinessID 11's Exterior to X:2459.712890 Y:1324.309326 Z:10.820312
+[2018/8/30 - 22:08:20] LongBi has changed BusinessID 11's Price to $999999999.
+[2021/7/11 - 13:48:39] Long has changed BusinessID 13's Interior to X:372.314788 Y:-133.465194 Z:1001.492187
+[2021/7/11 - 14:45:34] VGTA 02 has changed BusinessID 10's Interior to X:285.479309 Y:-41.805377 Z:1001.515625
+[2021/7/11 - 19:54:04] Tien Tom has changed BusinessID 1's Price to $1.
+[2021/7/11 - 19:54:43] Tien Tom has changed BusinessID 1's Price to $2.
+[2021/7/16 - 18:52:55] Tien Tom has edited business ID 3's name to _.
+[2021/7/16 - 22:14:15] Tien Tom da thay doi luong khi gas 1 cho 24/7 (1) den 1.00
+[2021/7/16 - 22:14:27] Tien Tom da thay doi luong khi gas 1 cho 24/7 (1) den 100.00
+[2021/7/16 - 22:15:52] Tien Tom da thay doi luong khi gas 1 cho 24/7 (1) den 10000.00
+[2021/7/16 - 22:16:17] Tien Tom da thay doi luong khi gas 1 cho 24/7 (1) den 10000000.00
+[2021/7/16 - 22:16:49] Tien Tom da thay doi luong khi gas 1 cho 24/7 (1) den 10000000.00
+[2021/7/16 - 22:18:28] Tien Tom has changed BusinessID 0's Inventory to 99999999.
+[2021/7/17 - 12:29:43] VGTA 01 has changed BusinessID 9's Exterior to X:2085.836181 Y:2076.121337 Z:10.826112
+[2021/7/17 - 12:31:05] VGTA 01 has changed BusinessID 9's Exterior to X:2082.938476 Y:2069.623535 Z:16.404443
+[2021/7/17 - 12:32:20] VGTA 01 has changed BusinessID 9's Exterior to X:2084.777832 Y:2034.909667 Z:10.826112
+[2021/7/17 - 14:48:51] Tobi has changed BusinessID 9's Inventory Capacity to 100.
+[2021/7/17 - 14:49:06] Tobi has changed BusinessID 9's Inventory to 100.
+[2021/7/17 - 15:10:41] Tobi has changed BusinessID 9's Interior to X:1494.425170 Y:1303.620971 Z:1093.289062
+[2021/7/17 - 15:10:44] Tobi has edited BusinessID 9's CustomInterior.
+[2021/7/17 - 15:11:07] Tobi has edited BusinessID 9's CustomExterior.
+[2021/7/17 - 15:11:32] Tobi has changed BusinessID 9's Exterior to X:2082.778076 Y:2044.661010 Z:10.826112
+[2021/7/17 - 15:12:45] Tobi has changed BusinessID 9's Exterior to X:2083.939208 Y:2044.038085 Z:10.826112
+[2021/7/17 - 15:12:48] Tobi has changed BusinessID 9's Exterior to X:2084.655029 Y:2034.727416 Z:10.826112
+[2021/7/17 - 15:12:49] Tobi has changed BusinessID 9's Exterior to X:2084.746337 Y:2034.818237 Z:10.826112
+[2021/7/17 - 18:25:08] Long has changed BusinessID 10's Price to $0.
+[2021/7/17 - 18:25:53] Long has changed BusinessID 0's Price to $0.
+[2021/7/17 - 18:26:06] Long has changed BusinessID 0's Price to $2.
+[2021/7/17 - 18:26:24] Long has changed BusinessID 2's Price to $0.
+[2021/7/17 - 18:27:03] Long has changed BusinessID 4's Price to $0.
+[2021/7/17 - 18:27:25] Long has changed BusinessID 5's Price to $0.
+[2021/7/17 - 18:27:43] Long has changed BusinessID 6's Price to $0.
+[2021/7/17 - 18:28:02] Long has changed BusinessID 7's Price to $0.
+[2021/7/17 - 18:28:33] Long has changed BusinessID 8's Price to $0.
+[2021/7/17 - 18:29:39] Long has changed BusinessID 12's Price to $0.
+[2021/7/17 - 18:30:02] Long has changed BusinessID 13's Price to $0.
+[2021/7/17 - 18:30:24] Long has changed BusinessID 14's Price to $0.
+[2021/7/17 - 18:31:07] Long has deleted BusinessID 15.
+[2021/7/17 - 18:31:11] Long has deleted BusinessID 17.
+[2021/7/17 - 18:32:07] Long has changed BusinessID 16's Exterior to X:1657.037353 Y:1733.353271 Z:10.828111
+[2021/7/18 - 13:46:46] Long has changed BusinessID 9's Inventory to 0.
+[2021/7/18 - 13:58:43] MingQuang has changed BusinessID 9's Exterior to X:2086.742431 Y:2080.241210 Z:10.826112
+[2021/7/18 - 14:04:23] MingQuang has changed BusinessID 9's Exterior to X:2085.273437 Y:2074.237304 Z:16.404443
+[2021/7/18 - 14:10:51] MingQuang has changed BusinessID 9's Exterior to X:2084.898681 Y:2034.512817 Z:10.826112
+[2021/7/18 - 14:10:59] MingQuang has changed BusinessID 9's Exterior to X:2084.637695 Y:2034.782958 Z:10.826112
+[2021/7/18 - 14:11:47] MingQuang has changed BusinessID 9's Exterior to X:2083.312744 Y:2042.478027 Z:10.826112
+[2021/7/18 - 14:14:03] MingQuang has changed BusinessID 9's Exterior to X:2084.722412 Y:2034.938720 Z:10.826112
+[2021/7/18 - 14:14:18] MingQuang has changed BusinessID 9's Inventory to 1000.
+[2021/7/18 - 14:14:38] MingQuang has changed BusinessID 9's Inventory Capacity to 1000.
+[2021/7/19 - 18:28:28] Long has changed BusinessID 3's Inventory to 0.
+[2021/7/19 - 19:24:22] Long has changed BusinessID 15's Exterior to X:2187.935058 Y:2469.343261 Z:11.242187
+[2021/7/19 - 19:24:48] Long has changed BusinessID 15's Type to Dai ly xe moi (5).
+[2021/7/19 - 19:24:52] Long has changed BusinessID 15's Type to Dai ly xe cu (6).
+[2021/7/19 - 19:24:53] Long has changed BusinessID 15's Type to Tram sua xe (7).
+[2021/7/19 - 19:24:55] Long has changed BusinessID 15's Type to 24/7 (8).
+[2021/7/19 - 19:24:57] Long has changed BusinessID 15's Type to Bar (9).
+[2021/7/19 - 19:24:58] Long has changed BusinessID 15's Type to Club (10).
+[2021/7/19 - 19:25:00] Long has changed BusinessID 15's Type to Shop nguoi lon (11).
+[2021/7/19 - 19:25:01] Long has changed BusinessID 15's Type to Gym (12).
+[2021/7/19 - 19:25:03] Long has changed BusinessID 15's Type to Khong xac dinh (13).
+[2021/7/19 - 19:25:04] Long has changed BusinessID 15's Type to Khong xac dinh (14).
+[2021/7/19 - 19:25:06] Long has changed BusinessID 15's Type to Tram xang (1).
+[2021/7/19 - 19:25:44] Long has changed BusinessID 15's Type to Tram xang (1).
+[2021/7/19 - 19:26:22] Long has changed BusinessID 15's Exterior to X:2187.710449 Y:2469.688232 Z:11.242187
+[2021/7/19 - 19:26:50]  da tao ra mot tram xang cho  ()
+[2021/7/19 - 19:27:03]  da tao ra mot tram xang cho  ()
+[2021/7/19 - 19:27:56] Long da thay doi cong suat tram gas 0 cho  (15) den 1000000000.00
+[2021/7/19 - 19:28:08] Long da thay doi cong suat tram gas 0 cho  (15) den 1000.00
+[2021/7/19 - 19:28:13] Long da thay doi cong suat tram gas 0 cho  (15) den 10000000.00
+[2021/7/19 - 19:28:34] Long da thay doi luong khi gas 0 cho  (15) den 10000000.00
+[2021/7/19 - 19:28:55] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/7/19 - 19:29:03] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/7/19 - 19:35:33] Long da thay doi cong suat tram gas 1 cho  (15) den 10000000.00
+[2021/7/19 - 19:35:43] Long da thay doi luong khi gas 1 cho  (15) den 10000000.00
+[2021/7/19 - 19:35:44] Long da thay doi luong khi gas 1 cho  (15) den 1000000.00
+[2021/7/19 - 19:42:12] MingQuang da thay doi cong suat tram gas 0 cho  (15) den 1000.00
+[2021/7/19 - 19:47:18] MingQuang has changed BusinessID 3's Inventory to 0.
+[2021/7/19 - 19:48:34] MingQuang has changed BusinessID 3's Months to 1
+[2021/7/19 - 19:50:23] MingQuang has edited business ID 3's name to Shop Xe Binh Dan.
+[2021/7/19 - 20:01:12] Long has changed BusinessID 15's Interior to X:-25.913684 Y:-141.553283 Z:1003.546875
+[2021/7/19 - 20:01:44] Long has changed BusinessID 16's Interior to X:204.304992 Y:-168.856994 Z:1000.523437
+[2021/7/19 - 22:53:27] MingQuang has changed BusinessID 3's Inventory to 100.
+[2021/7/19 - 22:53:30] MingQuang has changed BusinessID 3's Inventory to 50.
+[2021/7/21 - 12:47:07] Long has edited business ID 2's name to Chat Sex.
+[2021/7/21 - 17:34:35] Long has deleted BusinessID 4.
+[2021/7/22 - 13:53:28] Long has changed BusinessID 4's Exterior to X:1947.102539 Y:2292.206542 Z:10.820312
+[2021/7/22 - 13:53:46] Long has changed BusinessID 4's Type to Tram xang (1).
+[2021/7/22 - 13:53:48] Long has changed BusinessID 4's Type to Shop quan ao (2).
+[2021/7/22 - 13:53:49] Long has changed BusinessID 4's Type to Nha hang (3).
+[2021/7/22 - 13:53:51] Long has changed BusinessID 4's Type to Shop vu khi (4).
+[2021/7/22 - 13:53:52] Long has changed BusinessID 4's Type to Dai ly xe moi (5).
+[2021/7/22 - 13:53:54] Long has changed BusinessID 4's Type to Dai ly xe cu (6).
+[2021/7/22 - 13:53:56] Long has changed BusinessID 4's Type to Tram sua xe (7).
+[2021/7/22 - 13:53:58] Long has changed BusinessID 4's Type to 24/7 (8).
+[2021/7/22 - 13:53:59] Long has changed BusinessID 4's Type to Bar (9).
+[2021/7/22 - 13:54:01] Long has changed BusinessID 4's Type to Club (10).
+[2021/7/22 - 13:54:03] Long has changed BusinessID 4's Type to Shop nguoi lon (11).
+[2021/7/22 - 13:54:05] Long has changed BusinessID 4's Type to Gym (12).
+[2021/7/22 - 13:54:24] Long has changed BusinessID 4's Interior to X:773.932495 Y:-78.581207 Z:1000.662414
+[2021/7/22 - 13:55:17] Long has changed BusinessID 4's gym type to 1.
+[2021/7/22 - 13:55:36] Long has changed BusinessID 4's gym type to 2.
+[2021/7/22 - 13:55:58] Long has changed BusinessID 4's gym type to 1.
+[2021/7/22 - 13:59:02] Long has changed BusinessID 4's Exterior to X:2247.617431 Y:2396.167968 Z:10.820312
+[2021/7/22 - 14:03:58] Long has changed BusinessID 4's gym entry fee to 1.
+[2021/7/22 - 14:04:01] Long has changed BusinessID 4's gym entry fee to 20.
+[2021/7/22 - 14:04:05] Long has changed BusinessID 4's gym entry fee to 1000.
+[2021/7/26 - 20:36:47] MingQuang has changed BusinessID 17's Exterior to X:203.527191 Y:-50.221256 Z:1001.804687
+[2021/7/26 - 20:36:52] MingQuang has changed BusinessID 17's Interior to X:203.527191 Y:-50.221256 Z:1001.804687
+[2021/7/26 - 20:37:00] MingQuang has changed BusinessID 17's Exterior to X:2033.895263 Y:1115.167724 Z:10.820312
+[2021/7/26 - 20:37:05] MingQuang has changed BusinessID 17's Type to Tram xang (1).
+[2021/7/26 - 20:37:06] MingQuang has changed BusinessID 17's Type to Shop quan ao (2).
+[2021/7/26 - 20:37:32] MingQuang has deleted BusinessID 17.
+[2021/7/26 - 20:38:49] MingQuang has changed BusinessID 14's Interior to X:203.726257 Y:-50.370319 Z:1001.804687
+[2021/7/26 - 20:39:05] MingQuang has edited BusinessID 14's CustomInterior.
+[2021/7/28 - 22:50:16] MingQuang has changed BusinessID 3's Inventory Capacity to 1.
+[2021/7/28 - 22:50:53] MingQuang has changed BusinessID 3's Inventory Capacity to 1.
+[2021/7/28 - 22:51:26] MingQuang has changed BusinessID 10's Inventory Capacity to 0.
+[2021/7/28 - 22:51:28] MingQuang has changed BusinessID 3's Inventory Capacity to 10.
+[2021/7/28 - 22:51:31] MingQuang has changed BusinessID 3's Inventory Capacity to 10.
+[2021/7/28 - 22:51:53] MingQuang has changed BusinessID 3's Inventory to 10.
+[2021/7/28 - 22:52:08] MingQuang has changed BusinessID 3's Inventory to 0.
+[2021/7/30 - 19:05:21] Long has changed BusinessID 3's Inventory to 9.
+[2021/7/30 - 19:05:23] Long has changed BusinessID 3's Inventory to 100.
+[2021/7/31 - 20:57:14] Long has changed BusinessID 15's Exterior to X:631.463134 Y:1250.340332 Z:11.701978
+[2021/7/31 - 20:58:20] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/7/31 - 20:58:30] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/7/31 - 20:58:36] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/7/31 - 20:59:14] Long has changed BusinessID 15's Exterior to X:2193.478515 Y:2474.475097 Z:10.820312
+[2021/7/31 - 20:59:18] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/7/31 - 20:59:33] Long has changed BusinessID 15's Exterior to X:645.566955 Y:1240.192871 Z:11.634437
+[2021/7/31 - 20:59:48] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/7/31 - 21:00:38] Long has changed BusinessID 15's Exterior to X:2187.713867 Y:2469.645019 Z:11.242187
+[2021/8/4 - 18:29:21] Master Yi has changed BusinessID 17's Exterior to X:-1320.887329 Y:2698.241210 Z:50.266281
+[2021/8/4 - 18:29:24] Master Yi has changed BusinessID 17's Exterior to X:-1320.496704 Y:2698.644775 Z:50.266281
+[2021/8/4 - 18:29:36] Master Yi has changed BusinessID 17's Type to Shop quan ao (2).
+[2021/8/4 - 18:29:54] Long has changed BusinessID 17's Type to Nha hang (3).
+[2021/8/4 - 18:29:56] Long has changed BusinessID 17's Type to Tram xang (1).
+[2021/8/4 - 18:30:50] Long has changed BusinessID 17's Exterior to X:-1329.675170 Y:2669.778076 Z:50.468750
+[2021/8/4 - 18:31:12] Long thay doi vi tri tram gas 0 cho cua hang 17
+[2021/8/4 - 18:31:37] Long thay doi vi tri tram gas 0 cho cua hang 17
+[2021/8/4 - 18:31:47] Long thay doi vi tri tram gas 0 cho cua hang 17
+[2021/8/4 - 18:32:02] Long thay doi vi tri tram gas 0 cho cua hang 17
+[2021/8/4 - 18:32:19] Long thay doi vi tri tram gas 1 cho cua hang 17
+[2021/8/4 - 18:34:14] Long thay doi vi tri tram gas 1 cho cua hang 17
+[2021/8/4 - 18:35:28] Long thay doi vi tri tram gas 0 cho cua hang 17
+[2021/8/4 - 18:36:02] Long da thay doi cong suat tram gas 0 cho  (17) den 100000000.00
+[2021/8/4 - 18:36:05] Long da thay doi cong suat tram gas 0 cho  (17) den 1000000000.00
+[2021/8/4 - 18:36:11] Long da thay doi luong khi gas 0 cho  (17) den 1000000000.00
+[2021/8/4 - 18:36:31] Long da thay doi cong suat tram gas 1 cho  (17) den 1000000000.00
+[2021/8/4 - 18:36:37] Long da thay doi luong khi gas 1 cho  (17) den 1000000000.00
+[2021/8/4 - 18:37:17] Long has changed BusinessID 17's Exterior to X:-1320.527954 Y:2698.626953 Z:50.266281
+[2021/8/4 - 18:38:01] Long has changed BusinessID 17's Interior to X:-27.406200 Y:-58.113098 Z:1003.546875
+[2021/8/4 - 22:33:39] MingQuang has changed BusinessID 18's Exterior to X:2396.338623 Y:984.152893 Z:10.831737
+[2021/8/4 - 22:33:44] MingQuang has changed BusinessID 18's Type to Tram xang (1).
+[2021/8/4 - 22:33:45] MingQuang has changed BusinessID 18's Type to Shop quan ao (2).
+[2021/8/4 - 22:33:46] MingQuang has changed BusinessID 18's Type to Nha hang (3).
+[2021/8/4 - 22:33:48] MingQuang has changed BusinessID 18's Type to Shop vu khi (4).
+[2021/8/4 - 22:33:50] MingQuang has changed BusinessID 18's Type to Dai ly xe moi (5).
+[2021/8/4 - 22:33:51] MingQuang has changed BusinessID 18's Type to Dai ly xe cu (6).
+[2021/8/4 - 22:33:53] MingQuang has changed BusinessID 18's Type to Tram sua xe (7).
+[2021/8/4 - 22:33:55] MingQuang has changed BusinessID 18's Type to 24/7 (8).
+[2021/8/4 - 22:33:56] MingQuang has changed BusinessID 18's Type to Dai ly xe moi (5).
+[2021/8/4 - 22:33:57] MingQuang has changed BusinessID 18's Type to Dai ly xe cu (6).
+[2021/8/4 - 22:33:59] MingQuang has changed BusinessID 18's Type to Tram sua xe (7).
+[2021/8/4 - 22:34:07] MingQuang has changed BusinessID 18's Price to $1.
+[2021/8/4 - 22:35:47] MingQuang has changed BusinessID 18's Type to Tram sua xe (7).
+[2021/8/4 - 22:35:48] MingQuang has changed BusinessID 18's Type to 24/7 (8).
+[2021/8/4 - 22:35:50] MingQuang has changed BusinessID 18's Type to 24/7 (8).
+[2021/8/4 - 22:47:10] MingQuang has changed BusinessID 18's Type to Tram sua xe (7).
+[2021/8/4 - 22:47:11] MingQuang has changed BusinessID 18's Type to Dai ly xe cu (6).
+[2021/8/4 - 22:47:14] MingQuang has changed BusinessID 18's Type to Tram sua xe (7).
+[2021/8/4 - 22:48:11] MingQuang has changed BusinessID 18's Exterior to X:2363.049804 Y:1006.666015 Z:14.272502
+[2021/8/4 - 22:51:11] MingQuang has changed BusinessID 18's Interior to X:1494.430053 Y:1303.619995 Z:1093.289062
+[2021/8/9 - 21:55:08] Long has changed BusinessID 19's Exterior to X:1833.781005 Y:-1842.633300 Z:13.578125
+[2021/8/9 - 21:55:26] Long has changed BusinessID 19's Type to Tram xang (1).
+[2021/8/9 - 21:55:28] Long has changed BusinessID 19's Type to Shop quan ao (2).
+[2021/8/9 - 21:55:29] Long has changed BusinessID 19's Type to Nha hang (3).
+[2021/8/9 - 21:55:31] Long has changed BusinessID 19's Type to Shop vu khi (4).
+[2021/8/9 - 21:55:33] Long has changed BusinessID 19's Type to Dai ly xe moi (5).
+[2021/8/9 - 21:55:34] Long has changed BusinessID 19's Type to Dai ly xe cu (6).
+[2021/8/9 - 21:55:36] Long has changed BusinessID 19's Type to Tram sua xe (7).
+[2021/8/9 - 21:55:38] Long has changed BusinessID 19's Type to 24/7 (8).
+[2021/8/9 - 21:55:55] Long has changed BusinessID 20's Exterior to X:1928.580932 Y:-1776.343994 Z:13.546875
+[2021/8/9 - 21:56:28] Long has changed BusinessID 20's Type to Tram xang (1).
+[2021/8/9 - 21:56:49] Long has changed BusinessID 20's Interior to X:-26.186100 Y:-188.246002 Z:1003.546875
+[2021/8/9 - 21:57:34] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/9 - 21:57:38] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/9 - 21:57:48] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/9 - 21:57:57] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/9 - 21:57:59] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/9 - 21:58:21] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/9 - 21:58:26] Long da thay doi cong suat tram gas 0 cho  (20) den 0.00
+[2021/8/9 - 21:58:39] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/9 - 21:58:40] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/9 - 21:58:56] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/9 - 21:59:10] Long da thay doi cong suat tram gas 0 cho  (20) den ).)-(,0*,.00
+[2021/8/9 - 21:59:17] Long da thay doi luong khi gas 0 cho  (20) den ).)-(,0*,.00
+[2021/8/9 - 21:59:23] Long da thay doi cong suat tram gas 1 cho  (20) den ).)-(,0*,.00
+[2021/8/9 - 21:59:27] Long da thay doi luong khi gas 1 cho  (20) den ).)-(,0*,.00
+[2021/8/9 - 22:03:22] Long has changed BusinessID 21's Exterior to X:2245.203857 Y:-1664.519653 Z:15.476562
+[2021/8/9 - 22:03:26] Long has changed BusinessID 21's Exterior to X:2244.381347 Y:-1665.564697 Z:15.476562
+[2021/8/9 - 22:03:44] Long has changed BusinessID 21's Type to Nha hang (3).
+[2021/8/9 - 22:03:46] Long has changed BusinessID 21's Type to Shop vu khi (4).
+[2021/8/9 - 22:03:48] Long has changed BusinessID 21's Type to Dai ly xe cu (6).
+[2021/8/9 - 22:03:49] Long has changed BusinessID 21's Type to Tram sua xe (7).
+[2021/8/9 - 22:03:51] Long has changed BusinessID 21's Type to 24/7 (8).
+[2021/8/9 - 22:03:52] Long has changed BusinessID 21's Type to Bar (9).
+[2021/8/9 - 22:03:54] Long has changed BusinessID 21's Type to Club (10).
+[2021/8/9 - 22:03:55] Long has changed BusinessID 21's Type to Shop nguoi lon (11).
+[2021/8/9 - 22:03:57] Long has changed BusinessID 21's Type to Gym (12).
+[2021/8/9 - 22:03:58] Long has changed BusinessID 21's Type to Khong xac dinh (13).
+[2021/8/9 - 22:04:00] Long has changed BusinessID 21's Type to Tram xang (1).
+[2021/8/9 - 22:04:01] Long has changed BusinessID 21's Type to Shop quan ao (2).
+[2021/8/9 - 22:04:53] Long has changed BusinessID 21's Interior to X:204.304992 Y:-168.856994 Z:1000.523437
+[2021/8/9 - 22:31:16] Long has changed BusinessID 22's Exterior to X:1369.000732 Y:-1279.712036 Z:13.546875
+[2021/8/9 - 22:31:30] Long has changed BusinessID 22's Type to Nha hang (3).
+[2021/8/9 - 22:31:32] Long has changed BusinessID 22's Type to Shop vu khi (4).
+[2021/8/9 - 22:32:00] Long has changed BusinessID 22's Interior to X:285.542968 Y:-41.680961 Z:1001.515625
+[2021/8/13 - 23:29:19] MingQuang has changed BusinessID 23's Exterior to X:1628.715942 Y:-1903.287963 Z:13.553298
+[2021/8/13 - 23:30:00] MingQuang has changed BusinessID 23's Type to Shop quan ao (2).
+[2021/8/13 - 23:30:01] MingQuang has changed BusinessID 23's Type to Tram xang (1).
+[2021/8/13 - 23:30:02] MingQuang has changed BusinessID 23's Type to Nha hang (3).
+[2021/8/13 - 23:30:03] MingQuang has changed BusinessID 23's Type to Shop vu khi (4).
+[2021/8/13 - 23:30:03] MingQuang has changed BusinessID 23's Type to Dai ly xe moi (5).
+[2021/8/13 - 23:30:04] MingQuang has changed BusinessID 23's Type to Dai ly xe cu (6).
+[2021/8/13 - 23:30:05] MingQuang has changed BusinessID 23's Type to Tram sua xe (7).
+[2021/8/13 - 23:30:07] MingQuang has changed BusinessID 23's Type to Dai ly xe cu (6).
+[2021/8/13 - 23:33:03] Long has changed BusinessID 24's Exterior to X:1658.392089 Y:-1085.073608 Z:23.906250
+[2021/8/13 - 23:33:17] Long has changed BusinessID 24's Type to Tram xang (1).
+[2021/8/13 - 23:33:19] Long has changed BusinessID 24's Type to Shop quan ao (2).
+[2021/8/13 - 23:33:20] Long has changed BusinessID 24's Type to Nha hang (3).
+[2021/8/13 - 23:33:21] Long has changed BusinessID 24's Type to Shop vu khi (4).
+[2021/8/13 - 23:33:22] Long has changed BusinessID 24's Type to Dai ly xe moi (5).
+[2021/8/13 - 23:33:23] Long has changed BusinessID 24's Type to Dai ly xe cu (6).
+[2021/8/13 - 23:33:38] Long has changed BusinessID 24's Exterior to X:1630.177124 Y:-1093.830932 Z:23.914033
+[2021/8/13 - 23:34:07] Long has changed BusinessID 24's Exterior to X:1639.404174 Y:-1116.125488 Z:23.906250
+[2021/8/13 - 23:38:59] Long has changed BusinessID 24's Exterior to X:1639.954101 Y:-1091.072998 Z:23.906250
+[2021/8/13 - 23:42:22] Long has changed BusinessID 24's Exterior to X:1653.570678 Y:-1077.900268 Z:23.898437
+[2021/8/13 - 23:42:39] Long has changed BusinessID 24's Interior to X:1642.995361 Y:-1081.335571 Z:23.906250
+[2021/8/13 - 23:43:58] Long has changed BusinessID 24's Interior to X:1642.995361 Y:-1081.335571 Z:23.906250
+[2021/8/13 - 23:46:25] Long has deleted BusinessID 2.
+[2021/8/13 - 23:47:03] Long has changed BusinessID 2's Exterior to X:321.552215 Y:-1902.074584 Z:0.888368
+[2021/8/13 - 23:47:31] Long has changed BusinessID 2's Exterior to X:317.740722 Y:-1932.399536 Z:-0.821818
+[2021/8/13 - 23:49:10] Long has changed BusinessID 2's Exterior to X:319.897430 Y:-1900.047485 Z:1.202335
+[2021/8/13 - 23:49:59] Long has changed BusinessID 2's Type to Nha hang (3).
+[2021/8/13 - 23:50:00] Long has changed BusinessID 2's Type to Shop vu khi (4).
+[2021/8/13 - 23:50:01] Long has changed BusinessID 2's Type to Dai ly xe cu (6).
+[2021/8/13 - 23:50:03] Long has changed BusinessID 2's Type to Dai ly xe moi (5).
+[2021/8/13 - 23:50:14] Long has changed BusinessID 2's Exterior to X:322.047058 Y:-1924.912597 Z:-0.279247
+[2021/8/13 - 23:50:25] Long has changed BusinessID 2's Exterior to X:320.411041 Y:-1894.683227 Z:1.569403
+[2021/8/13 - 23:56:40] Long has changed BusinessID 2's Type to Dai ly xe cu (6).
+[2021/8/13 - 23:58:06] Long has changed BusinessID 25's Exterior to X:321.694152 Y:-1895.589355 Z:1.529098
+[2021/8/13 - 23:58:13] Long has deleted BusinessID 2.
+[2021/8/13 - 23:59:20] Long has deleted BusinessID 25.
+[2021/8/14 - 0:00:03] Long has changed BusinessID 2's Exterior to X:319.258697 Y:-1896.609130 Z:1.467612
+[2021/8/14 - 0:00:35] Long has changed BusinessID 2's Type to Dai ly xe cu (6).
+[2021/8/14 - 0:00:37] Long has changed BusinessID 2's Type to Dai ly xe cu (6).
+[2021/8/14 - 0:00:48] Long has changed BusinessID 2's Exterior to X:318.329589 Y:-1925.591796 Z:-0.344238
+[2021/8/14 - 0:01:52] Long has changed BusinessID 2's Exterior to X:324.942474 Y:-1900.017578 Z:1.273474
+[2021/8/15 - 14:32:12] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/15 - 14:32:32] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/15 - 15:11:16] Long has changed BusinessID 25's Exterior to X:339.158264 Y:-1873.544799 Z:4.036345
+[2021/8/15 - 15:11:43] Long has changed BusinessID 25's Exterior to X:289.869506 Y:-1874.733886 Z:3.833220
+[2021/8/15 - 15:11:51] Long has changed BusinessID 2's Exterior to X:339.446136 Y:-1873.340087 Z:4.036345
+[2021/8/15 - 15:34:57] Long has changed BusinessID 25's Exterior to X:313.301208 Y:-1922.592163 Z:1.483047
+[2021/8/15 - 15:35:09] Long has changed BusinessID 25's Type to Nha hang (3).
+[2021/8/15 - 15:35:11] Long has changed BusinessID 25's Type to Tram xang (1).
+[2021/8/15 - 15:35:26] Long thay doi vi tri tram gas 0 cho cua hang 25
+[2021/8/15 - 15:35:45] Long thay doi vi tri tram gas 1 cho cua hang 25
+[2021/8/15 - 15:35:57] Long thay doi vi tri tram gas 0 cho cua hang 25
+[2021/8/15 - 15:36:11] Long thay doi vi tri tram gas 0 cho cua hang 25
+[2021/8/15 - 15:36:17] Long thay doi vi tri tram gas 0 cho cua hang 25
+[2021/8/15 - 15:36:23] Long thay doi vi tri tram gas 0 cho cua hang 25
+[2021/8/15 - 15:36:42] Long da thay doi cong suat tram gas 0 cho  (25) den 1000000000.00
+[2021/8/15 - 15:36:47] Long da thay doi cong suat tram gas 1 cho  (25) den 1000000000.00
+[2021/8/15 - 15:36:55] Long da thay doi luong khi gas 0 cho  (25) den 1000000000.00
+[2021/8/15 - 15:37:00] Long da thay doi luong khi gas 1 cho  (25) den 1000000000.00
+[2021/8/15 - 15:37:14] Long has changed BusinessID 25's Exterior to X:337.423858 Y:-1874.736450 Z:4.036345
+[2021/8/15 - 16:47:57] Long has changed BusinessID 27's Exterior to X:2105.488525 Y:-1806.498657 Z:13.554687
+[2021/8/15 - 16:48:04] Long has changed BusinessID 27's Type to Tram xang (1).
+[2021/8/15 - 16:48:06] Long has changed BusinessID 27's Type to Shop quan ao (2).
+[2021/8/15 - 16:48:07] Long has changed BusinessID 27's Type to Nha hang (3).
+[2021/8/15 - 16:51:29] Long has deleted BusinessID 27.
+[2021/8/16 - 20:04:09] Long da thay doi cong suat tram gas 0 cho  (20) den 100000000.00
+[2021/8/16 - 20:04:14] Long da thay doi cong suat tram gas 1 cho  (20) den 100000000.00
+[2021/8/16 - 20:04:21] Long da thay doi luong khi gas 0 cho  (20) den 100000000.00
+[2021/8/16 - 20:04:24] Long da thay doi luong khi gas 1 cho  (20) den 100000000.00
+[2021/8/17 - 19:13:17] MingQuang has changed BusinessID 23's Inventory to 9999.
+[2021/8/17 - 19:13:22] MingQuang has changed BusinessID 23's Inventory Capacity to 9999.
+[2021/8/17 - 19:17:14] MingQuang has changed BusinessID 27's Exterior to X:1032.077880 Y:-1415.871459 Z:13.595312
+[2021/8/17 - 19:17:43] MingQuang has changed BusinessID 27's Type to Tram xang (1).
+[2021/8/17 - 19:17:44] MingQuang has changed BusinessID 27's Type to Shop quan ao (2).
+[2021/8/17 - 19:17:45] MingQuang has changed BusinessID 27's Type to Nha hang (3).
+[2021/8/17 - 19:17:46] MingQuang has changed BusinessID 27's Type to Shop vu khi (4).
+[2021/8/17 - 19:17:47] MingQuang has changed BusinessID 27's Type to Dai ly xe cu (6).
+[2021/8/17 - 19:17:49] MingQuang has changed BusinessID 27's Type to Dai ly xe moi (5).
+[2021/8/17 - 19:28:08] MingQuang has changed BusinessID 27's Inventory to 0.
+[2021/8/18 - 0:20:11] MingQuang has edited BusinessID 27's CustomExterior.
+[2021/8/18 - 1:02:09] MingQuang has changed BusinessID 27's Inventory to 9999.
+[2021/8/18 - 1:02:26] MingQuang has changed BusinessID 23's Inventory to 9999.
+[2021/8/18 - 1:02:43] MingQuang has changed BusinessID 24's Inventory to 9999.
+[2021/8/18 - 7:39:27] MingQuang has changed BusinessID 20's Exterior to X:1928.665039 Y:-1783.625610 Z:13.546875
+[2021/8/18 - 13:58:11] Long has changed BusinessID 28's Exterior to X:570.219177 Y:-2432.488769 Z:2.032581
+[2021/8/18 - 13:58:27] Long has changed BusinessID 28's Type to Tram xang (1).
+[2021/8/18 - 13:58:47] Long thay doi vi tri tram gas 0 cho cua hang 28
+[2021/8/18 - 13:58:58] Long da thay doi cong suat tram gas 0 cho  (28) den 1.00
+[2021/8/18 - 13:59:27] Long da thay doi cong suat tram gas 1 cho  (28) den 1.00
+[2021/8/18 - 13:59:37] Long da thay doi cong suat tram gas 1 cho  (28) den 1.00
+[2021/8/18 - 13:59:48] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 13:59:55] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 14:00:08] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 14:00:21] Long thay doi vi tri tram gas 0 cho cua hang 28
+[2021/8/18 - 14:00:29] Long thay doi vi tri tram gas 0 cho cua hang 28
+[2021/8/18 - 14:00:45] Long thay doi vi tri tram gas 0 cho cua hang 28
+[2021/8/18 - 14:00:49] Long da thay doi cong suat tram gas 0 cho  (28) den 10000000.00
+[2021/8/18 - 14:00:53] Long da thay doi cong suat tram gas 1 cho  (28) den 10000000.00
+[2021/8/18 - 14:00:57] Long da thay doi luong khi gas 1 cho  (28) den 10000000.00
+[2021/8/18 - 14:01:00] Long da thay doi luong khi gas 0 cho  (28) den 10000000.00
+[2021/8/18 - 14:01:12] Long da thay doi luong khi gas 0 cho  (28) den 10000000.00
+[2021/8/18 - 14:01:34] Long thay doi vi tri tram gas 0 cho cua hang 28
+[2021/8/18 - 14:02:02] Long has changed BusinessID 28's Exterior to X:554.813964 Y:-2442.936767 Z:-23.169984
+[2021/8/18 - 14:02:09] Long has changed BusinessID 28's Exterior to X:551.861267 Y:-2442.560791 Z:-28.257812
+[2021/8/18 - 14:32:01] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 14:32:16] Long thay doi vi tri tram gas 0 cho cua hang 28
+[2021/8/18 - 15:03:56] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 15:04:01] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 15:04:06] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 15:11:05] 
+[2021/8/18 - 15:11:14] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/18 - 15:11:23] Long thay doi vi tri tram gas 1 cho cua hang 28
+[2021/8/19 - 13:33:57] MingQuang has changed BusinessID 29's Exterior to X:1832.298583 Y:-1598.058593 Z:13.557754
+[2021/8/19 - 13:34:01] MingQuang has changed BusinessID 29's Type to Tram xang (1).
+[2021/8/19 - 13:34:02] MingQuang has changed BusinessID 29's Type to Shop quan ao (2).
+[2021/8/19 - 13:34:23] MingQuang has changed BusinessID 29's Interior to X:204.256103 Y:-168.860733 Z:1000.523437
+[2021/8/19 - 21:26:36] MingQuang has changed BusinessID 30's Exterior to X:1848.333007 Y:-1871.729125 Z:13.578125
+[2021/8/19 - 21:26:41] MingQuang has changed BusinessID 30's Type to Tram xang (1).
+[2021/8/19 - 21:26:42] MingQuang has changed BusinessID 30's Type to Shop quan ao (2).
+[2021/8/19 - 21:26:43] MingQuang has changed BusinessID 30's Type to Nha hang (3).
+[2021/8/19 - 21:26:44] MingQuang has changed BusinessID 30's Type to Shop vu khi (4).
+[2021/8/19 - 21:26:45] MingQuang has changed BusinessID 30's Type to Dai ly xe moi (5).
+[2021/8/19 - 21:26:46] MingQuang has changed BusinessID 30's Type to Dai ly xe cu (6).
+[2021/8/19 - 21:27:03] MingQuang has changed BusinessID 30's Price to $0.
+[2021/8/20 - 12:36:00] Long has changed BusinessID 15's Exterior to X:634.878906 Y:1245.003784 Z:11.699682
+[2021/8/20 - 12:36:59] Long thay doi vi tri tram gas 1 cho cua hang 15
+[2021/8/20 - 12:37:12] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:38:53] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:39:03] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:39:14] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:39:21] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:39:24] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:39:34] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:41:00] Long thay doi vi tri tram gas 1 cho cua hang 15
+[2021/8/20 - 12:41:08] Long thay doi vi tri tram gas 1 cho cua hang 15
+[2021/8/20 - 12:46:35] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:46:39] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:46:42] Long thay doi vi tri tram gas 1 cho cua hang 15
+[2021/8/20 - 12:46:51] Long thay doi vi tri tram gas 1 cho cua hang 15
+[2021/8/20 - 12:47:03] Long thay doi vi tri tram gas 0 cho cua hang 15
+[2021/8/20 - 12:49:19] Long has changed BusinessID 15's Exterior to X:646.566711 Y:1251.483398 Z:17.946876
+[2021/8/20 - 18:48:21] MingQuang has changed BusinessID 30's Inventory to 9999.
+[2021/8/20 - 20:58:48] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/20 - 20:58:53] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/20 - 20:58:58] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/20 - 20:58:59] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/20 - 20:59:05] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/20 - 20:59:09] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/20 - 20:59:22] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/20 - 20:59:32] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/22 - 19:49:39] HAC has deleted BusinessID 29.
+[2021/8/22 - 20:10:51] MingQuang has changed BusinessID 25's Exterior to X:334.293121 Y:-1883.438720 Z:2.184117
+[2021/8/23 - 10:13:31] MingQuang has changed BusinessID 20's Interior to X:2807.562255 Y:-1174.757568 Z:1025.570312
+[2021/8/23 - 10:16:01] Admin  xoa tram ga cua hang 
+[2021/8/23 - 10:19:54] MingQuang has changed BusinessID 20's Interior to X:-26.239036 Y:-188.250366 Z:1003.546875
+[2021/8/23 - 10:24:59] Admin  xoa tram ga cua hang 
+[2021/8/23 - 11:09:29] MingQuang has changed BusinessID 25's Exterior to X:206.749572 Y:-1758.217285 Z:12.163376
+[2021/8/23 - 11:11:44] Admin  xoa tram ga cua hang 
+[2021/8/23 - 11:11:50] MingQuang has changed BusinessID 20's Exterior to X:317.868438 Y:-1922.611206 Z:1.483046
+[2021/8/23 - 11:11:58]  da tao ra mot tram xang cho  ()
+[2021/8/23 - 11:12:28] MingQuang has changed BusinessID 20's Exterior to X:1928.656982 Y:-1781.693115 Z:13.546875
+[2021/8/23 - 13:08:27] Long has deleted BusinessID 3.
+[2021/8/23 - 13:08:35] Long has deleted BusinessID 11.
+[2021/8/23 - 13:09:01] Long has deleted BusinessID 9.
+[2021/8/23 - 13:24:15] MingQuang has edited business ID 20's name to a.
+[2021/8/23 - 13:25:30] MingQuang has edited business ID 20's name to asdasdas.
+[2021/8/23 - 13:25:34] MingQuang has edited business ID 20's name to ming quang.
+[2021/8/23 - 13:25:53] MingQuang has edited business ID 20's name to cua hang 24/7.
+[2021/8/23 - 13:26:26] MingQuang has edited business ID 20's name to Cua hang 24/7.
+[2021/8/23 - 13:26:33] MingQuang has changed BusinessID 20's Type to Tram xang (1).
+[2021/8/23 - 13:26:35] MingQuang has changed BusinessID 20's Type to Nha hang (3).
+[2021/8/23 - 13:26:36] MingQuang has changed BusinessID 20's Type to Shop quan ao (2).
+[2021/8/23 - 13:26:37] MingQuang has changed BusinessID 20's Type to Shop vu khi (4).
+[2021/8/23 - 13:26:38] MingQuang has changed BusinessID 20's Type to Dai ly xe moi (5).
+[2021/8/23 - 13:26:39] MingQuang has changed BusinessID 20's Type to Khong xac dinh (0).
+[2021/8/23 - 13:26:40] MingQuang has changed BusinessID 20's Type to Dai ly xe cu (6).
+[2021/8/23 - 13:26:41] MingQuang has changed BusinessID 20's Type to Tram sua xe (7).
+[2021/8/23 - 13:26:42] MingQuang has changed BusinessID 20's Type to 24/7 (8).
+[2021/8/23 - 13:28:49] MingQuang has edited business ID 20's name to Cua Hang Tap Hoa.
+[2021/8/23 - 13:28:53] MingQuang has edited business ID 20's name to Cua Hang.
+[2021/8/23 - 13:29:41] Long has changed BusinessID 2's Exterior to X:2136.115966 Y:1015.229003 Z:10.820312
+[2021/8/23 - 13:33:52] Long has changed BusinessID 11's Exterior to X:2153.921386 Y:1014.547302 Z:10.820312
+[2021/8/23 - 13:34:00] Long has changed BusinessID 11's Type to Shop quan ao (2).
+[2021/8/23 - 13:34:02] Long has changed BusinessID 11's Type to Nha hang (3).
+[2021/8/23 - 13:34:06] Long has changed BusinessID 11's Type to Shop vu khi (4).
+[2021/8/23 - 13:34:08] Long has changed BusinessID 11's Type to Dai ly xe moi (5).
+[2021/8/23 - 13:34:09] Long has changed BusinessID 11's Type to Dai ly xe cu (6).
+[2021/8/23 - 13:56:08] Long has changed BusinessID 42's Exterior to X:1456.131347 Y:2773.432861 Z:10.820312
+[2021/8/23 - 13:56:12] Long has deleted BusinessID 42.
+[2021/8/23 - 14:31:08] Long has changed BusinessID 3's Exterior to X:1887.486083 Y:-1769.033447 Z:25.791057
+[2021/8/23 - 14:31:13] Long has changed BusinessID 3's Type to Tram xang (1).
+[2021/8/23 - 14:31:46] 
+[2021/8/23 - 14:31:52] 
+[2021/8/23 - 14:31:56] Long has changed BusinessID 3's Exterior to X:1940.894897 Y:-1772.307739 Z:13.534251
+[2021/8/23 - 14:31:58] 
+[2021/8/23 - 14:32:06] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:32:12] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:32:17] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:32:23] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:32:26] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:32:32] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:32:42] Long thay doi vi tri tram gas 1 cho cua hang 3
+[2021/8/23 - 14:32:47] Long thay doi vi tri tram gas 1 cho cua hang 3
+[2021/8/23 - 14:32:54] Long thay doi vi tri tram gas 1 cho cua hang 3
+[2021/8/23 - 14:33:09] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:33:10] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:33:15] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:33:28] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:33:34] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:33:37] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:33:44] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/23 - 14:33:54] Long da thay doi cong suat tram gas 0 cho  (3) den 100000.00
+[2021/8/23 - 14:33:56] Long da thay doi cong suat tram gas 0 cho  (3) den 100000000.00
+[2021/8/23 - 14:34:00] Long da thay doi luong khi gas 0 cho  (3) den 100000000.00
+[2021/8/23 - 14:34:05] Long da thay doi cong suat tram gas 1 cho  (3) den 100000000.00
+[2021/8/23 - 14:34:10] Long da thay doi luong khi gas 1 cho  (3) den 100000000.00
+[2021/8/23 - 14:34:34] Long has changed BusinessID 3's Exterior to X:1918.337280 Y:-1774.299804 Z:17.242736
+[2021/8/23 - 17:08:12] MingQuang has changed BusinessID 20's Type to Tram xang (1).
+[2021/8/23 - 17:08:55] Admin  xoa tram ga cua hang 
+[2021/8/23 - 17:08:57] Admin  xoa tram ga cua hang 
+[2021/8/23 - 17:09:07] Cua Hang da tao ra mot tram xang cho  ()
+[2021/8/23 - 17:09:12] Cua Hang da tao ra mot tram xang cho  ()
+[2021/8/23 - 17:09:28] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:09:35] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:09:41] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:09:45] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:09:54] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:10:28] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 0.00
+[2021/8/23 - 17:10:54] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 1.00
+[2021/8/23 - 17:10:56] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 2.00
+[2021/8/23 - 17:10:57] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 3.00
+[2021/8/23 - 17:11:22] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 100.00
+[2021/8/23 - 17:11:30] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 2.00
+[2021/8/23 - 17:11:42] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 999999.00
+[2021/8/23 - 17:11:44] MingQuang da thay doi luong khi gas 1 cho Cua Hang (20) den 999999.00
+[2021/8/23 - 17:11:58] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:12:01] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:12:08] MingQuang thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 17:12:51] MingQuang has changed BusinessID 20's Inventory to 99999.
+[2021/8/23 - 17:12:55] MingQuang has changed BusinessID 20's Inventory to 300.
+[2021/8/23 - 17:13:59] Long has deleted BusinessID 3.
+[2021/8/23 - 17:14:44] MingQuang da thay doi luong khi gas 1 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 17:14:49] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 17:15:11] MingQuang da thay doi cong suat tram gas 0 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 17:15:14] MingQuang da thay doi luong khi gas 0 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 17:41:02] Admin  xoa tram ga cua hang 
+[2021/8/23 - 17:41:07] Cua Hang da tao ra mot tram xang cho  ()
+[2021/8/23 - 17:41:37] Admin  xoa tram ga cua hang 
+[2021/8/23 - 17:41:43] Cua Hang da tao ra mot tram xang cho  ()
+[2021/8/23 - 17:42:14] MingQuang da thay doi cong suat tram gas 1 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 17:42:17] MingQuang da thay doi cong suat tram gas 0 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 17:42:21] MingQuang da thay doi luong khi gas 0 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 17:42:23] MingQuang da thay doi luong khi gas 1 cho Cua Hang (20) den 99999.00
+[2021/8/23 - 18:31:32] MingQuang has edited business ID 20's name to Cua Hang 24/7.
+[2021/8/23 - 18:32:18] MingQuang has edited business ID 20's name to [ALT] Cua Hang 24/7.
+[2021/8/23 - 18:40:08] MingQuang has changed BusinessID 20's Exterior to X:1929.729736 Y:-1773.571289 Z:13.546875
+[2021/8/23 - 22:01:44] Long has changed BusinessID 20's Type to Tram xang (1).
+[2021/8/23 - 22:02:26] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 22:02:34] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 22:02:49] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/23 - 22:02:55] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/23 - 22:03:06] Long thay doi vi tri tram gas 1 cho cua hang 20
+[2021/8/23 - 22:03:23] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 22:03:27] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 22:03:37] Long thay doi vi tri tram gas 0 cho cua hang 20
+[2021/8/23 - 22:03:49] Long da thay doi cong suat tram gas 0 cho Cua Hang (20) den 10000000.00
+[2021/8/23 - 22:03:52] Long da thay doi cong suat tram gas 1 cho Cua Hang (20) den 10000000.00
+[2021/8/23 - 22:03:56] Long da thay doi luong khi gas 1 cho Cua Hang (20) den 10000000.00
+[2021/8/23 - 22:03:59] Long da thay doi luong khi gas 0 cho Cua Hang (20) den 10000000.00
+[2021/8/25 - 19:08:20] Long has changed BusinessID 3's Exterior to X:1579.236572 Y:-1698.055053 Z:6.218750
+[2021/8/25 - 19:08:31] Long has changed BusinessID 3's Type to Tram xang (1).
+[2021/8/25 - 19:08:43] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/25 - 19:08:47] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/8/25 - 19:09:03] Long da thay doi cong suat tram gas 0 cho  (3) den 10000000.00
+[2021/8/25 - 19:09:06] Long da thay doi luong khi gas 0 cho  (3) den 10000000.00
+[2021/8/25 - 19:09:35] Long has changed BusinessID 3's Exterior to X:1580.700073 Y:-1677.258911 Z:-31.445966
+[2021/8/25 - 19:09:45] Long has changed BusinessID 3's Exterior to X:1587.792236 Y:-1691.297241 Z:3.435624
+[2021/8/26 - 12:31:23] MingQuang has changed BusinessID 20's Inventory to 5.
+[2021/8/26 - 13:28:57] MingQuang has changed BusinessID 9's Exterior to X:1872.241821 Y:-1684.169921 Z:58.081657
+[2021/8/26 - 13:29:04] MingQuang has changed BusinessID 9's Type to Tram xang (1).
+[2021/8/26 - 13:29:06] MingQuang has changed BusinessID 9's Type to 24/7 (8).
+[2021/8/26 - 13:34:13] MingQuang has changed BusinessID 30's Interior to X:225.700073 Y:1021.448364 Z:1084.017700
+[2021/8/26 - 13:44:29] MingQuang has changed BusinessID 9's Interior to X:1781.096069 Y:-1552.519775 Z:-69.709548
+[2021/8/26 - 13:48:27] MingQuang has changed BusinessID 9's Exterior to X:1925.930541 Y:-1999.915161 Z:13.562737
+[2021/8/26 - 21:56:50] MingQuang has changed BusinessID 20's Inventory to 100.
+[2021/8/28 - 22:24:51] MingQuang has changed BusinessID 18's Exterior to X:1943.979370 Y:-1990.141357 Z:13.546875
+[2021/8/29 - 13:21:43] Long has changed BusinessID 30's Exterior to X:1783.534301 Y:-1706.321777 Z:13.523437
+[2021/8/29 - 14:52:04] Alan Quan has changed BusinessID 30's Exterior to X:1996.608520 Y:-1283.485839 Z:23.965633
+[2021/8/29 - 22:25:57] Long has changed BusinessID 28's Exterior to X:444.381561 Y:-2301.682373 Z:80.534690
+[2021/8/29 - 22:26:03] Long has changed BusinessID 28's Exterior to X:495.833709 Y:-2388.981689 Z:120.576065
+[2021/8/29 - 22:26:10] Long has changed BusinessID 28's Exterior to X:549.762756 Y:-2422.911376 Z:121.998847
+[2021/8/30 - 14:06:07] MingQuang has changed BusinessID 29's Exterior to X:2233.934326 Y:1714.685180 Z:1012.382812
+[2021/8/30 - 14:06:11] MingQuang has changed BusinessID 29's Interior to X:2233.934326 Y:1714.685180 Z:1012.382812
+[2021/8/30 - 14:06:21] MingQuang has changed BusinessID 29's Exterior to X:1493.876586 Y:-694.709655 Z:94.750000
+[2021/8/30 - 14:06:35] MingQuang has changed BusinessID 29's Type to Tram xang (1).
+[2021/8/30 - 14:06:36] MingQuang has changed BusinessID 29's Type to Shop quan ao (2).
+[2021/8/30 - 14:06:37] MingQuang has changed BusinessID 29's Type to Nha hang (3).
+[2021/8/30 - 14:06:39] MingQuang has changed BusinessID 29's Type to Shop vu khi (4).
+[2021/8/30 - 14:06:40] MingQuang has changed BusinessID 29's Type to Dai ly xe moi (5).
+[2021/8/30 - 14:06:41] MingQuang has changed BusinessID 29's Type to Shop vu khi (4).
+[2021/8/30 - 14:11:17] MingQuang has changed BusinessID 29's Type to Tram xang (1).
+[2021/8/30 - 14:11:24] MingQuang has changed BusinessID 29's Type to Shop quan ao (2).
+[2021/8/30 - 14:11:25] MingQuang has changed BusinessID 29's Type to Nha hang (3).
+[2021/8/30 - 14:11:26] MingQuang has changed BusinessID 29's Type to Shop vu khi (4).
+[2021/8/30 - 14:11:26] MingQuang has changed BusinessID 29's Type to Dai ly xe moi (5).
+[2021/8/30 - 14:11:27] MingQuang has changed BusinessID 29's Type to Dai ly xe cu (6).
+[2021/8/30 - 14:11:47] MingQuang has changed BusinessID 29's Type to Tram sua xe (7).
+[2021/8/30 - 14:11:49] MingQuang has changed BusinessID 29's Type to Tram sua xe (7).
+[2021/8/30 - 14:12:51] MingQuang has changed BusinessID 29's Type to 24/7 (8).
+[2021/8/30 - 14:12:52] MingQuang has changed BusinessID 29's Type to Bar (9).
+[2021/8/30 - 14:12:54] MingQuang has changed BusinessID 29's Type to Khong xac dinh (0).
+[2021/8/30 - 14:12:57] MingQuang has changed BusinessID 29's Type to Bar (9).
+[2021/8/30 - 14:13:41] MingQuang has changed BusinessID 29's Type to Tram xang (1).
+[2021/8/30 - 14:13:43] MingQuang has changed BusinessID 29's Type to Club (10).
+[2021/8/30 - 14:13:46] MingQuang has changed BusinessID 29's Type to Club (10).
+[2021/8/30 - 14:14:08] MingQuang has changed BusinessID 29's Type to Shop nguoi lon (11).
+[2021/8/30 - 14:14:10] MingQuang has changed BusinessID 29's Type to Shop nguoi lon (11).
+[2021/8/30 - 14:14:18] MingQuang has changed BusinessID 29's Type to Gym (12).
+[2021/8/30 - 14:15:03] MingQuang has changed BusinessID 29's gym type to 1.
+[2021/8/30 - 14:15:06] MingQuang has changed BusinessID 29's gym type to 2.
+[2021/8/30 - 14:15:11] MingQuang has changed BusinessID 29's gym type to 1.
+[2021/8/30 - 14:15:17] MingQuang has changed BusinessID 29's Price to $5.
+[2021/8/30 - 14:15:20] MingQuang has changed BusinessID 29's Price to $0.
+[2021/8/30 - 14:15:28] MingQuang has changed BusinessID 29's gym entry fee to 5.
+[2021/8/30 - 14:15:30] MingQuang has changed BusinessID 29's gym entry fee to 6.
+[2021/8/30 - 14:15:51] MingQuang has changed BusinessID 29's gym entry fee to 6000000.
+[2021/8/30 - 14:16:27] MingQuang has changed BusinessID 29's gym entry fee to 0.
+[2021/8/30 - 14:17:28] MingQuang has changed BusinessID 29's gym entry fee to 5000.
+[2021/8/30 - 14:18:12] MingQuang has changed BusinessID 29's gym type to 1.
+[2021/8/30 - 14:18:19] MingQuang has changed BusinessID 29's gym type to 2.
+[2021/8/30 - 14:18:46] MingQuang has changed BusinessID 29's gym entry fee to 0.
+[2021/8/30 - 14:19:56] MingQuang has edited business ID 29's name to a.
+[2021/8/30 - 14:19:57] MingQuang has edited business ID 29's name to aa.
+[2021/8/30 - 14:20:24] MingQuang has changed BusinessID 29's Grade to 1
+[2021/8/30 - 14:20:26] MingQuang has changed BusinessID 29's Grade to 0
+[2021/8/30 - 14:20:28] MingQuang has changed BusinessID 29's Grade to 10
+[2021/8/30 - 14:20:40] MingQuang has changed BusinessID 29's Type to Shop nguoi lon (11).
+[2021/8/30 - 14:20:41] MingQuang has changed BusinessID 29's Type to Gym (12).
+[2021/8/30 - 14:20:42] MingQuang has changed BusinessID 29's Type to Khong xac dinh (13).
+[2021/8/30 - 14:20:43] MingQuang has changed BusinessID 29's Type to Khong xac dinh (14).
+[2021/8/30 - 14:20:44] MingQuang has changed BusinessID 29's Type to Khong xac dinh (120).
+[2021/8/30 - 14:20:45] MingQuang has changed BusinessID 29's Type to Khong xac dinh (20).
+[2021/8/30 - 14:20:47] MingQuang has changed BusinessID 29's Type to Khong xac dinh (22).
+[2021/8/30 - 14:20:50] MingQuang has changed BusinessID 29's Type to Gym (12).
+[2021/8/30 - 14:23:15] MingQuang has changed BusinessID 29's gym type to 2.
+[2021/8/30 - 14:23:19] MingQuang has changed BusinessID 29's gym type to 1.
+[2021/8/30 - 14:29:57] MingQuang has changed BusinessID 29's Supply Point to X:1493.535522 Y:-694.368103 Z:94.750000
+[2021/8/30 - 14:30:00] MingQuang has changed BusinessID 29's Supply Point to X:1492.511352 Y:-694.468383 Z:94.750000
+[2021/8/30 - 14:30:02] MingQuang has changed BusinessID 29's Supply Point to X:1492.097045 Y:-694.807678 Z:94.750000
+[2021/8/30 - 14:30:04] MingQuang has changed BusinessID 29's Supply Point to X:1499.618652 Y:-698.273315 Z:94.750000
+[2021/8/30 - 14:30:52] MingQuang has changed BusinessID 29's vw to 0
+[2021/8/30 - 14:30:53] MingQuang has changed BusinessID 29's vw to 1
+[2021/8/30 - 14:30:55] MingQuang has changed BusinessID 29's vw to 5
+[2021/8/30 - 14:31:26] MingQuang has changed BusinessID 29's Exterior to X:1496.946289 Y:-687.896728 Z:95.563308
+[2021/8/30 - 14:38:51] MingQuang has changed BusinessID 29's Exterior to X:1501.763061 Y:-675.934509 Z:105.702804
+[2021/8/30 - 14:40:40] MingQuang has changed BusinessID 29's Type to Gym (12).
+[2021/9/2 - 14:41:19] MingQuang has changed BusinessID 25's Exterior to X:28.903423 Y:-1369.540039 Z:48.576358
+[2021/9/2 - 14:41:22] MingQuang has changed BusinessID 25's Exterior to X:18.250747 Y:-1325.784423 Z:-14.645531
+[2021/9/2 - 19:03:08] Long has deleted BusinessID 0.
+[2021/9/2 - 19:03:56] Long has changed BusinessID 8's Exterior to X:2070.876953 Y:-1784.928222 Z:13.559297
+[2021/9/2 - 19:03:59] Long has changed BusinessID 8's Exterior to X:2070.093750 Y:-1785.322998 Z:13.554687
+[2021/9/2 - 19:26:29] Long has changed BusinessID 0's Exterior to X:1515.744140 Y:1614.764526 Z:10.820312
+[2021/9/2 - 19:26:36] Long has changed BusinessID 2's Type to Nha hang (3).
+[2021/9/2 - 19:26:43] Long has changed BusinessID 3's Type to Nha hang (3).
+[2021/9/2 - 19:26:48] Long has changed BusinessID 0's Type to Nha hang (3).
+[2021/9/2 - 19:26:52] Long has changed BusinessID 0's Type to Shop vu khi (4).
+[2021/9/2 - 19:26:54] Long has changed BusinessID 0's Type to Dai ly xe moi (5).
+[2021/9/2 - 19:27:15] Long has changed BusinessID 3's Type to Tram xang (1).
+[2021/9/4 - 17:47:56] Long has changed BusinessID 3's Exterior to X:-2129.398681 Y:1273.071533 Z:21.403446
+[2021/9/4 - 17:48:10] Long thay doi vi tri tram gas 1 cho cua hang 3
+[2021/9/4 - 17:52:55] Long has changed BusinessID 3's Exterior to X:1578.546752 Y:-1689.828125 Z:-109.509078
+[2021/9/4 - 17:53:04] Long has changed BusinessID 3's Exterior to X:1578.546752 Y:-1689.828125 Z:-109.509078
+[2021/9/4 - 17:53:10] Long has changed BusinessID 3's Exterior to X:1578.546752 Y:-1689.828125 Z:-109.509078
+[2021/9/4 - 17:53:15] Long has changed BusinessID 3's Exterior to X:1578.546752 Y:-1689.828125 Z:-109.509078
+[2021/9/4 - 17:53:18] Long has changed BusinessID 3's Exterior to X:1578.546752 Y:-1689.828125 Z:-109.509078
+[2021/9/4 - 17:53:37] Long has changed BusinessID 3's Exterior to X:1578.546752 Y:-1689.828125 Z:-109.509078
+[2021/9/5 - 14:56:01] MingQuang has changed BusinessID 30's Interior to X:1781.099975 Y:-1552.520019 Z:-69.709548
+[2021/9/5 - 14:56:18] MingQuang has edited BusinessID 30's CustomInterior.
+[2021/9/5 - 14:58:19] MingQuang has changed BusinessID 27's Interior to X:1494.426757 Y:1303.578247 Z:1093.289062
+[2021/9/6 - 13:15:49] Long has changed BusinessID 24's Exterior to X:1652.966796 Y:-1092.249755 Z:23.906250
+[2021/9/6 - 13:16:16] Long has changed BusinessID 24's Exterior to X:1632.756469 Y:-1096.558227 Z:23.906250
+[2021/9/6 - 13:17:09] Long has changed BusinessID 24's Exterior to X:1654.010253 Y:-1078.816284 Z:23.898437
+[2021/9/6 - 13:26:24] Long has changed BusinessID 27's Exterior to X:1002.009704 Y:-1433.169921 Z:19.173643
+[2021/9/6 - 13:31:30] Long has changed BusinessID 27's Exterior to X:1002.743591 Y:-1430.239624 Z:13.595312
+[2021/9/6 - 13:34:52] Long has changed BusinessID 27's Exterior to X:1032.240112 Y:-1417.032836 Z:13.595312
+[2021/9/6 - 22:32:52] MingQuang has deleted BusinessID 9.
+[2021/9/7 - 23:15:37] MingQuang has changed BusinessID 29's Exterior to X:2603.075683 Y:-2162.544433 Z:-0.218750
+[2021/9/7 - 23:15:52] MingQuang has changed BusinessID 29's gym entry fee to 500000.
+[2021/9/7 - 23:17:12] MingQuang has changed BusinessID 29's gym entry fee to 1.
+[2021/9/7 - 23:17:14] MingQuang has changed BusinessID 29's gym entry fee to 69.
+[2021/9/7 - 23:18:07] MingQuang has changed BusinessID 29's gym entry fee to 500000.
+[2021/9/7 - 23:23:35] MingQuang has changed BusinessID 29's Exterior to X:1498.882446 Y:-673.354614 Z:105.307395
+[2021/9/10 - 21:43:26] MingQuang has changed BusinessID 20's Inventory to 0.
+[2021/9/10 - 21:43:30] MingQuang has changed BusinessID 20's Inventory to 100.
+[2021/9/12 - 15:02:13] Long da thay doi cong suat tram gas 1 cho  (3) den 1.00
+[2021/9/12 - 15:02:21] Long da thay doi cong suat tram gas 1 cho  (3) den 1000000000.00
+[2021/9/12 - 15:02:30] Long thay doi vi tri tram gas 1 cho cua hang 3
+[2021/9/24 - 2:15:27] Long has changed BusinessID 3's Exterior to X:1593.776123 Y:-1630.027343 Z:13.529399
+[2021/9/24 - 2:16:09] Long thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 2:16:19] Long thay doi vi tri tram gas 1 cho cua hang 3
+[2021/9/24 - 2:37:35] Long has changed BusinessID 3's Exterior to X:1603.645019 Y:-1625.660400 Z:19.109273
+[2021/9/24 - 3:45:26] MingQuang has deleted BusinessID 18.
+[2021/9/24 - 10:43:14] MingQuang thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 10:43:19] MingQuang thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 10:43:25] MingQuang thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 10:43:30] MingQuang thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 10:43:32] MingQuang thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 10:43:34] MingQuang thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 10:43:39] MingQuang thay doi vi tri tram gas 0 cho cua hang 3
+[2021/9/24 - 10:51:09] MingQuang has deleted BusinessID 3.
+[2021/9/24 - 12:46:25] MingQuang has changed BusinessID 20's Exterior to X:552.305419 Y:-2437.667480 Z:1.899996
+[2021/9/24 - 12:46:27] MingQuang thay doi vi tri tram gas 1 cho cua hang 20
+[2021/9/24 - 12:50:31] MingQuang has changed BusinessID 25's Exterior to X:1948.930175 Y:-1777.695068 Z:7.484188
+[2021/9/24 - 12:50:59] MingQuang thay doi vi tri tram gas 1 cho cua hang 25
+[2021/9/24 - 12:52:14] MingQuang has changed BusinessID 20's Exterior to X:1929.103393 Y:-1781.283203 Z:13.546875
+[2021/9/24 - 12:54:03] MingQuang has deleted BusinessID 28.
+[2021/9/24 - 12:56:57] MingQuang has changed BusinessID 20's Exterior to X:559.992431 Y:-2436.708740 Z:1.899996
+[2021/9/24 - 12:56:58] MingQuang thay doi vi tri tram gas 1 cho cua hang 20
+[2021/9/24 - 12:57:08] MingQuang has changed BusinessID 20's Exterior to X:1929.247192 Y:-1780.675903 Z:13.546875
+[2021/9/24 - 13:15:13] MingQuang has changed BusinessID 20's Exterior to X:555.182678 Y:-2437.518554 Z:1.899996
+[2021/9/24 - 13:15:23] MingQuang thay doi vi tri tram gas 1 cho cua hang 20
+[2021/9/24 - 13:15:32] MingQuang thay doi vi tri tram gas 1 cho cua hang 20
+[2021/9/24 - 13:15:48] MingQuang has changed BusinessID 20's Exterior to X:1929.452758 Y:-1781.068847 Z:13.546875
+[2021/9/24 - 13:17:00] MingQuang has changed BusinessID 20's Exterior to X:552.659851 Y:-2436.745849 Z:1.899996
+[2021/9/24 - 13:17:09] 
+[2021/9/24 - 13:17:10] MingQuang thay doi vi tri tram gas 1 cho cua hang 20
+[2021/9/24 - 13:17:19] MingQuang thay doi vi tri tram gas 1 cho cua hang 20
+[2021/9/24 - 13:17:27] MingQuang thay doi vi tri tram gas 1 cho cua hang 20
+[2021/9/24 - 13:21:04] MingQuang has changed BusinessID 20's Exterior to X:1929.448974 Y:-1779.792236 Z:13.546875
+[2021/9/24 - 13:45:39] 
+[2021/9/24 - 13:45:42] MingQuang thay doi vi tri tram gas 1 cho cua hang 25
+[2021/9/24 - 13:45:44] MingQuang thay doi vi tri tram gas 1 cho cua hang 25
+[2021/9/24 - 13:45:55] MingQuang da thay doi cong suat tram gas 1 cho  (25) den 100000.00
+[2021/9/24 - 13:46:03] MingQuang da thay doi luong khi gas 1 cho  (25) den 10000.00
+[2021/9/24 - 13:46:09] MingQuang thay doi vi tri tram gas 1 cho cua hang 25
+[2021/9/24 - 13:48:59] MingQuang has deleted BusinessID 25.
+[2021/9/25 - 15:19:50] Long has changed BusinessID 3's Exterior to X:1596.661376 Y:-1630.502075 Z:13.560712
+[2021/9/25 - 15:20:11] Long has changed BusinessID 3's Type to Khong xac dinh (0).
+[2021/9/25 - 15:20:13] Long has changed BusinessID 3's Type to Tram xang (1).
+[2021/9/25 - 15:20:26] Long has deleted BusinessID 3.
+[2021/10/1 - 20:08:16] MingQuang has changed BusinessID 20's Inventory to 200.
+[2021/10/6 - 12:22:08] MingQuang has changed BusinessID 29's Exterior to X:1493.596069 Y:-677.381042 Z:105.969818
+[2021/10/6 - 12:23:16] MingQuang has changed BusinessID 3's Exterior to X:3547.750732 Y:-1556.892333 Z:865.276428
+[2021/10/6 - 12:23:19] MingQuang has changed BusinessID 3's Interior to X:3547.750732 Y:-1556.892333 Z:865.276428
+[2021/10/6 - 12:23:30] MingQuang has changed BusinessID 3's Exterior to X:1497.008544 Y:-687.891662 Z:95.563308
+[2021/10/6 - 12:23:39] MingQuang has changed BusinessID 3's Type to Shop nguoi lon (11).
+[2021/10/6 - 12:23:41] MingQuang has changed BusinessID 3's Type to Casino (12).
+[2021/10/6 - 12:23:53] MingQuang has changed BusinessID 3's Grade to 1
+[2021/10/6 - 12:23:56] MingQuang has changed BusinessID 3's Grade to 5
+[2021/10/6 - 12:24:02] MingQuang has changed BusinessID 3's gym type to 1.
+[2021/10/6 - 12:24:03] MingQuang has changed BusinessID 3's gym type to 2.
+[2021/10/6 - 12:24:05] MingQuang has changed BusinessID 3's gym type to 1.
+[2021/10/6 - 12:24:30] MingQuang has changed BusinessID 3's gym entry fee to 1.
+[2021/10/6 - 12:24:35] MingQuang has changed BusinessID 3's gym entry fee to 50000.
+[2021/10/6 - 12:24:54] MingQuang has edited BusinessID 3's CustomInterior.
+[2021/10/6 - 12:25:07] MingQuang has edited BusinessID 3's CustomInterior.
+[2021/10/6 - 12:25:08] MingQuang has edited BusinessID 3's CustomInterior.
+[2021/10/6 - 12:30:10] MingQuang has changed BusinessID 3's Exterior to X:1779.109741 Y:-1662.884277 Z:14.438155
+[2021/10/6 - 12:33:48] MingQuang has changed BusinessID 3's gym entry fee to 20000.
+[2021/10/6 - 12:47:59] MingQuang has changed BusinessID 3's Exterior to X:1778.932495 Y:-1663.005004 Z:14.437735
+[2021/10/10 - 15:23:40] MingQuang has changed BusinessID 9's Exterior to X:-311.292907 Y:1303.448364 Z:53.664344
+[2021/10/10 - 15:23:50] MingQuang has changed BusinessID 9's Type to Shop nguoi lon (11).
+[2021/10/10 - 15:23:53] MingQuang has changed BusinessID 9's Type to Casino (12).
+[2021/10/10 - 15:23:55] MingQuang has changed BusinessID 9's Type to Khong xac dinh (13).
+[2021/10/10 - 15:23:56] MingQuang has changed BusinessID 9's Type to Khong xac dinh (14).
+[2021/10/10 - 15:23:59] MingQuang has changed BusinessID 9's Type to Tram xang (1).
+[2021/10/10 - 15:24:02] MingQuang has changed BusinessID 9's Type to Shop quan ao (2).
+[2021/10/10 - 15:24:03] MingQuang has changed BusinessID 9's Type to Nha hang (3).
+[2021/10/10 - 15:24:04] MingQuang has changed BusinessID 9's Type to Shop vu khi (4).
+[2021/10/10 - 15:24:05] MingQuang has changed BusinessID 9's Type to Dai ly xe moi (5).
+[2021/10/10 - 15:24:06] MingQuang has changed BusinessID 9's Type to Dai ly xe cu (6).
+[2021/10/10 - 15:24:06] MingQuang has changed BusinessID 9's Type to Tram sua xe (7).
+[2021/10/10 - 15:24:07] MingQuang has changed BusinessID 9's Type to 24/7 (8).
+[2021/10/10 - 15:24:23] MingQuang has changed BusinessID 9's Exterior to X:-311.007293 Y:1303.595092 Z:53.664344
+[2021/10/10 - 16:56:54] MingQuang has deleted BusinessID 27.

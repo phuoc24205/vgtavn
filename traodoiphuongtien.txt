@@ -1,0 +1,735 @@
+// Trao doi phuong tien
+new Text:TTextDraws[52];
+new TradeItemSelecting[MAX_PLAYERS];
+new AcceptTrade[MAX_PLAYERS];
+new Trading[MAX_PLAYERS];
+new TradeTimer[MAX_PLAYERS];
+
+
+// Trao doi phuong tien
+	if(_:clickedid != INVALID_TEXT_DRAW)
+    {
+        new targetid = PlayerInfo[playerid][TradeID];
+    	if(clickedid == TTextDraws[51])
+    	{
+    	    PlayerPlaySound(playerid, 1145, 0.0, 0.0, 0.0);
+    	    SendClientMessage(targetid,-1,"{00FF00}[!] {FFFFFF}Nguoi dang giao dich voi ban da huy bo trao doi !");
+    	    SetTimerEx("TradeTextDraws", 5, false, "ii", playerid, 2);
+			SetTimerEx("TradeTextDraws", 10, false, "ii", targetid, 2);
+		}
+		else if(clickedid == TTextDraws[31])
+    	{
+    	    PlayerPlaySound(playerid, 1145, 0.0, 0.0, 0.0);
+    	    if(AcceptTrade[playerid] == 0)
+    	    {
+    	        AcceptTrade[playerid] = 1;
+    	        SendClientMessage(playerid,-1,"{00FF00}[!] {FFFFFF}Ban da KHOA thoa thuan trao doi ! Vui long kiem tra lai thong tin trao doi...");
+    	        SendClientMessage(targetid,-1,"{00FF00}[!] {FFFFFF}Nguoi giao dich voi ban da KHOA thoa thuan trao doi !");
+    	        CheckTradeInfo(playerid);
+    	        ChecktoTrade(playerid);
+    	    }
+    	    else if(AcceptTrade[playerid] == 1)
+    	    {
+    	        AcceptTrade[playerid] = 0;
+    	        SendClientMessage(playerid,-1,"{00FF00}[!] {FFFFFF}Ban da tam dung trao doi !");
+    	        SendClientMessage(targetid,-1,"{FF0000}[!] {FFFFFF}Nguoi giao dich voi ban da tam dung trao doi !");
+    	        CheckTradeInfo(playerid);
+    	        KillTimer(TradeTimer[playerid]);
+	 			KillTimer(TradeTimer[targetid]);
+    	    }
+		}
+		else if(clickedid == TTextDraws[32])
+    	{
+    	    PlayerPlaySound(playerid, 1145, 0.0, 0.0, 0.0);
+    	    TradeItemSelecting[playerid] = 1;
+    	    ShowPlayerDialog(playerid, DIALOG_TRADEVEHICLE, DIALOG_STYLE_INPUT,"{ff0000}Cash","{FFFFFF}Hay nhap so luong tien mat bu them vao day.","Xong","Huy bo");
+		}
+		else if(clickedid == TTextDraws[33])
+    	{
+    	    PlayerPlaySound(playerid, 1145, 0.0, 0.0, 0.0);
+    	    TradeItemSelecting[playerid] = 2;
+    	    ShowPlayerDialog(playerid, DIALOG_TRADEVEHICLE, DIALOG_STYLE_INPUT,"{ff0000}Credits","{FFFFFF}Hay nhap so luong Credits bu them vao day.","Xong","Huy bo");
+		}
+		else if(clickedid == TTextDraws[34])
+    	{
+    	    PlayerPlaySound(playerid, 1145, 0.0, 0.0, 0.0);
+    	    TradeItemSelecting[playerid] = 3;
+    	    ShowPlayerDialog(playerid, DIALOG_TRADEVEHICLE, DIALOG_STYLE_INPUT,"{ff0000}Vat lieu","{FFFFFF}Hay nhap so luong vat lieu bu them vao day.","Xong","Huy bo");
+		}
+	}
+
+
+
+	// Trao doi phuong tien <------------------------------------------------------------------->
+	    TTextDraws[0] = TextDrawCreate(321.000000, 108.000000, "_");
+		TextDrawAlignment(TTextDraws[0], 2);
+		TextDrawBackgroundColor(TTextDraws[0], 255);
+		TextDrawFont(TTextDraws[0], 1);
+		TextDrawLetterSize(TTextDraws[0], 0.500000, 1.500000);
+		TextDrawColor(TTextDraws[0], -1);
+		TextDrawSetOutline(TTextDraws[0], 0);
+		TextDrawSetProportional(TTextDraws[0], 1);
+		TextDrawSetShadow(TTextDraws[0], 1);
+		TextDrawUseBox(TTextDraws[0], 1);
+		TextDrawBoxColor(TTextDraws[0], -938213226);
+		TextDrawTextSize(TTextDraws[0], 470.000000, 302.000000);
+		TextDrawSetSelectable(TTextDraws[0], 0);
+
+		TTextDraws[1] = TextDrawCreate(321.000000, 116.000000, "_");
+		TextDrawAlignment(TTextDraws[1], 2);
+		TextDrawBackgroundColor(TTextDraws[1], 255);
+		TextDrawFont(TTextDraws[1], 1);
+		TextDrawLetterSize(TTextDraws[1], 0.500000, 0.600000);
+		TextDrawColor(TTextDraws[1], -1);
+		TextDrawSetOutline(TTextDraws[1], 0);
+		TextDrawSetProportional(TTextDraws[1], 1);
+		TextDrawSetShadow(TTextDraws[1], 1);
+		TextDrawUseBox(TTextDraws[1], 1);
+		TextDrawBoxColor(TTextDraws[1], -938213226);
+		TextDrawTextSize(TTextDraws[1], 470.000000, 302.000000);
+		TextDrawSetSelectable(TTextDraws[1], 0);
+
+		TTextDraws[2] = TextDrawCreate(321.000000, 125.000000, "_");
+		TextDrawAlignment(TTextDraws[2], 2);
+		TextDrawBackgroundColor(TTextDraws[2], 255);
+		TextDrawFont(TTextDraws[2], 1);
+		TextDrawLetterSize(TTextDraws[2], 0.500000, 24.600000);
+		TextDrawColor(TTextDraws[2], -1);
+		TextDrawSetOutline(TTextDraws[2], 0);
+		TextDrawSetProportional(TTextDraws[2], 1);
+		TextDrawSetShadow(TTextDraws[2], 1);
+		TextDrawUseBox(TTextDraws[2], 1);
+		TextDrawBoxColor(TTextDraws[2], -156);
+		TextDrawTextSize(TTextDraws[2], 470.000000, 302.000000);
+		TextDrawSetSelectable(TTextDraws[2], 0);
+
+		TTextDraws[3] = TextDrawCreate(321.000000, 125.000000, "_");
+		TextDrawAlignment(TTextDraws[3], 2);
+		TextDrawBackgroundColor(TTextDraws[3], 255);
+		TextDrawFont(TTextDraws[3], 1);
+		TextDrawLetterSize(TTextDraws[3], 0.500000, 24.399999);
+		TextDrawColor(TTextDraws[3], -1);
+		TextDrawSetOutline(TTextDraws[3], 0);
+		TextDrawSetProportional(TTextDraws[3], 1);
+		TextDrawSetShadow(TTextDraws[3], 1);
+		TextDrawUseBox(TTextDraws[3], 1);
+		TextDrawBoxColor(TTextDraws[3], 255);
+		TextDrawTextSize(TTextDraws[3], 470.000000, 300.000000);
+		TextDrawSetSelectable(TTextDraws[3], 0);
+
+		TTextDraws[4] = TextDrawCreate(322.000000, 104.000000, "Trao doi");
+		TextDrawAlignment(TTextDraws[4], 2);
+		TextDrawBackgroundColor(TTextDraws[4], 255);
+		TextDrawFont(TTextDraws[4], 2);
+		TextDrawLetterSize(TTextDraws[4], 0.500000, 2.099999);
+		TextDrawColor(TTextDraws[4], -56);
+		TextDrawSetOutline(TTextDraws[4], 0);
+		TextDrawSetProportional(TTextDraws[4], 1);
+		TextDrawSetShadow(TTextDraws[4], 1);
+		TextDrawSetSelectable(TTextDraws[4], 0);
+
+		TTextDraws[5] = TextDrawCreate(322.000000, 130.000000, "Thong tin trao doi");
+		TextDrawAlignment(TTextDraws[5], 2);
+		TextDrawBackgroundColor(TTextDraws[5], 255);
+		TextDrawFont(TTextDraws[5], 2);
+		TextDrawLetterSize(TTextDraws[5], 0.270000, 1.700000);
+		TextDrawColor(TTextDraws[5], -56);
+		TextDrawSetOutline(TTextDraws[5], 0);
+		TextDrawSetProportional(TTextDraws[5], 1);
+		TextDrawSetShadow(TTextDraws[5], 1);
+		TextDrawSetSelectable(TTextDraws[5], 0);
+
+		TTextDraws[6] = TextDrawCreate(321.000000, 130.000000, "_");
+		TextDrawAlignment(TTextDraws[6], 2);
+		TextDrawBackgroundColor(TTextDraws[6], 255);
+		TextDrawFont(TTextDraws[6], 1);
+		TextDrawLetterSize(TTextDraws[6], 0.500000, -0.199999);
+		TextDrawColor(TTextDraws[6], -1);
+		TextDrawSetOutline(TTextDraws[6], 0);
+		TextDrawSetProportional(TTextDraws[6], 1);
+		TextDrawSetShadow(TTextDraws[6], 1);
+		TextDrawUseBox(TTextDraws[6], 1);
+		TextDrawBoxColor(TTextDraws[6], -56);
+		TextDrawTextSize(TTextDraws[6], 470.000000, 152.000000);
+		TextDrawSetSelectable(TTextDraws[6], 0);
+
+		TTextDraws[7] = TextDrawCreate(321.000000, 149.000000, "_");
+		TextDrawAlignment(TTextDraws[7], 2);
+		TextDrawBackgroundColor(TTextDraws[7], 255);
+		TextDrawFont(TTextDraws[7], 1);
+		TextDrawLetterSize(TTextDraws[7], 0.500000, -0.199999);
+		TextDrawColor(TTextDraws[7], -1);
+		TextDrawSetOutline(TTextDraws[7], 0);
+		TextDrawSetProportional(TTextDraws[7], 1);
+		TextDrawSetShadow(TTextDraws[7], 1);
+		TextDrawUseBox(TTextDraws[7], 1);
+		TextDrawBoxColor(TTextDraws[7], -56);
+		TextDrawTextSize(TTextDraws[7], 470.000000, 152.000000);
+		TextDrawSetSelectable(TTextDraws[7], 0);
+
+		TTextDraws[8] = TextDrawCreate(321.000000, 157.000000, "_");
+		TextDrawAlignment(TTextDraws[8], 2);
+		TextDrawBackgroundColor(TTextDraws[8], 255);
+		TextDrawFont(TTextDraws[8], 1);
+		TextDrawLetterSize(TTextDraws[8], 0.500000, 17.799999);
+		TextDrawColor(TTextDraws[8], -1);
+		TextDrawSetOutline(TTextDraws[8], 0);
+		TextDrawSetProportional(TTextDraws[8], 1);
+		TextDrawSetShadow(TTextDraws[8], 1);
+		TextDrawUseBox(TTextDraws[8], 1);
+		TextDrawBoxColor(TTextDraws[8], -56);
+		TextDrawTextSize(TTextDraws[8], 470.000000, -2.000000);
+		TextDrawSetSelectable(TTextDraws[8], 0);
+
+		TTextDraws[9] = TextDrawCreate(247.000000, 154.000000, "Cua ban");
+		TextDrawAlignment(TTextDraws[9], 2);
+		TextDrawBackgroundColor(TTextDraws[9], 255);
+		TextDrawFont(TTextDraws[9], 2);
+		TextDrawLetterSize(TTextDraws[9], 0.270000, 1.700000);
+		TextDrawColor(TTextDraws[9], -56);
+		TextDrawSetOutline(TTextDraws[9], 0);
+		TextDrawSetProportional(TTextDraws[9], 1);
+		TextDrawSetShadow(TTextDraws[9], 1);
+		TextDrawSetSelectable(TTextDraws[9], 0);
+
+		TTextDraws[10] = TextDrawCreate(398.000000, 154.000000, "Update");
+		TextDrawAlignment(TTextDraws[10], 2);
+		TextDrawBackgroundColor(TTextDraws[10], 255);
+		TextDrawFont(TTextDraws[10], 2);
+		TextDrawLetterSize(TTextDraws[10], 0.270000, 1.700000);
+		TextDrawColor(TTextDraws[10], -56);
+		TextDrawSetOutline(TTextDraws[10], 0);
+		TextDrawSetProportional(TTextDraws[10], 1);
+		TextDrawSetShadow(TTextDraws[10], 1);
+		TextDrawSetSelectable(TTextDraws[10], 0);
+
+		TTextDraws[11] = TextDrawCreate(171.000000, 176.000000, "Phuong tien: Update");
+		TextDrawBackgroundColor(TTextDraws[11], 255);
+		TextDrawFont(TTextDraws[11], 2);
+		TextDrawLetterSize(TTextDraws[11], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[11], -56);
+		TextDrawSetOutline(TTextDraws[11], 0);
+		TextDrawSetProportional(TTextDraws[11], 1);
+		TextDrawSetShadow(TTextDraws[11], 1);
+		TextDrawSetSelectable(TTextDraws[11], 0);
+
+		TTextDraws[12] = TextDrawCreate(323.000000, 176.000000, "Phuong tien: Update");
+		TextDrawBackgroundColor(TTextDraws[12], 255);
+		TextDrawFont(TTextDraws[12], 2);
+		TextDrawLetterSize(TTextDraws[12], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[12], -56);
+		TextDrawSetOutline(TTextDraws[12], 0);
+		TextDrawSetProportional(TTextDraws[12], 1);
+		TextDrawSetShadow(TTextDraws[12], 1);
+		TextDrawSetSelectable(TTextDraws[12], 0);
+
+		TTextDraws[13] = TextDrawCreate(180.000000, 237.000000, "ld_pool:ball");
+		TextDrawBackgroundColor(TTextDraws[13], 255);
+		TextDrawFont(TTextDraws[13], 4);
+		TextDrawLetterSize(TTextDraws[13], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[13], -56);
+		TextDrawSetOutline(TTextDraws[13], 0);
+		TextDrawSetProportional(TTextDraws[13], 1);
+		TextDrawSetShadow(TTextDraws[13], 1);
+		TextDrawUseBox(TTextDraws[13], 1);
+		TextDrawBoxColor(TTextDraws[13], 255);
+		TextDrawTextSize(TTextDraws[13], 130.000000, 20.000000);
+		TextDrawSetSelectable(TTextDraws[13], 0);
+
+		TTextDraws[14] = TextDrawCreate(166.000000, 151.000000, "Vehicle");
+		TextDrawBackgroundColor(TTextDraws[14], 0);
+		TextDrawFont(TTextDraws[14], 5);
+		TextDrawLetterSize(TTextDraws[14], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[14], -1);
+		TextDrawSetOutline(TTextDraws[14], 0);
+		TextDrawSetProportional(TTextDraws[14], 1);
+		TextDrawSetShadow(TTextDraws[14], 1);
+		TextDrawUseBox(TTextDraws[14], 1);
+		TextDrawBoxColor(TTextDraws[14], 255);
+		TextDrawTextSize(TTextDraws[14], 170.000000, 140.000000);
+		TextDrawSetPreviewModel(TTextDraws[14], 495);
+		TextDrawSetPreviewRot(TTextDraws[14], 0.000000, 0.000000, -55.000000, 1.000000);
+		TextDrawSetSelectable(TTextDraws[14], 0);
+
+		TTextDraws[15] = TextDrawCreate(332.000000, 237.000000, "ld_pool:ball");
+		TextDrawBackgroundColor(TTextDraws[15], 255);
+		TextDrawFont(TTextDraws[15], 4);
+		TextDrawLetterSize(TTextDraws[15], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[15], -56);
+		TextDrawSetOutline(TTextDraws[15], 0);
+		TextDrawSetProportional(TTextDraws[15], 1);
+		TextDrawSetShadow(TTextDraws[15], 1);
+		TextDrawUseBox(TTextDraws[15], 1);
+		TextDrawBoxColor(TTextDraws[15], 255);
+		TextDrawTextSize(TTextDraws[15], 130.000000, 20.000000);
+		TextDrawSetSelectable(TTextDraws[15], 0);
+
+		TTextDraws[16] = TextDrawCreate(317.000000, 151.000000, "Vehicle");
+		TextDrawBackgroundColor(TTextDraws[16], 0);
+		TextDrawFont(TTextDraws[16], 5);
+		TextDrawLetterSize(TTextDraws[16], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[16], -1);
+		TextDrawSetOutline(TTextDraws[16], 0);
+		TextDrawSetProportional(TTextDraws[16], 1);
+		TextDrawSetShadow(TTextDraws[16], 1);
+		TextDrawUseBox(TTextDraws[16], 1);
+		TextDrawBoxColor(TTextDraws[16], 255);
+		TextDrawTextSize(TTextDraws[16], 170.000000, 140.000000);
+		TextDrawSetPreviewModel(TTextDraws[16], 411);
+		TextDrawSetPreviewRot(TTextDraws[16], 0.000000, 0.000000, -55.000000, 1.000000);
+		TextDrawSetSelectable(TTextDraws[16], 0);
+
+		TTextDraws[17] = TextDrawCreate(171.000000, 265.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[17], 255);
+		TextDrawFont(TTextDraws[17], 4);
+		TextDrawLetterSize(TTextDraws[17], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[17], 6604900);
+		TextDrawSetOutline(TTextDraws[17], 0);
+		TextDrawSetProportional(TTextDraws[17], 1);
+		TextDrawSetShadow(TTextDraws[17], 1);
+		TextDrawUseBox(TTextDraws[17], 1);
+		TextDrawBoxColor(TTextDraws[17], -16776961);
+		TextDrawTextSize(TTextDraws[17], 135.000000, 16.000000);
+		TextDrawSetSelectable(TTextDraws[17], 0);
+
+		TTextDraws[18] = TextDrawCreate(171.000000, 282.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[18], 255);
+		TextDrawFont(TTextDraws[18], 4);
+		TextDrawLetterSize(TTextDraws[18], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[18], 6604900);
+		TextDrawSetOutline(TTextDraws[18], 0);
+		TextDrawSetProportional(TTextDraws[18], 1);
+		TextDrawSetShadow(TTextDraws[18], 1);
+		TextDrawUseBox(TTextDraws[18], 1);
+		TextDrawBoxColor(TTextDraws[18], -16776961);
+		TextDrawTextSize(TTextDraws[18], 135.000000, 16.000000);
+		TextDrawSetSelectable(TTextDraws[18], 0);
+
+		TTextDraws[19] = TextDrawCreate(171.000000, 299.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[19], 255);
+		TextDrawFont(TTextDraws[19], 4);
+		TextDrawLetterSize(TTextDraws[19], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[19], 6604900);
+		TextDrawSetOutline(TTextDraws[19], 0);
+		TextDrawSetProportional(TTextDraws[19], 1);
+		TextDrawSetShadow(TTextDraws[19], 1);
+		TextDrawUseBox(TTextDraws[19], 1);
+		TextDrawBoxColor(TTextDraws[19], -16776961);
+		TextDrawTextSize(TTextDraws[19], 135.000000, 16.000000);
+		TextDrawSetSelectable(TTextDraws[19], 0);
+
+		TTextDraws[20] = TextDrawCreate(323.000000, 299.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[20], 255);
+		TextDrawFont(TTextDraws[20], 4);
+		TextDrawLetterSize(TTextDraws[20], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[20], 6604900);
+		TextDrawSetOutline(TTextDraws[20], 0);
+		TextDrawSetProportional(TTextDraws[20], 1);
+		TextDrawSetShadow(TTextDraws[20], 1);
+		TextDrawUseBox(TTextDraws[20], 1);
+		TextDrawBoxColor(TTextDraws[20], -16776961);
+		TextDrawTextSize(TTextDraws[20], 135.000000, 16.000000);
+		TextDrawSetSelectable(TTextDraws[20], 0);
+
+		TTextDraws[21] = TextDrawCreate(323.000000, 282.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[21], 255);
+		TextDrawFont(TTextDraws[21], 4);
+		TextDrawLetterSize(TTextDraws[21], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[21], 6604900);
+		TextDrawSetOutline(TTextDraws[21], 0);
+		TextDrawSetProportional(TTextDraws[21], 1);
+		TextDrawSetShadow(TTextDraws[21], 1);
+		TextDrawUseBox(TTextDraws[21], 1);
+		TextDrawBoxColor(TTextDraws[21], -16776961);
+		TextDrawTextSize(TTextDraws[21], 135.000000, 16.000000);
+		TextDrawSetSelectable(TTextDraws[21], 0);
+
+		TTextDraws[22] = TextDrawCreate(323.000000, 265.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[22], 255);
+		TextDrawFont(TTextDraws[22], 4);
+		TextDrawLetterSize(TTextDraws[22], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[22], 6604900);
+		TextDrawSetOutline(TTextDraws[22], 0);
+		TextDrawSetProportional(TTextDraws[22], 1);
+		TextDrawSetShadow(TTextDraws[22], 1);
+		TextDrawUseBox(TTextDraws[22], 1);
+		TextDrawBoxColor(TTextDraws[22], -16776961);
+		TextDrawTextSize(TTextDraws[22], 135.000000, 16.000000);
+		TextDrawSetSelectable(TTextDraws[22], 0);
+
+		TTextDraws[23] = TextDrawCreate(172.000000, 266.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[23], 255);
+		TextDrawFont(TTextDraws[23], 4);
+		TextDrawLetterSize(TTextDraws[23], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[23], 255);
+		TextDrawSetOutline(TTextDraws[23], 0);
+		TextDrawSetProportional(TTextDraws[23], 1);
+		TextDrawSetShadow(TTextDraws[23], 1);
+		TextDrawUseBox(TTextDraws[23], 1);
+		TextDrawBoxColor(TTextDraws[23], -16776961);
+		TextDrawTextSize(TTextDraws[23], 133.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[23], 0);
+
+		TTextDraws[24] = TextDrawCreate(172.000000, 283.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[24], 255);
+		TextDrawFont(TTextDraws[24], 4);
+		TextDrawLetterSize(TTextDraws[24], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[24], 255);
+		TextDrawSetOutline(TTextDraws[24], 0);
+		TextDrawSetProportional(TTextDraws[24], 1);
+		TextDrawSetShadow(TTextDraws[24], 1);
+		TextDrawUseBox(TTextDraws[24], 1);
+		TextDrawBoxColor(TTextDraws[24], -16776961);
+		TextDrawTextSize(TTextDraws[24], 133.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[24], 0);
+
+		TTextDraws[25] = TextDrawCreate(172.000000, 300.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[25], 255);
+		TextDrawFont(TTextDraws[25], 4);
+		TextDrawLetterSize(TTextDraws[25], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[25], 255);
+		TextDrawSetOutline(TTextDraws[25], 0);
+		TextDrawSetProportional(TTextDraws[25], 1);
+		TextDrawSetShadow(TTextDraws[25], 1);
+		TextDrawUseBox(TTextDraws[25], 1);
+		TextDrawBoxColor(TTextDraws[25], -16776961);
+		TextDrawTextSize(TTextDraws[25], 133.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[25], 0);
+
+		TTextDraws[26] = TextDrawCreate(324.000000, 300.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[26], 255);
+		TextDrawFont(TTextDraws[26], 4);
+		TextDrawLetterSize(TTextDraws[26], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[26], 255);
+		TextDrawSetOutline(TTextDraws[26], 0);
+		TextDrawSetProportional(TTextDraws[26], 1);
+		TextDrawSetShadow(TTextDraws[26], 1);
+		TextDrawUseBox(TTextDraws[26], 1);
+		TextDrawBoxColor(TTextDraws[26], -16776961);
+		TextDrawTextSize(TTextDraws[26], 133.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[26], 0);
+
+		TTextDraws[27] = TextDrawCreate(324.000000, 283.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[27], 255);
+		TextDrawFont(TTextDraws[27], 4);
+		TextDrawLetterSize(TTextDraws[27], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[27], 255);
+		TextDrawSetOutline(TTextDraws[27], 0);
+		TextDrawSetProportional(TTextDraws[27], 1);
+		TextDrawSetShadow(TTextDraws[27], 1);
+		TextDrawUseBox(TTextDraws[27], 1);
+		TextDrawBoxColor(TTextDraws[27], -16776961);
+		TextDrawTextSize(TTextDraws[27], 133.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[27], 0);
+
+		TTextDraws[28] = TextDrawCreate(324.000000, 266.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[28], 255);
+		TextDrawFont(TTextDraws[28], 4);
+		TextDrawLetterSize(TTextDraws[28], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[28], 255);
+		TextDrawSetOutline(TTextDraws[28], 0);
+		TextDrawSetProportional(TTextDraws[28], 1);
+		TextDrawSetShadow(TTextDraws[28], 1);
+		TextDrawUseBox(TTextDraws[28], 1);
+		TextDrawBoxColor(TTextDraws[28], -16776961);
+		TextDrawTextSize(TTextDraws[28], 133.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[28], 0);
+
+		TTextDraws[29] = TextDrawCreate(321.000000, 321.000000, "_");
+		TextDrawAlignment(TTextDraws[29], 2);
+		TextDrawBackgroundColor(TTextDraws[29], 255);
+		TextDrawFont(TTextDraws[29], 1);
+		TextDrawLetterSize(TTextDraws[29], 0.500000, -0.300000);
+		TextDrawColor(TTextDraws[29], -1);
+		TextDrawSetOutline(TTextDraws[29], 0);
+		TextDrawSetProportional(TTextDraws[29], 1);
+		TextDrawSetShadow(TTextDraws[29], 1);
+		TextDrawUseBox(TTextDraws[29], 1);
+		TextDrawBoxColor(TTextDraws[29], -56);
+		TextDrawTextSize(TTextDraws[29], 470.000000, 297.000000);
+		TextDrawSetSelectable(TTextDraws[29], 0);
+
+		TTextDraws[30] = TextDrawCreate(251.000000, 326.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[30], 255);
+		TextDrawFont(TTextDraws[30], 4);
+		TextDrawLetterSize(TTextDraws[30], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[30], 6604900);
+		TextDrawSetOutline(TTextDraws[30], 0);
+		TextDrawSetProportional(TTextDraws[30], 1);
+		TextDrawSetShadow(TTextDraws[30], 1);
+		TextDrawUseBox(TTextDraws[30], 1);
+		TextDrawBoxColor(TTextDraws[30], -16776961);
+		TextDrawTextSize(TTextDraws[30], 135.000000, 16.000000);
+		TextDrawSetSelectable(TTextDraws[30], 0);
+
+		TTextDraws[31] = TextDrawCreate(252.000000, 327.000000, "ld_spac:white");
+		TextDrawBackgroundColor(TTextDraws[31], 255);
+		TextDrawFont(TTextDraws[31], 4);
+		TextDrawLetterSize(TTextDraws[31], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[31], 255);
+		TextDrawSetOutline(TTextDraws[31], 0);
+		TextDrawSetProportional(TTextDraws[31], 1);
+		TextDrawSetShadow(TTextDraws[31], 1);
+		TextDrawUseBox(TTextDraws[31], 1);
+		TextDrawBoxColor(TTextDraws[31], -16776961);
+		TextDrawTextSize(TTextDraws[31], 133.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[31], 1);
+
+		TTextDraws[32] = TextDrawCreate(307.000000, 266.000000, "ld_beat:left");
+		TextDrawBackgroundColor(TTextDraws[32], 255);
+		TextDrawFont(TTextDraws[32], 4);
+		TextDrawLetterSize(TTextDraws[32], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[32], 6604900);
+		TextDrawSetOutline(TTextDraws[32], 0);
+		TextDrawSetProportional(TTextDraws[32], 1);
+		TextDrawSetShadow(TTextDraws[32], 1);
+		TextDrawUseBox(TTextDraws[32], 1);
+		TextDrawBoxColor(TTextDraws[32], -16776961);
+		TextDrawTextSize(TTextDraws[32], 13.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[32], 1);
+
+		TTextDraws[33] = TextDrawCreate(307.000000, 283.000000, "ld_beat:left");
+		TextDrawBackgroundColor(TTextDraws[33], 255);
+		TextDrawFont(TTextDraws[33], 4);
+		TextDrawLetterSize(TTextDraws[33], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[33], 6604900);
+		TextDrawSetOutline(TTextDraws[33], 0);
+		TextDrawSetProportional(TTextDraws[33], 1);
+		TextDrawSetShadow(TTextDraws[33], 1);
+		TextDrawUseBox(TTextDraws[33], 1);
+		TextDrawBoxColor(TTextDraws[33], -16776961);
+		TextDrawTextSize(TTextDraws[33], 13.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[33], 1);
+
+		TTextDraws[34] = TextDrawCreate(307.000000, 300.000000, "ld_beat:left");
+		TextDrawBackgroundColor(TTextDraws[34], 255);
+		TextDrawFont(TTextDraws[34], 4);
+		TextDrawLetterSize(TTextDraws[34], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[34], 6604900);
+		TextDrawSetOutline(TTextDraws[34], 0);
+		TextDrawSetProportional(TTextDraws[34], 1);
+		TextDrawSetShadow(TTextDraws[34], 1);
+		TextDrawUseBox(TTextDraws[34], 1);
+		TextDrawBoxColor(TTextDraws[34], -16776961);
+		TextDrawTextSize(TTextDraws[34], 13.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[34], 1);
+
+		TTextDraws[35] = TextDrawCreate(459.000000, 300.000000, "ld_beat:cross");
+		TextDrawBackgroundColor(TTextDraws[35], 255);
+		TextDrawFont(TTextDraws[35], 4);
+		TextDrawLetterSize(TTextDraws[35], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[35], -16776961);
+		TextDrawSetOutline(TTextDraws[35], 0);
+		TextDrawSetProportional(TTextDraws[35], 1);
+		TextDrawSetShadow(TTextDraws[35], 1);
+		TextDrawUseBox(TTextDraws[35], 1);
+		TextDrawBoxColor(TTextDraws[35], -16776961);
+		TextDrawTextSize(TTextDraws[35], 13.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[35], 0);
+
+		TTextDraws[36] = TextDrawCreate(459.000000, 283.000000, "ld_beat:cross");
+		TextDrawBackgroundColor(TTextDraws[36], 255);
+		TextDrawFont(TTextDraws[36], 4);
+		TextDrawLetterSize(TTextDraws[36], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[36], -16776961);
+		TextDrawSetOutline(TTextDraws[36], 0);
+		TextDrawSetProportional(TTextDraws[36], 1);
+		TextDrawSetShadow(TTextDraws[36], 1);
+		TextDrawUseBox(TTextDraws[36], 1);
+		TextDrawBoxColor(TTextDraws[36], -16776961);
+		TextDrawTextSize(TTextDraws[36], 13.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[36], 0);
+
+		TTextDraws[37] = TextDrawCreate(459.000000, 266.000000, "ld_beat:cross");
+		TextDrawBackgroundColor(TTextDraws[37], 255);
+		TextDrawFont(TTextDraws[37], 4);
+		TextDrawLetterSize(TTextDraws[37], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[37], -16776961);
+		TextDrawSetOutline(TTextDraws[37], 0);
+		TextDrawSetProportional(TTextDraws[37], 1);
+		TextDrawSetShadow(TTextDraws[37], 1);
+		TextDrawUseBox(TTextDraws[37], 1);
+		TextDrawBoxColor(TTextDraws[37], -16776961);
+		TextDrawTextSize(TTextDraws[37], 13.000000, 14.000000);
+		TextDrawSetSelectable(TTextDraws[37], 0);
+
+		TTextDraws[38] = TextDrawCreate(173.000000, 267.000000, "Cash:");
+		TextDrawBackgroundColor(TTextDraws[38], 255);
+		TextDrawFont(TTextDraws[38], 2);
+		TextDrawLetterSize(TTextDraws[38], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[38], -56);
+		TextDrawSetOutline(TTextDraws[38], 0);
+		TextDrawSetProportional(TTextDraws[38], 1);
+		TextDrawSetShadow(TTextDraws[38], 1);
+		TextDrawSetSelectable(TTextDraws[38], 0);
+
+		TTextDraws[39] = TextDrawCreate(173.000000, 284.000000, "Credits:");
+		TextDrawBackgroundColor(TTextDraws[39], 255);
+		TextDrawFont(TTextDraws[39], 2);
+		TextDrawLetterSize(TTextDraws[39], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[39], -56);
+		TextDrawSetOutline(TTextDraws[39], 0);
+		TextDrawSetProportional(TTextDraws[39], 1);
+		TextDrawSetShadow(TTextDraws[39], 1);
+		TextDrawSetSelectable(TTextDraws[39], 0);
+
+		TTextDraws[40] = TextDrawCreate(173.000000, 301.000000, "Vat lieu:");
+		TextDrawBackgroundColor(TTextDraws[40], 255);
+		TextDrawFont(TTextDraws[40], 2);
+		TextDrawLetterSize(TTextDraws[40], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[40], -56);
+		TextDrawSetOutline(TTextDraws[40], 0);
+		TextDrawSetProportional(TTextDraws[40], 1);
+		TextDrawSetShadow(TTextDraws[40], 1);
+		TextDrawSetSelectable(TTextDraws[40], 0);
+
+		TTextDraws[41] = TextDrawCreate(325.000000, 301.000000, "Vat lieu:");
+		TextDrawBackgroundColor(TTextDraws[41], 255);
+		TextDrawFont(TTextDraws[41], 2);
+		TextDrawLetterSize(TTextDraws[41], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[41], -56);
+		TextDrawSetOutline(TTextDraws[41], 0);
+		TextDrawSetProportional(TTextDraws[41], 1);
+		TextDrawSetShadow(TTextDraws[41], 1);
+		TextDrawSetSelectable(TTextDraws[41], 0);
+
+		TTextDraws[42] = TextDrawCreate(325.000000, 284.000000, "Credits:");
+		TextDrawBackgroundColor(TTextDraws[42], 255);
+		TextDrawFont(TTextDraws[42], 2);
+		TextDrawLetterSize(TTextDraws[42], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[42], -56);
+		TextDrawSetOutline(TTextDraws[42], 0);
+		TextDrawSetProportional(TTextDraws[42], 1);
+		TextDrawSetShadow(TTextDraws[42], 1);
+		TextDrawSetSelectable(TTextDraws[42], 0);
+
+		TTextDraws[43] = TextDrawCreate(325.000000, 267.000000, "Cash:");
+		TextDrawBackgroundColor(TTextDraws[43], 255);
+		TextDrawFont(TTextDraws[43], 2);
+		TextDrawLetterSize(TTextDraws[43], 0.230000, 1.100000);
+		TextDrawColor(TTextDraws[43], -56);
+		TextDrawSetOutline(TTextDraws[43], 0);
+		TextDrawSetProportional(TTextDraws[43], 1);
+		TextDrawSetShadow(TTextDraws[43], 1);
+		TextDrawSetSelectable(TTextDraws[43], 0);
+
+		TTextDraws[44] = TextDrawCreate(303.000000, 267.000000, "Update");
+		TextDrawAlignment(TTextDraws[44], 3);
+		TextDrawBackgroundColor(TTextDraws[44], 255);
+		TextDrawFont(TTextDraws[44], 3);
+		TextDrawLetterSize(TTextDraws[44], 0.300000, 1.100000);
+		TextDrawColor(TTextDraws[44], 13132900);
+		TextDrawSetOutline(TTextDraws[44], 0);
+		TextDrawSetProportional(TTextDraws[44], 1);
+		TextDrawSetShadow(TTextDraws[44], 1);
+		TextDrawSetSelectable(TTextDraws[44], 0);
+
+		TTextDraws[45] = TextDrawCreate(303.000000, 284.000000, "Update");
+		TextDrawAlignment(TTextDraws[45], 3);
+		TextDrawBackgroundColor(TTextDraws[45], 255);
+		TextDrawFont(TTextDraws[45], 3);
+		TextDrawLetterSize(TTextDraws[45], 0.300000, 1.100000);
+		TextDrawColor(TTextDraws[45], 13132900);
+		TextDrawSetOutline(TTextDraws[45], 0);
+		TextDrawSetProportional(TTextDraws[45], 1);
+		TextDrawSetShadow(TTextDraws[45], 1);
+		TextDrawSetSelectable(TTextDraws[45], 0);
+
+		TTextDraws[46] = TextDrawCreate(303.000000, 301.000000, "Update");
+		TextDrawAlignment(TTextDraws[46], 3);
+		TextDrawBackgroundColor(TTextDraws[46], 255);
+		TextDrawFont(TTextDraws[46], 3);
+		TextDrawLetterSize(TTextDraws[46], 0.300000, 1.100000);
+		TextDrawColor(TTextDraws[46], 13132900);
+		TextDrawSetOutline(TTextDraws[46], 0);
+		TextDrawSetProportional(TTextDraws[46], 1);
+		TextDrawSetShadow(TTextDraws[46], 1);
+		TextDrawSetSelectable(TTextDraws[46], 0);
+
+		TTextDraws[47] = TextDrawCreate(455.000000, 301.000000, "Update");
+		TextDrawAlignment(TTextDraws[47], 3);
+		TextDrawBackgroundColor(TTextDraws[47], 255);
+		TextDrawFont(TTextDraws[47], 3);
+		TextDrawLetterSize(TTextDraws[47], 0.300000, 1.100000);
+		TextDrawColor(TTextDraws[47], 13132900);
+		TextDrawSetOutline(TTextDraws[47], 0);
+		TextDrawSetProportional(TTextDraws[47], 1);
+		TextDrawSetShadow(TTextDraws[47], 1);
+		TextDrawSetSelectable(TTextDraws[47], 0);
+
+		TTextDraws[48] = TextDrawCreate(455.000000, 284.000000, "Update");
+		TextDrawAlignment(TTextDraws[48], 3);
+		TextDrawBackgroundColor(TTextDraws[48], 255);
+		TextDrawFont(TTextDraws[48], 3);
+		TextDrawLetterSize(TTextDraws[48], 0.300000, 1.100000);
+		TextDrawColor(TTextDraws[48], 13132900);
+		TextDrawSetOutline(TTextDraws[48], 0);
+		TextDrawSetProportional(TTextDraws[48], 1);
+		TextDrawSetShadow(TTextDraws[48], 1);
+		TextDrawSetSelectable(TTextDraws[48], 0);
+
+		TTextDraws[49] = TextDrawCreate(455.000000, 267.000000, "Update");
+		TextDrawAlignment(TTextDraws[49], 3);
+		TextDrawBackgroundColor(TTextDraws[49], 255);
+		TextDrawFont(TTextDraws[49], 3);
+		TextDrawLetterSize(TTextDraws[49], 0.300000, 1.100000);
+		TextDrawColor(TTextDraws[49], 13132900);
+		TextDrawSetOutline(TTextDraws[49], 0);
+		TextDrawSetProportional(TTextDraws[49], 1);
+		TextDrawSetShadow(TTextDraws[49], 1);
+		TextDrawSetSelectable(TTextDraws[49], 0);
+
+		TTextDraws[50] = TextDrawCreate(321.000000, 326.000000, "Chap nhan trao doi");
+		TextDrawAlignment(TTextDraws[50], 2);
+		TextDrawBackgroundColor(TTextDraws[50], 255);
+		TextDrawFont(TTextDraws[50], 2);
+		TextDrawLetterSize(TTextDraws[50], 0.250000, 1.500000);
+		TextDrawColor(TTextDraws[50], -56);
+		TextDrawSetOutline(TTextDraws[50], 0);
+		TextDrawSetProportional(TTextDraws[50], 1);
+		TextDrawSetShadow(TTextDraws[50], 1);
+		TextDrawSetSelectable(TTextDraws[50], 0);
+
+		TTextDraws[51] = TextDrawCreate(456.000000, 106.000000, "ld_beat:cross");
+		TextDrawBackgroundColor(TTextDraws[51], 255);
+		TextDrawFont(TTextDraws[51], 4);
+		TextDrawLetterSize(TTextDraws[51], 0.500000, 1.000000);
+		TextDrawColor(TTextDraws[51], -1);
+		TextDrawSetOutline(TTextDraws[51], 0);
+		TextDrawSetProportional(TTextDraws[51], 1);
+		TextDrawSetShadow(TTextDraws[51], 1);
+		TextDrawUseBox(TTextDraws[51], 1);
+		TextDrawBoxColor(TTextDraws[51], 255);
+		TextDrawTextSize(TTextDraws[51], 17.000000, 17.000000);
+		TextDrawSetSelectable(TTextDraws[51], 1);
+	
+	//<------------------------------------------------------------------->
+
+
+	// Trao doi phuong tien
+forward TradeTextDraws(playerid, value);
+public TradeTextDraws(playerid, value)
+{
+	if(value == 1)
+	{
+		SelectTextDraw(playerid, 6604900);
+		CheckTradeInfo(playerid);
+		for(new i=0; i <= 51; i++) TextDrawShowForPlayer(playerid, TTextDraws[i]);
+	}
+	else if(value == 2)
+	{
+	    CancelSelectTextDraw(playerid);
+	    PlayerInfo[playerid][TradeIDa] = 500;
+	    PlayerInfo[playerid][TradeID] = 500;
+	    PlayerInfo[playerid][TradeItems][0] = 0;
+	    PlayerInfo[playerid][TradeItems][1] = 0;
+	    PlayerInfo[playerid][TradeItems][2] = 0;
+	    PlayerInfo[playerid][TradeItems][3] = 0;
+	    TradeItemSelecting[playerid] = 0;
+	 	AcceptTrade[playerid] = 0;
+	 	Trading[playerid] = 0;
+		for(new i=0; i <= 51; i++) TextDrawHideForPlayer(playerid, TTextDraws[i]);
+	}
+	return 1;
+}
+

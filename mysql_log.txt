@@ -1,0 +1,18 @@
+[21:55:58] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on '127.0.0.1' (10061)
+[14:43:25] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on '127.0.0.1' (10061)
+[14:43:27] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on '127.0.0.1' (10061)
+[14:43:27] [ERROR] CMySQLQuery::Execute[NongTraiVuiVeLoad(i)] - (error #2006) MySQL server has gone away
+[14:43:27] [WARNING] CMySQLQuery::Execute[NongTraiVuiVeLoad(i)] - lost connection, reconnecting..
+[11:23:16] [ERROR] "mysql_query" - invalid connection handle (ID = 0)
+[11:23:16] [WARNING] cache_get_field_content - no active cache
+[11:24:05] [ERROR] "mysql_query" - invalid connection handle (ID = 0)
+[11:24:05] [WARNING] cache_get_field_content - no active cache
+[11:24:57] [ERROR] "mysql_query" - invalid connection handle (ID = 0)
+[11:24:57] [WARNING] cache_get_field_content - no active cache
+[11:26:27] [ERROR] "mysql_query" - invalid connection handle (ID = 0)
+[11:26:27] [WARNING] cache_get_field_content - no active cache
+[11:26:27] [WARNING] cache_get_row_count - no active cache
+[11:28:26] [ERROR] "mysql_query" - invalid connection handle (ID = 0)
+[11:28:26] [WARNING] cache_get_field_content - no active cache
+[11:28:26] [WARNING] cache_get_row_count - no active cache
+[11:29:19] [WARNING] CMySQLHandle::Create - connection already exists

@@ -1,4 +1,4 @@
-#define SERVER_GM_TEXT "V1.0 Cuoc chien tro lai" // gamemode text
+#define SERVER_GM_TEXT "V1.0 Cuoc chien tro lai"
 #pragma tabsize 0
 #pragma warning disable  217, 203, 204, 216, 219, 226, 225, 213
 #pragma disablerecursion
@@ -53,7 +53,7 @@
 // #include <Rogue-AC>
 #include <OnPlayerTeleport>
 #include <streamer>
-// #include "./includes/vongquay.pwn"
+#include "./includes/dieukiennv.pwn"
 #include "./includes/M26RP.pwn"
 #include "./includes/trangthai.pwn"
 // // #include "./includes/race.pwn"

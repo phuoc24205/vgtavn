@@ -1,4 +1,4 @@
-#define SERVER_GM_TEXT "V1.0 Cuoc chien tro lai"
+#define SERVER_GM_TEXT "V1.0 Cuoc chien tro lai" // gamemode text
 #pragma tabsize 0
 #pragma warning disable  217, 203, 204, 216, 219, 226, 225, 213
 #pragma disablerecursion

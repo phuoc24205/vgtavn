@@ -135,43 +135,43 @@ hook OnPlayerPickUpPickup(playerid, pickupid)
 			case 1:
 			{
 				GivePlayerWeapon(playerid, 35, 1);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}Bazooka {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}Bazooka {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			}
 			case 2:
 			{
 				GivePlayerWeapon(playerid, 16, 5);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhat duoc 5 qua {FFCD00}Luu dan {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhat duoc 5 qua {FFCD00}Luu dan {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			}
 			case 3:
 			{
 				GivePlayerWeapon(playerid, 24, 50);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}Desert eagle {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}Desert eagle {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			}
 			case 4:
 			{
 				GivePlayerWeapon(playerid, 31, 200);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}M4 {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}M4 {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			}
 			case 5:
 			{
 				SetPlayerHealth(playerid, 99);
 				SetPlayerArmour(playerid, 99);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhan duoc {FFCD00}FULL MAU GIAP {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhan duoc {FFCD00}FULL MAU GIAP {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			}
 			case 6:
 			{
 				GivePlayerWeapon(playerid, 25, 1000);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhan duoc 1.000 vien dan {FFCD00}Shotgun {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhan duoc 1.000 vien dan {FFCD00}Shotgun {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			}
 			case 7:
 			{
 				GivePlayerWeapon(playerid, 29, 1000);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhan duoc 1.000 vien dan {FFCD00}MP5 {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhan duoc 1.000 vien dan {FFCD00}MP5 {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			}
 			default:
 			{
 				GivePlayerWeapon(playerid, 35, 1);
-				format(string, sizeof(string), "{FF8356}CHU Y !! {F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}Bazooka {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
+				format(string, sizeof(string), "{F54D42}%s {F5F5F5}vua nhat duoc vu khi {FFCD00}Bazooka {F5F5F5}tu hop qua trong cuoc chien {FFCD00}Gian Khoan Bach Ho", GetPlayerNameEx(playerid));
 			
 			}
 		}

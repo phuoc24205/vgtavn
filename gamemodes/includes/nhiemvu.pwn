@@ -267,6 +267,20 @@ NhanNhiemVuChinh(playerid, nhiemvuid, tiendo)
 			{F54D42}Phan Thuong: {5FD068}300 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
 			, "{5FD068}Nhan", "{F5DF99}Tu choi");
 		}
+		case 28:
+		{
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 29", 
+			"{F5F5F5}Giao {F54D42}20 chuyen dau {F5F5F5}, vui long xin viec {FFCD00}Van chuyen dau\n\n\
+			{F54D42}Phan Thuong: {5FD068}1 cay Do Long Dao {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
+			, "{5FD068}Nhan", "{F5DF99}Tu choi");
+		}
+		case 29:
+		{
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 30", 
+			"{F5F5F5}Online them {F54D42}72 gio {F5F5F5} !\n\n\
+			{F54D42}Phan Thuong: {5FD068}3.000 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
+			, "{5FD068}Nhan", "{F5DF99}Tu choi");
+		}
 	}
 	
 }
@@ -528,6 +542,24 @@ DangLamNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
 			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 28", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
 		}
+		case 28:
+		{
+			format(string, sizeof(string),
+				"{F5F5F5}Giao {F54D42}20 chuyen dau {F5F5F5}, vui long xin viec {FFCD00}Van chuyen dau\n\n\
+			{F54D42}Phan Thuong: {5FD068}1 cay Do Long Dao {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH\n\n\
+			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
+				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 29", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
+		}
+		case 29:
+		{
+			format(string, sizeof(string),
+				"{F5F5F5}Online them {F54D42}72 gio {F5F5F5} !\n\n\
+			{F54D42}Phan Thuong: {5FD068}3.000 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH\n\n\
+			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
+				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 30", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
+		}
 	}
 }
 
@@ -536,6 +568,7 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 {
 	if( ((tiendo - DieuKienNhiemVu(nhiemvuid)) == 0)  )
 	{
+		new string[256];
 		switch(nhiemvuid)
 		{
 			case 0:
@@ -547,6 +580,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 1");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}$5.000 SAD {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 1:
 			{
@@ -557,6 +593,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 2");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}100 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 2:
 			{
@@ -567,6 +606,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 3");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}20.000$ SAD {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 3:
 			{
@@ -577,6 +619,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 4");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}200 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 4:
 			{
@@ -587,6 +632,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 5");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}40.000$ SAD {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 5:
 			{
@@ -597,6 +645,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 6");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 6:
 			{
@@ -607,6 +658,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 7");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1.000 Vat Lieu {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 7:
 			{
@@ -617,6 +671,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 8");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}500 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 8:
 			{
@@ -627,6 +684,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 9");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}10.000 Vat Lieu {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 9:
 			{
@@ -637,6 +697,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 10");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}100.000$ SAD {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 10:
 			{
@@ -647,6 +710,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 11");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1 cay Shotgun {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 11:
 			{
@@ -657,6 +723,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 12");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}10 Hop Com {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 12:
 			{
@@ -667,6 +736,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 13");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}20.000$ SAD {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 13:
 			{
@@ -677,6 +749,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 14");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}200 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 14:
 			{
@@ -687,6 +762,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 15");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}250 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 15:
 			{
@@ -697,6 +775,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 16");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 16:
 			{
@@ -707,6 +788,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 17");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 17:
 			{
@@ -717,6 +801,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 18");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 18:
 			{
@@ -727,6 +814,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 19");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}500 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 19:
 			{
@@ -737,6 +827,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 20");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 20:
 			{
@@ -747,6 +840,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 21");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1.200 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 21:
 			{
@@ -757,6 +853,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 22");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}100.000$ SAD {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 22:
 			{
@@ -767,6 +866,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 23");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1.500 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 23:
 			{
@@ -777,6 +879,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 24");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}500 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 24:
 			{
@@ -787,6 +892,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 25");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1 Chiec ghe Noi That {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 25:
 			{
@@ -798,6 +906,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 26");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1 Khau Sung Truong M4 {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 26:
 			{
@@ -808,6 +919,9 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 27");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1.000 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 			case 27:
 			{
@@ -818,6 +932,36 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 28");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
+			}
+			case 28:
+			{
+				if(CheckTuido(playerid, ITEM_MANHXEFLASH, 1 ) == 0) return SendClientMessageEx(playerid, COLOR_GREY, "Ban phai co it nhat 1 o tui do trong");
+				if(CheckTuido(playerid, ITEM_DOLONGDAO, 1 ) == 0) return SendClientMessageEx(playerid, COLOR_GREY, "Ban phai co it nhat 1 o tui do trong de chua M4");
+				AddItem(playerid, ITEM_MANHXEFLASH, 1);
+				AddItem(playerid, ITEM_DOLONGDAO, 1);
+				PlayerInfo[playerid][pNhiemVu]++;
+				PlayerInfo[playerid][pTienDo] = 0;
+				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 29");
+				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}1 cay Do Long Dao {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
+			}
+			case 29:
+			{
+				if(CheckTuido(playerid, ITEM_MANHXEFLASH, 1 ) == 0) return SendClientMessageEx(playerid, COLOR_GREY, "Ban phai co it nhat 1 o tui do trong");
+				AddItem(playerid, ITEM_MANHXEFLASH, 1);
+				PlayerInfo[playerid][pXP] += 3000;
+				PlayerInfo[playerid][pNhiemVu]++;
+				PlayerInfo[playerid][pTienDo] = 0;
+				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 30");
+				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}3.000 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+				format(string, sizeof(string), "Xin Chuc Mung {F54D42}%s {f5f5f5}vua hoan thanh {FFCD00}Nhiem Vu thu %i {f5f5f5}va nhan duoc nhieu phan thuong hap dan !"
+					, GetPlayerNameEx(playerid), nhiemvuid+1);
+				SendClientMessageToAll(0xf5f5f5ff, string);
 			}
 		}
 	}

@@ -545,7 +545,13 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			GivePlayerWeapon(playerid, 25, 1000);
 			GivePlayerWeapon(playerid, 44, 1);
 			GivePlayerWeapon(playerid, 16, 3);
+			SetPlayerHealth(playerid, 99);
+			SetPlayerArmour(playerid, 99);
 			new randcl = Random(1,4);
+			if(Xe_GianKhoan[playerid] != INVALID_VEHICLE_ID)
+			{
+				DestroyVehicle(Xe_GianKhoan[playerid]);
+			}
 			if(IsPlayerInRangeOfPoint(playerid, 30.0, 4437.9712,-1899.3221,2.6859) )
 			{
 				new rand = random(4);

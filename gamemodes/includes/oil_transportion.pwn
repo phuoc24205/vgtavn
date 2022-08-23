@@ -427,6 +427,7 @@ hook OnPlayerEnterCheckpoint(playerid)
 		DisablePlayerCheckpoint(playerid);
 		// AddItem(playerid, ITEM_HOTQUET, 1);
 		// SendClientMessage(playerid, COLOR_ORANGE, "Ban duoc tang 1 chiec HOT QUET.");
+		TinhToanNVChinh(playerid, 28);
 
 	}
 	return 1;

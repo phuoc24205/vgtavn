@@ -229,7 +229,7 @@ hook OnGameModeInit()
 	loadGianKhoan();
 	IdDangChiemGianKhoan = INVALID_PLAYER_ID;
 	SQLIdDangChiemGianKhoan = 0;
-	CreateDynamic3DTextLabel("{ffffff}Nhan {c97602}ENTER\n{ffffff}De dong {ff0000}Chiem Dong\n{ffff00}Gian Khoan Bach Ho", 0xFFFFFFFF, 4139.3115,-1893.2638,11.8911, 5.0);
+	CreateDynamic3DTextLabel("{ffffff}Nhan {c97602}ENTER{ffffff} hoac {c97602}F{ffffff} (tren mobile)\n{ffffff}De dong {ff0000}Chiem Dong\n{ffff00}Gian Khoan Bach Ho", 0xFFFFFFFF, 4139.3115,-1893.2638,11.8911, 5.0);
 
 	// cho lay thuyen sung
 	CreateDynamic3DTextLabel("{F5F5F5}Nhan {FF8356}ALT\n{F5F5F5}De lay {F54D42}Vu Khi {f5f5f5}va {FFCD00}Thuyen", 0xF5F5F5FF, 4437.9712,-1899.3221,2.6859, 15.0); // qua 1
@@ -497,8 +497,9 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			TogglePlayerControllable(playerid, 1);
 			GivePlayerWeapon(playerid, 29, 1000);
 			GivePlayerWeapon(playerid, 25, 1000);
-			GivePlayerWeapon(playerid, 44, 1);
 			GivePlayerWeapon(playerid, 16, 3);
+			SetPlayerHealth(playerid, 99);
+			SetPlayerArmour(playerid, 99);
 			new rand = random(42);
 			SetPlayerPos(playerid, posHS_GK[rand][0], posHS_GK[rand][1], posHS_GK[rand][2]+0.5);
 			SetPlayerFacingAngle(playerid, posHS_GK[rand][3]);
@@ -543,7 +544,6 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			ResetPlayerWeaponsEx(playerid);
 			GivePlayerWeapon(playerid, 29, 1000);
 			GivePlayerWeapon(playerid, 25, 1000);
-			GivePlayerWeapon(playerid, 44, 1);
 			GivePlayerWeapon(playerid, 16, 3);
 			SetPlayerHealth(playerid, 99);
 			SetPlayerArmour(playerid, 99);

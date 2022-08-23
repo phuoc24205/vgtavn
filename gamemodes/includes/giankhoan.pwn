@@ -533,6 +533,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			SetPlayerFacingAngle(playerid, posHS_GK[rand][3]);
 			SetPlayerInterior(playerid,0);
 			SetPlayerVirtualWorld(playerid, 0);
+			TinhToanNVChinh(playerid, 25);
 		}
 	}
 	else if(dialogid == DIALOG_NHANVUKHIGIANKHOAN)
@@ -669,7 +670,7 @@ CMD:hutdau(playerid)
 	TextDrawShowForPlayer(playerid, HutDau_TD[0]);
 	defer HutDau(playerid);
 
-
+	TinhToanNVChinh(playerid, 27);
 	// new string[256];
 	// format(string, sizeof(string), "id xe nay dang la: %d - Vehicle_ID nay dang la %d", ND_DangHutDau[Vehicle_ID], Vehicle_ID);
 	// SendClientMessage(playerid, -1, string);

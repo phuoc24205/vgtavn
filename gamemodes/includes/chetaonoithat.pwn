@@ -101,6 +101,7 @@ public LamNoiThat(playerid, itemid, price)
         ClearAnimations(playerid);
         DeletePVar(playerid, "LamNoiThatTime");
         PlayerInfo[playerid][pHanhDong] = 0;
+        TinhToanNVChinh(playerid, 24);
         new stringss[512];
         switch(itemid)
         {

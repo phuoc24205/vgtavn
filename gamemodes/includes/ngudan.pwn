@@ -66,6 +66,7 @@ timer ThaLuoi[50000](playerid) {
 		new slotid = InventoryItemCheck(playerid, ITEM_FISH, 1);
 		SetPlayerProgressBarValue(playerid, Bar_NguDan[playerid], PlayerInfo[playerid][pInvAmount][slotid]);
 		defer ThaLuoi(playerid);
+		TinhToanNVChinh(playerid, 23);
 	}
 	else if(InventoryItemCheck(playerid, ITEM_FISH, 100) != 50)
 	{

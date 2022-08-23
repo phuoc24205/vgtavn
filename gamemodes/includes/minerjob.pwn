@@ -151,6 +151,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                         {
                             SetTimerEx("ResetMoVang", 180000, 0, "i", minerid);
                         }
+                        TinhToanNVChinh(playerid, 20);
                     }
                     case 9001 .. 9989: 
                     {
@@ -163,6 +164,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                         {
                             SetTimerEx("ResetMoVang", 180000, 0, "i", minerid);
                         }
+                        TinhToanNVChinh(playerid, 20);
                     }
                     case 9990 .. 9998: 
                     {
@@ -177,6 +179,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                         {
                             SetTimerEx("ResetMoVang", 180000, 0, "i", minerid);
                         }
+                        TinhToanNVChinh(playerid, 20);
                     }
                     case 9999 ..10000: 
                     {
@@ -191,6 +194,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                         {
                             SetTimerEx("ResetMoVang", 180000, 0, "i", minerid);
                         }
+                        TinhToanNVChinh(playerid, 20);
                     }
                 }
                

@@ -322,7 +322,7 @@ public DaMaiKim2(playerid, listitem)
 		{
 			switch(rand)
 			{
-				case 0..40:
+				case 0..60:
 				{
 					new szMessage[128];
 					SendClientMessageEx(playerid, COLOR_YELLOW2, "Ban da ren luyen thanh cong cay Xeng, hay di dao kho bau nao. Tui do (H).");
@@ -337,6 +337,7 @@ public DaMaiKim2(playerid, listitem)
 					DestroyObject(CucSatRen[playerid]);
 					PlayerInfo[playerid][pDangNung] = 0;
 					AddItem(playerid, ITEM_XENG, 1);
+					TinhToanNVChinh(playerid, 21);
 				}
 				default:
 				{

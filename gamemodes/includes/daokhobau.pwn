@@ -158,6 +158,7 @@ public DaoKhoBau(playerid,daokhobauid)
         DestroyDynamicObject(DaoKhoBau_Object[daokhobauid]);
         new rand = random(300);
         new randd = random(100);
+        TinhToanNVChinh(playerid, 22);
     	switch(rand)
     	{
     		case 0..30:
@@ -168,6 +169,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_RAC, 1);
 			    Notify_Send(playerid, "+ 1 Rac", 3000);
+			    
     		}
     		case 31..50:
     		{
@@ -177,6 +179,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_GIAYVESINH, 1);
 			    Notify_Send(playerid, "+ 1 Giay Ve Sinh", 3000);
+			    
     		}
     		case 51..70:
     		{
@@ -186,6 +189,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_TAODO, 1);
 			    Notify_Send(playerid, "+ 1 Tao Do", 3000);
+			    
     		}
     		case 71..90:
     		{
@@ -195,6 +199,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_TAOXANH, 1);
 			    Notify_Send(playerid, "+ 1 Tao Xanh", 3000);
+			    
     		}
     		case 91..100:
     		{
@@ -204,6 +209,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_MUCOI, 1);
 			    Notify_Send(playerid, "Nhan duoc Chiec Mu Coi", 3000);
+			    
     		}
     		case 101..110:
     		{
@@ -213,6 +219,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_MUCAOBOI, 1);
 			    Notify_Send(playerid, "Nhan duoc Mu Cao Boi", 3000);
+			    
     		}
     		case 111.120:
     		{
@@ -222,6 +229,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_MULUOITRAI, 1);
 			    Notify_Send(playerid, "Nhac duoc Mu Luoi Trai", 3000);
+			    
     		}
     		case 121..130:
     		{
@@ -231,6 +239,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_MUDANCHOI, 1);
 			    Notify_Send(playerid, "Nhan duoc Mu Dan Choi", 3000);
+			    
     		}
     		case 131..140:
     		{
@@ -240,6 +249,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_MATNA_CJ, 1);
 			    Notify_Send(playerid, "Nhan duoc mat na CJ", 3000);
+			    
     		}
     		case 141..143:
     		{
@@ -249,6 +259,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_TUAVIT, 1);
 			    Notify_Send(playerid, "+1 Tua Vit", 5000);
+			    
     		}
     		case 144..146:
     		{
@@ -258,6 +269,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_BOMKHOI, 1);
 			    Notify_Send(playerid, "+ 1 Qua Bom Khoi", 3000);
+			    
     		}
     		case 147..170:
     		{
@@ -267,6 +279,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_THUNGGO, 1);
 			    Notify_Send(playerid, "+ 1 Go~", 3000);
+			    
     		}
     		case 171..173:
     		{
@@ -276,6 +289,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_CUCTIEN, 1);
 			    Notify_Send(playerid, "+ 1 Cuc Tien", 3000);
+			    
     		}
     		case 174..178:
     		{
@@ -285,6 +299,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_MICRO, 1);
 			    Notify_Send(playerid, "+ 1 Micro", 3000);
+			    
     		}
     		case 179:
     		{
@@ -295,6 +310,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    SendClientMessageToAll(COLOR_YELLOW,szMessage);
 			    AddItem(playerid, ITEM_DOLONGDAO, 1);
 			    Notify_Send(playerid, "Nhan duoc {ff0000}Do Long Dao", 3000);
+			    
     		}
     		case 180..182:
     		{
@@ -305,6 +321,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    SendClientMessageToAll(COLOR_YELLOW,szMessage);
 			    AddItem(playerid, ITEM_BINHHOIPHUC, 1);
 			    Notify_Send(playerid, "Nhan duoc {ffff00}Binh Hoi Phuc", 3000);
+			    
     		}
     		case 183:
     		{
@@ -315,6 +332,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    SendClientMessageToAll(COLOR_YELLOW,szMessage);
 			    AddItem(playerid, ITEM_KHOBAU, 1);
 			    Notify_Send(playerid, "Da nhan duoc {ffff00}Hop Kho Bau", 3000);
+			    
     		}
     		default:
     		{
@@ -324,6 +342,7 @@ public DaoKhoBau(playerid,daokhobauid)
 			    ProxDetector(80.0, playerid, szMessage, COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE,COLOR_PURPLE);
 			    AddItem(playerid, ITEM_RAC, 1);
 			    Notify_Send(playerid, "+ 1 Rac", 3000);
+			    
     		}
     	}
     	switch(randd)

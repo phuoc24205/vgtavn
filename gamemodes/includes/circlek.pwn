@@ -75,6 +75,7 @@ Store:CircleK_Shop(playerid, response, itemid, modelid, price, amount, itemname[
             PlayerInfo[playerid][pCash] -= price;
             format(stringss, sizeof(stringss), "{ffff00}[CIRCLE K] Ban vua mua {ff335c}%d {ffff00}hop {ff335c}COM HOP {ffff00}voi gia {ff335c}%s{ffff00}).",amount, number_format(price));
             SendClientMessageEx(playerid, COLOR_YELLOW, stringss);
+            TinhToanNVChinh(playerid, 13);
             return 1;
         }
         case 8:

@@ -12,9 +12,13 @@ stock DieuKienNhiemVu(nhiemvuid)
 		case 7: return 11;
 		case 8: return 21;
 		case 9: return 2;
-		case 10: return 101;
+		case 10: return 21;
 		case 11: return 6;
 		case 12: return 11;
+		case 13: return 11;
+		case 14: return 11;
+		case 15: return 2;
+		case 16: return 101;
 	}
 	return 50;
 }

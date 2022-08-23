@@ -144,7 +144,7 @@ NhanNhiemVuChinh(playerid, nhiemvuid, tiendo)
 		case 10:
 		{
 			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 11", 
-			"{F5F5F5}Do {F54D42}100 bao RAC {F5F5F5}, vui long di xin viec {FFCD00}Don Rac\n\n\
+			"{F5F5F5}Do Rac {F54D42}20 lan {F5F5F5}, vui long di xin viec {FFCD00}Don Rac\n\n\
 			{F54D42}Phan Thuong: {5FD068}1 cay Shotgun {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
 			, "{5FD068}Nhan", "{F5DF99}Tu choi");
 		}
@@ -160,6 +160,34 @@ NhanNhiemVuChinh(playerid, nhiemvuid, tiendo)
 			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 13", 
 			"{F5F5F5}Mua {F54D42}10 Hop Nuoc Cam {F5F5F5}, vui long di tap hoa {FFCD00}Circle K\n\n\
 			{F54D42}Phan Thuong: {5FD068}20.000$ SAD {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
+			, "{5FD068}Nhan", "{F5DF99}Tu choi");
+		}
+		case 13:
+		{
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 14", 
+			"{F5F5F5}Mua {F54D42}10 Com Hop {F5F5F5}, vui long di tap hoa {FFCD00}Circle K\n\n\
+			{F54D42}Phan Thuong: {5FD068}200 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
+			, "{5FD068}Nhan", "{F5DF99}Tu choi");
+		}
+		case 14:
+		{
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 15", 
+			"{F5F5F5}Mua {F54D42}10 Phieu An {F5F5F5}, vui long tim duong den {FFCD00}Quan An\n\n\
+			{F54D42}Phan Thuong: {5FD068}250 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
+			, "{5FD068}Nhan", "{F5DF99}Tu choi");
+		}
+		case 15:
+		{
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 16", 
+			"{F5F5F5}Mua {F54D42}Bao Hiem (Benh vien Bat Ki) {F5F5F5}, vui long tim duong den {FFCD00}Benh Vien\n\n\
+			{F54D42}Phan Thuong: {5FD068}300 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
+			, "{5FD068}Nhan", "{F5DF99}Tu choi");
+		}
+		case 16:
+		{
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU, DIALOG_STYLE_MSGBOX, "{FFCD00}Nhiem Vu 16", 
+			"{F5F5F5}Cau {F54D42}100 con Ca {F5F5F5}, vui long an vao Xin Viec {FFCD00}Cau Ca\n\n\
+			{F54D42}Phan Thuong: {5FD068}300 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH"
 			, "{5FD068}Nhan", "{F5DF99}Tu choi");
 		}
 	}
@@ -264,7 +292,7 @@ DangLamNhiemVuChinh(playerid, nhiemvuid, tiendo)
 		case 10:
 		{
 			format(string, sizeof(string),
-				"{F5F5F5}Do {F54D42}100 bao RAC {F5F5F5}, vui long di xin viec {FFCD00}Don Rac\n\n\
+				"{F5F5F5}Do RAC {F54D42}20 lan {F5F5F5}, vui long di xin viec {FFCD00}Don Rac\n\n\
 			{F54D42}Phan Thuong: {5FD068}1 cay Shotgun {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH\n\n\
 			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
 				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
@@ -287,6 +315,42 @@ DangLamNhiemVuChinh(playerid, nhiemvuid, tiendo)
 			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
 				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
 			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 13", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
+		}
+		case 13:
+		{
+			format(string, sizeof(string),
+				"{F5F5F5}Mua {F54D42}10 Com Hop {F5F5F5}, vui long di tap hoa {FFCD00}Circle K\n\n\
+			{F54D42}Phan Thuong: {5FD068}200 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH\n\n\
+			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
+				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 14", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
+		}
+		case 14:
+		{
+			format(string, sizeof(string),
+				"{F5F5F5}Mua {F54D42}10 Phieu An {F5F5F5}, vui long tim duong den {FFCD00}Quan An\n\n\
+			{F54D42}Phan Thuong: {5FD068}250 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH\n\n\
+			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
+				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 15", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
+		}
+		case 15:
+		{
+			format(string, sizeof(string),
+				"{F5F5F5}Mua {F54D42}Bao Hiem (Benh vien Bat Ki) {F5F5F5}, vui long tim duong den {FFCD00}Benh Vien\n\n\
+			{F54D42}Phan Thuong: {5FD068}300 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH\n\n\
+			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
+				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 16", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
+		}
+		case 16:
+		{
+			format(string, sizeof(string),
+				"{F5F5F5}Cau {F54D42}100 con Ca {F5F5F5}, vui long an vao Xin Viec {FFCD00}Cau Ca\n\n\
+			{F54D42}Phan Thuong: {5FD068}300 XP {F5F5F5}va 1 Manh {FF8356}Sieu Xe FLASH\n\n\
+			{F54D42}Tien do dang hoan thanh: {FFCD00}%i{F5F5F5}/{FF8356}%i\n\n"
+				, tiendo-1,DieuKienNhiemVu(nhiemvuid)-1);
+			ShowPlayerDialog(playerid, DIALOG_NHIEMVU2, DIALOG_STYLE_MSGBOX,"{FFCD00}Nhiem Vu 17", string, "{5FD068}Nhan thuong", "{F5DF99}Tu choi");
 		}
 
 	}
@@ -428,6 +492,46 @@ NhanThuongNhiemVuChinh(playerid, nhiemvuid, tiendo)
 				PlayerInfo[playerid][pTienDo] = 0;
 				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 13");
 				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}20.000$ SAD {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+			}
+			case 13:
+			{
+				if(CheckTuido(playerid, ITEM_MANHXEFLASH, 1 ) == 0) return SendClientMessageEx(playerid, COLOR_GREY, "Ban phai co it nhat 1 o tui do trong");
+				AddItem(playerid, ITEM_MANHXEFLASH, 1);
+				PlayerInfo[playerid][pXP] += 200;
+				PlayerInfo[playerid][pNhiemVu]++;
+				PlayerInfo[playerid][pTienDo] = 0;
+				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 14");
+				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}200 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+			}
+			case 14:
+			{
+				if(CheckTuido(playerid, ITEM_MANHXEFLASH, 1 ) == 0) return SendClientMessageEx(playerid, COLOR_GREY, "Ban phai co it nhat 1 o tui do trong");
+				AddItem(playerid, ITEM_MANHXEFLASH, 1);
+				PlayerInfo[playerid][pXP] += 250;
+				PlayerInfo[playerid][pNhiemVu]++;
+				PlayerInfo[playerid][pTienDo] = 0;
+				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 15");
+				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}250 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+			}
+			case 15:
+			{
+				if(CheckTuido(playerid, ITEM_MANHXEFLASH, 1 ) == 0) return SendClientMessageEx(playerid, COLOR_GREY, "Ban phai co it nhat 1 o tui do trong");
+				AddItem(playerid, ITEM_MANHXEFLASH, 1);
+				PlayerInfo[playerid][pXP] += 300;
+				PlayerInfo[playerid][pNhiemVu]++;
+				PlayerInfo[playerid][pTienDo] = 0;
+				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 16");
+				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
+			}
+			case 16:
+			{
+				if(CheckTuido(playerid, ITEM_MANHXEFLASH, 1 ) == 0) return SendClientMessageEx(playerid, COLOR_GREY, "Ban phai co it nhat 1 o tui do trong");
+				AddItem(playerid, ITEM_MANHXEFLASH, 1);
+				PlayerInfo[playerid][pXP] += 300;
+				PlayerInfo[playerid][pNhiemVu]++;
+				PlayerInfo[playerid][pTienDo] = 0;
+				SendClientMessage(playerid, 0xf5f5f5ff, "Chuc mung ban vua hoan thanh {FFCD00}Nhiem Vu 17");
+				SendClientMessage(playerid, 0xf5f5f5ff, "Ban nhan duoc {5FD068}300 XP {f5f5f5}va 1 manh {FF8356}Sieu xe Flash");
 			}
 		}
 	}

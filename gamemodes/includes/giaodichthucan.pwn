@@ -512,6 +512,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				return SendClientMessage(playerid, COLOR_GREY, "Ban khong du tien de mua phieu thuc an.");
 			}
 			// Notify_Send(playerid, "+1 Phieu Thuc An", 1000);
+			TinhToanNVChinh(playerid, 14);
 			AddItem(playerid, ITEM_PHIEUAN, 1);
 			new string[256];
 			format(string,sizeof(string),"Ban da nhan duoc 1 phieu thuc an voi gia $%s, di nhan thuc an nao.", number_format(giaphieu_quanan));

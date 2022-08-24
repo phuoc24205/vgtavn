@@ -39106,3 +39106,2315 @@ Ten gang: Something You Need Inc.
 [21:47:49] [dbg:raknet:free] : module released
 [21:47:49] [sv:dbg:network:free] : module releasing...
 [21:47:49] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:50:12] password = ""  (string)
+[16:50:12] 
+[16:50:12] Server Plugins
+[16:50:12] --------------
+[16:50:12]  Loading plugin: crashdetect
+[16:50:12]   CrashDetect plugin 4.19.1
+[16:50:12]   Loaded.
+[16:50:12]  Loading plugin: streamer
+[16:50:12] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[16:50:12]   Loaded.
+[16:50:12]  Loading plugin: mysql
+[16:50:13]  >> plugin.mysql: R33 successfully loaded.
+[16:50:13]   Loaded.
+[16:50:13]  Loading plugin: sscanf
+[16:50:13] 
+
+[16:50:13]  ===============================
+
+[16:50:13]       sscanf plugin loaded.     
+
+[16:50:13]          Version:  2.8.3        
+
+[16:50:13]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:50:13]  ===============================
+
+[16:50:13]   Loaded.
+[16:50:13]  Loading plugin: Whirlpool
+[16:50:13]  
+[16:50:13]  ==================
+[16:50:13]  
+[16:50:13]   Whirlpool loaded
+[16:50:13]  
+[16:50:13]  ==================
+[16:50:13]  
+[16:50:13]   Loaded.
+[16:50:13]  Loading plugin: samp-compat
+[16:50:13]   -- samp-compat for 0.3.7-R2 initialized
+[16:50:13]   Loaded.
+[16:50:13]  Loading plugin: sampvoice
+[16:50:13] [sv:dbg:network:init] : module initializing...
+[16:50:13] [dbg:raknet:init] : module initializing...
+[16:50:13] [dbg:raknet:init] : module initialized
+[16:50:13] [sv:dbg:network:init] : module initialized
+[16:50:13] [sv:dbg:main:Load] : creating 4 work threads...
+[16:50:13]  -------------------------------------------    
+[16:50:13]    ___                __   __    _              
+[16:50:13]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[16:50:13]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[16:50:13]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[16:50:13]                   |_|                           
+[16:50:13]  -------------------------------------------    
+[16:50:13]            SampVoice by MOR loaded              
+[16:50:13]  -------------------------------------------    
+[16:50:13]   Loaded.
+[16:50:13]  Loaded 7 plugins.
+
+[16:50:13] 
+[16:50:13] Ban list
+[16:50:13] --------
+[16:50:13]  Loaded: samp.ban
+[16:50:13] 
+[16:50:13] 
+[16:50:13] Filterscripts
+[16:50:13] ---------------
+[16:50:13]   Loading filterscript 'speedcap.amx'...
+[16:50:13] [sv:dbg:main:AmxLoad] : net game pointer (value:006E9C80) received
+[16:50:13] [sv:dbg:network:bind] : voice server running on port 59729
+[16:50:13]   Loading filterscript 'BanVaoChan1.amx'...
+[16:50:13]   Loading filterscript 'antinoreload.amx'...
+[16:50:13]   Loading filterscript 'anticbug.amx'...
+[16:50:13]   Loading filterscript 'bolua.amx'...
+[16:50:13]   Loading filterscript 'android-check.amx'...
+[16:50:13] Android check has been successfully loaded.
+[16:50:13]   Loaded 6 filterscripts.
+
+[16:50:13]  
+[16:50:13] --------------------------------------
+[16:50:13]  Anticheat Nex-AC da duoc tai!
+[16:50:13]  Phien ban Anticheat: 1.9.56
+[16:50:13]  Tac gia: Nexius
+[16:50:13] --------------------------------------
+
+[16:50:13]  
+[16:50:13]  ======================================= 
+[16:50:13]  |                                     | 
+[16:50:13]  |        YSI version 3.01.0002        | 
+[16:50:13]  |        By Alex "Y_Less" Cole        | 
+[16:50:13]  |                                     | 
+[16:50:13]  ======================================= 
+[16:50:13]  
+[16:50:14] 
+-----------------------------------------------------------------
+[16:50:14] Chuc nang do xe Mobile / PC da hoat dong
+[16:50:14] -----------------------------------------------------------------
+
+[16:50:14] da chay den day nong trai vui ve
+[16:50:14] [sv:dbg:pawn:SvDebug] : mode(1)
+[16:50:14] [sv:dbg:pawn:SvCreateGStream] : color(0xffff0000), name(Global) : return(0E1CEDC8)
+[16:50:14] Dang chuan bi tai gamemode, xin vui long cho doi...
+[16:50:14] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[16:50:14] [MySQL] (MainPipeline) Connection successful toward MySQL Database Server!
+[16:50:14] Bai toan cho 10000$ neu ai tra loi dung --> 24 + 87 - 78 + 21 = ?
+[16:50:14] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[16:50:14] [LoadHouses] Loading data from database...
+[16:50:14] [Dynamic Groups] Loading Dynamic Groups...
+[16:50:14] [LoadDynamicGroups] Loading data from database...
+[16:50:14] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[16:50:14] [LoadDynamicGroupVeh] Loading data from database...
+[16:50:14] [LoadGates] Loading data from database...
+[16:50:14] [LoadDynamicDoors] Loading data from database...
+[16:50:14] [LoadDynamicMapIcons] Loading data from database...
+[16:50:14] [LoadMailboxes] Loading data from database...
+[16:50:14] [LoadBusinesses] Loading data from database...
+[16:50:14] [LoadAuctions] Loading data from database...
+[16:50:14] [LoadTxtLabels] Loading data from database...
+[16:50:14] [LoadPlants] Loading data from database...
+[16:50:14] [SpeedCameras] Loading data from database...
+[16:50:14] [LoadPayNSprays] Loading data from database...
+[16:50:14] [LoadArrestPoints] Loading data from database...
+[16:50:14] [LoadImpoundPoints] Loading data from database...
+[16:50:14] [LoadRelayForLifeTeams] Loading data from database...
+[16:50:14] [LoadBusinessSales] Loading data from database...
+[16:50:14] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[16:50:14] [LoadTurfWars] 65 turfs loaded.
+[16:50:14] [LoadPaintballArenas] 10 paintball arenas loaded.
+[16:50:14] [LoadEventPoints] 0 event points loaded.
+[16:50:14] [LoadElevatorStuff] 20 floors loaded.
+[16:50:14] [LoadFamilies] Loading data from database...
+[16:50:14] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[16:50:14] [MiscLoad] Misc Loaded
+[16:50:14] Resetting news...
+[16:50:14] Resetting default server variables..
+[16:50:14] Adjusted the server time...
+[16:50:14] [Textdraws] Loading Textdraws...
+[16:50:14] [Textdraws] Loaded textdraws.
+[16:50:14] Da load het Can Sa
+[16:50:14] [Streamer] Loading Dynamic Static Vehicles...
+[16:50:14] [Streamer] Dynamic Static Vehicles has been loaded.
+[16:50:14] [Streamer] Loading Dynamic Pickups...
+[16:50:14] [Streamer] Dynamic Pickups has been loaded.
+[16:50:14] [Streamer] Loading 3D Text Labels...
+[16:50:14] [Streamer] Dynamic 3D Text Labels has been loaded.
+[16:50:14] [Streamer] Loading Dynamic Buttons...
+[16:50:14] [Streamer] Dynamic Buttons has been loaded.
+[16:50:14] [Streamer] Loading Dynamic Objects...
+[16:50:14] [Streamer] Dynamic Objects has been loaded.
+[16:50:15] 
+---------------------------------------------------------------------------
+[16:50:15] Gamemode VGTA SAMP Roleplay da tai thanh cong voi phien ban V1.0 Cuoc chien tro lai
+[16:50:15] ---------------------------------------------------------------------------
+[16:50:15] Number of vehicle models: 14
+[16:50:15]  
+[16:50:15]  
+[16:50:15] ==========================
+[16:50:15] [NONG TRAI VUI VE] Load du lieu thanh cong !
+[16:50:15] ==========================
+[16:50:15] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[16:50:15] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:50:15] Dumping query from 2022/8/24 (16:50:15)
+Description: Table 'samp.bitcoin' doesn't exist (index 0). Query:
+
+[16:50:15] select * from `bitcoin`
+[16:50:15] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[16:50:15] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:50:15] Dumping query from 2022/8/24 (16:50:15)
+Description: Table 'samp.giankhoan' doesn't exist (index 0). Query:
+
+[16:50:15] select * from `giankhoan` where `idgiankhoan` = '1'
+[16:50:15] [Dynamic Giftbox] da tai thanh cong Dynamic giftbox.
+[16:50:15] [LoadHouses] 3000 ngoi nha duoc tai.
+[16:50:15] [LoadDynamicDoors] 3000 door duoc tai.
+[16:50:15] [LoadDynamicMapIcons] 400 icons map duoc tai.
+[16:50:15] [LoadMailboxes] 50 mailboxes duoc tai.
+[16:50:15] [LoadBusinesses] 200 businesses rehashed/loaded.
+[16:50:15] [LoadPlants] Successfully loaded 300 plants
+[16:50:15] [SpeedCameras] Tai 17 May ban toc do.
+[16:50:15] [LoadRelayForLifeTeams] 200 teams loaded.
+[16:50:15] TotalSold0: 0 | AmountMade0: 0
+[16:50:15] TotalSold1: 0 | AmountMade1: 0
+[16:50:15] TotalSold2: 0 | AmountMade2: 0
+[16:50:15] TotalSold3: 0 | AmountMade3: 0
+[16:50:15] TotalSold4: 0 | AmountMade4: 0
+[16:50:15] TotalSold5: 0 | AmountMade5: 0
+[16:50:15] TotalSold6: 0 | AmountMade6: 0
+[16:50:15] TotalSold7: 0 | AmountMade7: 0
+[16:50:15] TotalSold8: 0 | AmountMade8: 0
+[16:50:15] TotalSold9: 0 | AmountMade9: 0
+[16:50:15] TotalSold10: 0 | AmountMade10: 0
+[16:50:15] TotalSold11: 0 | AmountMade11: 0
+[16:50:15] TotalSold12: 0 | AmountMade12: 0
+[16:50:15] TotalSold13: 0 | AmountMade13: 0
+[16:50:15] TotalSold14: 0 | AmountMade14: 0
+[16:50:15] TotalSold15: 0 | AmountMade15: 0
+[16:50:15] TotalSold16: 0 | AmountMade16: 0
+[16:50:15] TotalSold17: 0 | AmountMade17: 0
+[16:50:15] TotalSold18: 0 | AmountMade18: 0
+[16:50:15] TotalSold19: 0 | AmountMade19: 0
+[16:50:15] TotalSold20: 0 | AmountMade20: 0
+[16:50:15] TotalSold21: 0 | AmountMade21: 0
+[16:50:15] TotalSold22: 0 | AmountMade22: 0
+[16:50:15] TotalSold23: 0 | AmountMade23: 0
+[16:50:15] TotalSold24: 0 | AmountMade24: 0
+[16:50:15] TotalSold25: 0 | AmountMade25: 0
+[16:50:15] TotalSold26: 0 | AmountMade26: 0
+[16:50:15] TotalSold27: 0 | AmountMade27: 0
+[16:50:15] TotalSold28: 0 | AmountMade28: 0
+[16:50:15] TotalSold29: 0 | AmountMade29: 0
+[16:50:15] Price0: 1000
+[16:50:15] Price1: 199
+[16:50:15] Price2: 180
+[16:50:15] Price3: 80
+[16:50:15] Price4: 100
+[16:50:15] Price5: 300
+[16:50:15] Price6: 250
+[16:50:15] Price7: 100
+[16:50:15] Price8: 25
+[16:50:15] Price9: 80
+[16:50:15] Price10: 25
+[16:50:15] Price11: 150
+[16:50:15] Price12: 200
+[16:50:15] Price13: 300
+[16:50:15] Price14: 299
+[16:50:15] Price15: 100
+[16:50:15] Price16: 60
+[16:50:15] Price17: 50
+[16:50:15] Price18: 2
+[16:50:15] Price19: 4
+[16:50:15] Price20: 11
+[16:50:15] Price21: 10000
+[16:50:15] Price22: 50
+[16:50:15] Price23: 149
+[16:50:15] Price24: 2
+[16:50:15] Price25: 300
+[16:50:15] Price26: 400
+[16:50:15] Price27: 500
+[16:50:15] Price28: 100
+[16:50:15] Price29: 29
+[16:50:15] [Family Points] 8 family points has been loaded.
+[16:50:15] chay thanh cong
+[16:50:15] da chay vo day
+[16:50:15] NULL
+[16:50:15] 0
+[16:50:15] 0
+[16:50:15] 0
+[16:50:15] 0
+[16:50:15] 0
+[16:50:15] [Bui doi cho ca] Duyet du lieu cho ca thanh cong
+[16:50:15] NULL
+[16:50:15] 0
+[16:50:15] Loi
+[16:50:15] Loi
+[16:50:15] lOI KHONG LOAD DUOC DANH SACH XE
+[16:50:15] lOI KHONG LOAD DUOC kho xe shop
+[16:50:15] Loi load tiem vang
+[16:50:53] [connection] 127.0.0.1:58469 requests connection cookie.
+[16:50:53] [connection] incoming connection: 127.0.0.1:58469 id: 0
+[16:50:53] [join] Sion_Ds has joined the server (0:127.0.0.1)
+[16:50:53] [sv:dbg:pawn:SvGetVersion] : playerid(0) : return(0)
+[16:50:59] Sion Ds has logged in.
+[16:50:59] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[16:51:22] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[16:53:36] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[16:53:36] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:53:36] Dumping query from 2022/8/24 (16:53:36)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[16:53:36] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=0,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=20000,`Bank`=30000,`Urani`=0,`pHealth`='50.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=29,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=139,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1`=0,
+[16:53:36] `Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=139,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0,`Gun7`=0 WHERE `id`=3
+[16:53:36] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[16:53:36] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:53:36] Dumping query from 2022/8/24 (16:53:36)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[16:53:36] UPDATE `accounts` SET `Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=2,`NVNhanthuong`=0,`SkinKatana`
+[16:53:36] =0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6880,`Dry`=3540,`Sleep`=7140,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=2,`DaSuDungLD`=1,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=0,`pInvAmount0`=0,`pInv1`=50015,`pInvAmount1`=1,`pInv2`=50024,`pInvAmount2`=1,`pInv3`=50026,`pInvAmount3`=1,`pInv4`=50028,`pInvAmount4`=1,`pInv5`=50029,`pInvAmount5`=2,`pInv6`=50030,`pInvAmount6`=1,`pInv7`=50022,`pInvAmount7`=2,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[16:53:36] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[16:53:36] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:53:36] Dumping query from 2022/8/24 (16:53:36)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[16:53:36] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[16:53:36] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[16:53:36] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[16:53:36] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:53:36] Dumping query from 2022/8/24 (16:53:36)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[16:53:36] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=0,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=20000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=29,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=139,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1`=0,
+[16:53:36] `Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=139,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0,`Gun7`=0 WHERE `id`=3
+[16:53:36] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[16:53:36] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:53:36] Dumping query from 2022/8/24 (16:53:36)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[16:53:36] UPDATE `accounts` SET `Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=2,`NVNhanthuong`=0,`SkinKatana`
+[16:53:36] =0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6880,`Dry`=3540,`Sleep`=7140,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=2,`DaSuDungLD`=1,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=0,`pInvAmount0`=0,`pInv1`=50015,`pInvAmount1`=1,`pInv2`=50024,`pInvAmount2`=1,`pInv3`=50026,`pInvAmount3`=1,`pInv4`=50028,`pInvAmount4`=1,`pInv5`=50029,`pInvAmount5`=2,`pInv6`=50030,`pInvAmount6`=1,`pInv7`=50022,`pInvAmount7`=2,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[16:53:36] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[16:53:36] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:53:36] Dumping query from 2022/8/24 (16:53:36)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[16:53:36] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[16:53:36] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[16:54:50]  -------------------------------------------
+[16:54:50]            SampVoice unloading...           
+[16:54:50]  -------------------------------------------
+[16:54:50] [dbg:raknet:free] : module releasing...
+[16:54:50] [dbg:raknet:free] : module released
+[16:54:50] [sv:dbg:network:free] : module releasing...
+[16:54:50] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:54:54] password = ""  (string)
+[16:54:54] 
+[16:54:54] Server Plugins
+[16:54:54] --------------
+[16:54:54]  Loading plugin: crashdetect
+[16:54:54]   CrashDetect plugin 4.19.1
+[16:54:54]   Loaded.
+[16:54:54]  Loading plugin: streamer
+[16:54:54] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[16:54:54]   Loaded.
+[16:54:54]  Loading plugin: mysql
+[16:54:54]  >> plugin.mysql: R33 successfully loaded.
+[16:54:54]   Loaded.
+[16:54:54]  Loading plugin: sscanf
+[16:54:54] 
+
+[16:54:54]  ===============================
+
+[16:54:54]       sscanf plugin loaded.     
+
+[16:54:54]          Version:  2.8.3        
+
+[16:54:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:54:54]  ===============================
+
+[16:54:54]   Loaded.
+[16:54:54]  Loading plugin: Whirlpool
+[16:54:54]  
+[16:54:54]  ==================
+[16:54:54]  
+[16:54:54]   Whirlpool loaded
+[16:54:54]  
+[16:54:54]  ==================
+[16:54:54]  
+[16:54:54]   Loaded.
+[16:54:54]  Loading plugin: samp-compat
+[16:54:54]   -- samp-compat for 0.3.7-R2 initialized
+[16:54:54]   Loaded.
+[16:54:54]  Loading plugin: sampvoice
+[16:54:54] [sv:dbg:network:init] : module initializing...
+[16:54:54] [dbg:raknet:init] : module initializing...
+[16:54:54] [dbg:raknet:init] : module initialized
+[16:54:54] [sv:dbg:network:init] : module initialized
+[16:54:54] [sv:dbg:main:Load] : creating 4 work threads...
+[16:54:54]  -------------------------------------------    
+[16:54:54]    ___                __   __    _              
+[16:54:54]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[16:54:54]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[16:54:54]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[16:54:54]                   |_|                           
+[16:54:54]  -------------------------------------------    
+[16:54:54]            SampVoice by MOR loaded              
+[16:54:54]  -------------------------------------------    
+[16:54:54]   Loaded.
+[16:54:54]  Loaded 7 plugins.
+
+[16:54:54] 
+[16:54:54] Ban list
+[16:54:54] --------
+[16:54:54]  Loaded: samp.ban
+[16:54:54] 
+[16:54:54] 
+[16:54:54] Filterscripts
+[16:54:54] ---------------
+[16:54:54]   Loading filterscript 'speedcap.amx'...
+[16:54:54] [sv:dbg:main:AmxLoad] : net game pointer (value:02279C58) received
+[16:54:54] [sv:dbg:network:bind] : voice server running on port 51508
+[16:54:54]   Loading filterscript 'BanVaoChan1.amx'...
+[16:54:54]   Loading filterscript 'antinoreload.amx'...
+[16:54:54]   Loading filterscript 'anticbug.amx'...
+[16:54:54]   Loading filterscript 'bolua.amx'...
+[16:54:54]   Loading filterscript 'android-check.amx'...
+[16:54:54] Android check has been successfully loaded.
+[16:54:54]   Loaded 6 filterscripts.
+
+[16:54:55]  
+[16:54:55] --------------------------------------
+[16:54:55]  Anticheat Nex-AC da duoc tai!
+[16:54:55]  Phien ban Anticheat: 1.9.56
+[16:54:55]  Tac gia: Nexius
+[16:54:55] --------------------------------------
+
+[16:54:55]  
+[16:54:55]  ======================================= 
+[16:54:55]  |                                     | 
+[16:54:55]  |        YSI version 3.01.0002        | 
+[16:54:55]  |        By Alex "Y_Less" Cole        | 
+[16:54:55]  |                                     | 
+[16:54:55]  ======================================= 
+[16:54:55]  
+[16:54:55] 
+-----------------------------------------------------------------
+[16:54:55] Chuc nang do xe Mobile / PC da hoat dong
+[16:54:55] -----------------------------------------------------------------
+
+[16:54:55] da chay den day nong trai vui ve
+[16:54:55] [sv:dbg:pawn:SvDebug] : mode(1)
+[16:54:55] [sv:dbg:pawn:SvCreateGStream] : color(0xffff0000), name(Global) : return(0E19A1E8)
+[16:54:55] Dang chuan bi tai gamemode, xin vui long cho doi...
+[16:54:55] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[16:54:55] [MySQL] (MainPipeline) Connection successful toward MySQL Database Server!
+[16:54:55] Bai toan cho 10000$ neu ai tra loi dung --> 26 + 32 - 43 + 77 = ?
+[16:54:55] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[16:54:55] [LoadHouses] Loading data from database...
+[16:54:55] [Dynamic Groups] Loading Dynamic Groups...
+[16:54:55] [LoadDynamicGroups] Loading data from database...
+[16:54:55] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[16:54:55] [LoadDynamicGroupVeh] Loading data from database...
+[16:54:55] [LoadGates] Loading data from database...
+[16:54:55] [LoadDynamicDoors] Loading data from database...
+[16:54:55] [LoadDynamicMapIcons] Loading data from database...
+[16:54:55] [LoadMailboxes] Loading data from database...
+[16:54:55] [LoadBusinesses] Loading data from database...
+[16:54:55] [LoadAuctions] Loading data from database...
+[16:54:55] [LoadTxtLabels] Loading data from database...
+[16:54:55] [LoadPlants] Loading data from database...
+[16:54:55] [SpeedCameras] Loading data from database...
+[16:54:55] [LoadPayNSprays] Loading data from database...
+[16:54:55] [LoadArrestPoints] Loading data from database...
+[16:54:55] [LoadImpoundPoints] Loading data from database...
+[16:54:55] [LoadRelayForLifeTeams] Loading data from database...
+[16:54:55] [LoadBusinessSales] Loading data from database...
+[16:54:55] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[16:54:55] [LoadTurfWars] 65 turfs loaded.
+[16:54:55] [LoadPaintballArenas] 10 paintball arenas loaded.
+[16:54:55] [LoadEventPoints] 0 event points loaded.
+[16:54:55] [LoadElevatorStuff] 20 floors loaded.
+[16:54:55] [LoadFamilies] Loading data from database...
+[16:54:55] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[16:54:55] [MiscLoad] Misc Loaded
+[16:54:55] Resetting news...
+[16:54:55] Resetting default server variables..
+[16:54:55] Adjusted the server time...
+[16:54:55] [Textdraws] Loading Textdraws...
+[16:54:55] [Textdraws] Loaded textdraws.
+[16:54:55] Da load het Can Sa
+[16:54:55] [Streamer] Loading Dynamic Static Vehicles...
+[16:54:55] [Streamer] Dynamic Static Vehicles has been loaded.
+[16:54:55] [Streamer] Loading Dynamic Pickups...
+[16:54:55] [Streamer] Dynamic Pickups has been loaded.
+[16:54:55] [Streamer] Loading 3D Text Labels...
+[16:54:55] [Streamer] Dynamic 3D Text Labels has been loaded.
+[16:54:55] [Streamer] Loading Dynamic Buttons...
+[16:54:55] [Streamer] Dynamic Buttons has been loaded.
+[16:54:55] [Streamer] Loading Dynamic Objects...
+[16:54:55] [Streamer] Dynamic Objects has been loaded.
+[16:54:56] 
+---------------------------------------------------------------------------
+[16:54:56] Gamemode VGTA SAMP Roleplay da tai thanh cong voi phien ban V1.0 Cuoc chien tro lai
+[16:54:56] ---------------------------------------------------------------------------
+[16:54:56] Number of vehicle models: 14
+[16:54:56]  
+[16:54:56]  
+[16:54:56] ==========================
+[16:54:56] [NONG TRAI VUI VE] Load du lieu thanh cong !
+[16:54:56] ==========================
+[16:54:56] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[16:54:56] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:54:56] Dumping query from 2022/8/24 (16:54:56)
+Description: Table 'samp.bitcoin' doesn't exist (index 0). Query:
+
+[16:54:56] select * from `bitcoin`
+[16:54:56] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[16:54:56] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:54:56] Dumping query from 2022/8/24 (16:54:56)
+Description: Table 'samp.giankhoan' doesn't exist (index 0). Query:
+
+[16:54:56] select * from `giankhoan` where `idgiankhoan` = '1'
+[16:54:56] [Dynamic Giftbox] da tai thanh cong Dynamic giftbox.
+[16:54:56] [LoadHouses] 3000 ngoi nha duoc tai.
+[16:54:57] [LoadDynamicDoors] 3000 door duoc tai.
+[16:54:57] [LoadDynamicMapIcons] 400 icons map duoc tai.
+[16:54:57] [LoadMailboxes] 50 mailboxes duoc tai.
+[16:54:57] [LoadBusinesses] 200 businesses rehashed/loaded.
+[16:54:57] [LoadPlants] Successfully loaded 300 plants
+[16:54:57] [SpeedCameras] Tai 17 May ban toc do.
+[16:54:57] [LoadRelayForLifeTeams] 200 teams loaded.
+[16:54:57] TotalSold0: 0 | AmountMade0: 0
+[16:54:57] TotalSold1: 0 | AmountMade1: 0
+[16:54:57] TotalSold2: 0 | AmountMade2: 0
+[16:54:57] TotalSold3: 0 | AmountMade3: 0
+[16:54:57] TotalSold4: 0 | AmountMade4: 0
+[16:54:57] TotalSold5: 0 | AmountMade5: 0
+[16:54:57] TotalSold6: 0 | AmountMade6: 0
+[16:54:57] TotalSold7: 0 | AmountMade7: 0
+[16:54:57] TotalSold8: 0 | AmountMade8: 0
+[16:54:57] TotalSold9: 0 | AmountMade9: 0
+[16:54:57] TotalSold10: 0 | AmountMade10: 0
+[16:54:57] TotalSold11: 0 | AmountMade11: 0
+[16:54:57] TotalSold12: 0 | AmountMade12: 0
+[16:54:57] TotalSold13: 0 | AmountMade13: 0
+[16:54:57] TotalSold14: 0 | AmountMade14: 0
+[16:54:57] TotalSold15: 0 | AmountMade15: 0
+[16:54:57] TotalSold16: 0 | AmountMade16: 0
+[16:54:57] TotalSold17: 0 | AmountMade17: 0
+[16:54:57] TotalSold18: 0 | AmountMade18: 0
+[16:54:57] TotalSold19: 0 | AmountMade19: 0
+[16:54:57] TotalSold20: 0 | AmountMade20: 0
+[16:54:57] TotalSold21: 0 | AmountMade21: 0
+[16:54:57] TotalSold22: 0 | AmountMade22: 0
+[16:54:57] TotalSold23: 0 | AmountMade23: 0
+[16:54:57] TotalSold24: 0 | AmountMade24: 0
+[16:54:57] TotalSold25: 0 | AmountMade25: 0
+[16:54:57] TotalSold26: 0 | AmountMade26: 0
+[16:54:57] TotalSold27: 0 | AmountMade27: 0
+[16:54:57] TotalSold28: 0 | AmountMade28: 0
+[16:54:57] TotalSold29: 0 | AmountMade29: 0
+[16:54:57] Price0: 1000
+[16:54:57] Price1: 199
+[16:54:57] Price2: 180
+[16:54:57] Price3: 80
+[16:54:57] Price4: 100
+[16:54:57] Price5: 300
+[16:54:57] Price6: 250
+[16:54:57] Price7: 100
+[16:54:57] Price8: 25
+[16:54:57] Price9: 80
+[16:54:57] Price10: 25
+[16:54:57] Price11: 150
+[16:54:57] Price12: 200
+[16:54:57] Price13: 300
+[16:54:57] Price14: 299
+[16:54:57] Price15: 100
+[16:54:57] Price16: 60
+[16:54:57] Price17: 50
+[16:54:57] Price18: 2
+[16:54:57] Price19: 4
+[16:54:57] Price20: 11
+[16:54:57] Price21: 10000
+[16:54:57] Price22: 50
+[16:54:57] Price23: 149
+[16:54:57] Price24: 2
+[16:54:57] Price25: 300
+[16:54:57] Price26: 400
+[16:54:57] Price27: 500
+[16:54:57] Price28: 100
+[16:54:57] Price29: 29
+[16:54:57] [Family Points] 8 family points has been loaded.
+[16:54:57] chay thanh cong
+[16:54:57] da chay vo day
+[16:54:57] NULL
+[16:54:57] 0
+[16:54:57] 0
+[16:54:57] 0
+[16:54:57] 0
+[16:54:57] 0
+[16:54:57] [Bui doi cho ca] Duyet du lieu cho ca thanh cong
+[16:54:57] NULL
+[16:54:57] 0
+[16:54:57] Loi
+[16:54:57] Loi
+[16:54:57] lOI KHONG LOAD DUOC DANH SACH XE
+[16:54:57] lOI KHONG LOAD DUOC kho xe shop
+[16:54:57] Loi load tiem vang
+[16:55:03] [connection] 127.0.0.1:65517 requests connection cookie.
+[16:55:03] [connection] incoming connection: 127.0.0.1:65517 id: 0
+[16:55:03] [join] Sion_Ds has joined the server (0:127.0.0.1)
+[16:55:03] [sv:dbg:pawn:SvGetVersion] : playerid(0) : return(0)
+[16:55:19] Sion Ds has logged in.
+[16:55:19] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[16:56:03] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:56:42] password = ""  (string)
+[16:56:42] 
+[16:56:42] Server Plugins
+[16:56:42] --------------
+[16:56:42]  Loading plugin: crashdetect
+[16:56:42]   CrashDetect plugin 4.19.1
+[16:56:42]   Loaded.
+[16:56:42]  Loading plugin: streamer
+[16:56:42] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[16:56:42]   Loaded.
+[16:56:42]  Loading plugin: mysql
+[16:56:42]  >> plugin.mysql: R33 successfully loaded.
+[16:56:42]   Loaded.
+[16:56:42]  Loading plugin: sscanf
+[16:56:42] 
+
+[16:56:42]  ===============================
+
+[16:56:42]       sscanf plugin loaded.     
+
+[16:56:42]          Version:  2.8.3        
+
+[16:56:42]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:56:42]  ===============================
+
+[16:56:42]   Loaded.
+[16:56:42]  Loading plugin: Whirlpool
+[16:56:42]  
+[16:56:42]  ==================
+[16:56:42]  
+[16:56:42]   Whirlpool loaded
+[16:56:42]  
+[16:56:42]  ==================
+[16:56:42]  
+[16:56:42]   Loaded.
+[16:56:42]  Loading plugin: samp-compat
+[16:56:42]   -- samp-compat for 0.3.7-R2 initialized
+[16:56:42]   Loaded.
+[16:56:42]  Loading plugin: sampvoice
+[16:56:42] [sv:dbg:network:init] : module initializing...
+[16:56:42] [dbg:raknet:init] : module initializing...
+[16:56:42] [dbg:raknet:init] : module initialized
+[16:56:42] [sv:dbg:network:init] : module initialized
+[16:56:42] [sv:dbg:main:Load] : creating 4 work threads...
+[16:56:42]  -------------------------------------------    
+[16:56:42]    ___                __   __    _              
+[16:56:42]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[16:56:42]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[16:56:42]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[16:56:42]                   |_|                           
+[16:56:42]  -------------------------------------------    
+[16:56:42]            SampVoice by MOR loaded              
+[16:56:42]  -------------------------------------------    
+[16:56:42]   Loaded.
+[16:56:42]  Loaded 7 plugins.
+
+[16:56:42] 
+[16:56:42] Ban list
+[16:56:42] --------
+[16:56:42]  Loaded: samp.ban
+[16:56:42] 
+[16:56:42] 
+[16:56:42] Filterscripts
+[16:56:42] ---------------
+[16:56:42]   Loading filterscript 'speedcap.amx'...
+[16:56:42] [sv:dbg:main:AmxLoad] : net game pointer (value:02329C58) received
+[16:56:43] [sv:dbg:network:bind] : voice server running on port 49778
+[16:56:43]   Loading filterscript 'BanVaoChan1.amx'...
+[16:56:43]   Loading filterscript 'antinoreload.amx'...
+[16:56:43]   Loading filterscript 'anticbug.amx'...
+[16:56:43]   Loading filterscript 'bolua.amx'...
+[16:56:43]   Loading filterscript 'android-check.amx'...
+[16:56:43] Android check has been successfully loaded.
+[16:56:43]   Loaded 6 filterscripts.
+
+[16:56:43]  
+[16:56:43] --------------------------------------
+[16:56:43]  Anticheat Nex-AC da duoc tai!
+[16:56:43]  Phien ban Anticheat: 1.9.56
+[16:56:43]  Tac gia: Nexius
+[16:56:43] --------------------------------------
+
+[16:56:43]  
+[16:56:43]  ======================================= 
+[16:56:43]  |                                     | 
+[16:56:43]  |        YSI version 3.01.0002        | 
+[16:56:43]  |        By Alex "Y_Less" Cole        | 
+[16:56:43]  |                                     | 
+[16:56:43]  ======================================= 
+[16:56:43]  
+[16:56:43] 
+-----------------------------------------------------------------
+[16:56:43] Chuc nang do xe Mobile / PC da hoat dong
+[16:56:43] -----------------------------------------------------------------
+
+[16:56:43] da chay den day nong trai vui ve
+[16:56:43] [sv:dbg:pawn:SvDebug] : mode(1)
+[16:56:43] [sv:dbg:pawn:SvCreateGStream] : color(0xffff0000), name(Global) : return(0E05DE90)
+[16:56:43] Dang chuan bi tai gamemode, xin vui long cho doi...
+[16:56:43] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[16:56:43] [MySQL] (MainPipeline) Connection successful toward MySQL Database Server!
+[16:56:43] Bai toan cho 10000$ neu ai tra loi dung --> 24 + 90 - 96 + 76 = ?
+[16:56:43] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[16:56:43] [LoadHouses] Loading data from database...
+[16:56:43] [Dynamic Groups] Loading Dynamic Groups...
+[16:56:43] [LoadDynamicGroups] Loading data from database...
+[16:56:43] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[16:56:43] [LoadDynamicGroupVeh] Loading data from database...
+[16:56:43] [LoadGates] Loading data from database...
+[16:56:43] [LoadDynamicDoors] Loading data from database...
+[16:56:43] [LoadDynamicMapIcons] Loading data from database...
+[16:56:43] [LoadMailboxes] Loading data from database...
+[16:56:43] [LoadBusinesses] Loading data from database...
+[16:56:43] [LoadAuctions] Loading data from database...
+[16:56:43] [LoadTxtLabels] Loading data from database...
+[16:56:43] [LoadPlants] Loading data from database...
+[16:56:43] [SpeedCameras] Loading data from database...
+[16:56:43] [LoadPayNSprays] Loading data from database...
+[16:56:43] [LoadArrestPoints] Loading data from database...
+[16:56:43] [LoadImpoundPoints] Loading data from database...
+[16:56:43] [LoadRelayForLifeTeams] Loading data from database...
+[16:56:43] [LoadBusinessSales] Loading data from database...
+[16:56:43] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[16:56:44] [LoadTurfWars] 65 turfs loaded.
+[16:56:44] [LoadPaintballArenas] 10 paintball arenas loaded.
+[16:56:44] [LoadEventPoints] 0 event points loaded.
+[16:56:44] [LoadElevatorStuff] 20 floors loaded.
+[16:56:44] [LoadFamilies] Loading data from database...
+[16:56:44] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[16:56:44] [MiscLoad] Misc Loaded
+[16:56:44] Resetting news...
+[16:56:44] Resetting default server variables..
+[16:56:44] Adjusted the server time...
+[16:56:44] [Textdraws] Loading Textdraws...
+[16:56:44] [Textdraws] Loaded textdraws.
+[16:56:44] Da load het Can Sa
+[16:56:44] [Streamer] Loading Dynamic Static Vehicles...
+[16:56:44] [Streamer] Dynamic Static Vehicles has been loaded.
+[16:56:44] [Streamer] Loading Dynamic Pickups...
+[16:56:44] [Streamer] Dynamic Pickups has been loaded.
+[16:56:44] [Streamer] Loading 3D Text Labels...
+[16:56:44] [Streamer] Dynamic 3D Text Labels has been loaded.
+[16:56:44] [Streamer] Loading Dynamic Buttons...
+[16:56:44] [Streamer] Dynamic Buttons has been loaded.
+[16:56:44] [Streamer] Loading Dynamic Objects...
+[16:56:44] [Streamer] Dynamic Objects has been loaded.
+[16:56:44] 
+---------------------------------------------------------------------------
+[16:56:44] Gamemode VGTA SAMP Roleplay da tai thanh cong voi phien ban V1.0 Cuoc chien tro lai
+[16:56:44] ---------------------------------------------------------------------------
+[16:56:44] Number of vehicle models: 14
+[16:56:44]  
+[16:56:44]  
+[16:56:44] ==========================
+[16:56:44] [NONG TRAI VUI VE] Load du lieu thanh cong !
+[16:56:44] ==========================
+[16:56:44] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[16:56:44] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:56:44] Dumping query from 2022/8/24 (16:56:44)
+Description: Table 'samp.bitcoin' doesn't exist (index 0). Query:
+
+[16:56:44] select * from `bitcoin`
+[16:56:44] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[16:56:44] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[16:56:44] Dumping query from 2022/8/24 (16:56:44)
+Description: Table 'samp.giankhoan' doesn't exist (index 0). Query:
+
+[16:56:44] select * from `giankhoan` where `idgiankhoan` = '1'
+[16:56:44] [Dynamic Giftbox] da tai thanh cong Dynamic giftbox.
+[16:56:44] [LoadHouses] 3000 ngoi nha duoc tai.
+[16:56:45] [LoadDynamicDoors] 3000 door duoc tai.
+[16:56:45] [LoadDynamicMapIcons] 400 icons map duoc tai.
+[16:56:45] [LoadMailboxes] 50 mailboxes duoc tai.
+[16:56:45] [LoadBusinesses] 200 businesses rehashed/loaded.
+[16:56:45] [LoadPlants] Successfully loaded 300 plants
+[16:56:45] [SpeedCameras] Tai 17 May ban toc do.
+[16:56:45] [LoadRelayForLifeTeams] 200 teams loaded.
+[16:56:45] TotalSold0: 0 | AmountMade0: 0
+[16:56:45] TotalSold1: 0 | AmountMade1: 0
+[16:56:45] TotalSold2: 0 | AmountMade2: 0
+[16:56:45] TotalSold3: 0 | AmountMade3: 0
+[16:56:45] TotalSold4: 0 | AmountMade4: 0
+[16:56:45] TotalSold5: 0 | AmountMade5: 0
+[16:56:45] TotalSold6: 0 | AmountMade6: 0
+[16:56:45] TotalSold7: 0 | AmountMade7: 0
+[16:56:45] TotalSold8: 0 | AmountMade8: 0
+[16:56:45] TotalSold9: 0 | AmountMade9: 0
+[16:56:45] TotalSold10: 0 | AmountMade10: 0
+[16:56:45] TotalSold11: 0 | AmountMade11: 0
+[16:56:45] TotalSold12: 0 | AmountMade12: 0
+[16:56:45] TotalSold13: 0 | AmountMade13: 0
+[16:56:45] TotalSold14: 0 | AmountMade14: 0
+[16:56:45] TotalSold15: 0 | AmountMade15: 0
+[16:56:45] TotalSold16: 0 | AmountMade16: 0
+[16:56:45] TotalSold17: 0 | AmountMade17: 0
+[16:56:45] TotalSold18: 0 | AmountMade18: 0
+[16:56:45] TotalSold19: 0 | AmountMade19: 0
+[16:56:45] TotalSold20: 0 | AmountMade20: 0
+[16:56:45] TotalSold21: 0 | AmountMade21: 0
+[16:56:45] TotalSold22: 0 | AmountMade22: 0
+[16:56:45] TotalSold23: 0 | AmountMade23: 0
+[16:56:45] TotalSold24: 0 | AmountMade24: 0
+[16:56:45] TotalSold25: 0 | AmountMade25: 0
+[16:56:45] TotalSold26: 0 | AmountMade26: 0
+[16:56:45] TotalSold27: 0 | AmountMade27: 0
+[16:56:45] TotalSold28: 0 | AmountMade28: 0
+[16:56:45] TotalSold29: 0 | AmountMade29: 0
+[16:56:45] Price0: 1000
+[16:56:45] Price1: 199
+[16:56:45] Price2: 180
+[16:56:45] Price3: 80
+[16:56:45] Price4: 100
+[16:56:45] Price5: 300
+[16:56:45] Price6: 250
+[16:56:45] Price7: 100
+[16:56:45] Price8: 25
+[16:56:45] Price9: 80
+[16:56:45] Price10: 25
+[16:56:45] Price11: 150
+[16:56:45] Price12: 200
+[16:56:45] Price13: 300
+[16:56:45] Price14: 299
+[16:56:45] Price15: 100
+[16:56:45] Price16: 60
+[16:56:45] Price17: 50
+[16:56:45] Price18: 2
+[16:56:45] Price19: 4
+[16:56:45] Price20: 11
+[16:56:45] Price21: 10000
+[16:56:45] Price22: 50
+[16:56:45] Price23: 149
+[16:56:45] Price24: 2
+[16:56:45] Price25: 300
+[16:56:45] Price26: 400
+[16:56:45] Price27: 500
+[16:56:45] Price28: 100
+[16:56:45] Price29: 29
+[16:56:45] [Family Points] 8 family points has been loaded.
+[16:56:45] chay thanh cong
+[16:56:45] da chay vo day
+[16:56:45] NULL
+[16:56:45] 0
+[16:56:45] 0
+[16:56:45] 0
+[16:56:45] 0
+[16:56:45] 0
+[16:56:45] [Bui doi cho ca] Duyet du lieu cho ca thanh cong
+[16:56:45] NULL
+[16:56:45] 0
+[16:56:45] Loi
+[16:56:45] Loi
+[16:56:45] lOI KHONG LOAD DUOC DANH SACH XE
+[16:56:45] lOI KHONG LOAD DUOC kho xe shop
+[16:56:45] Loi load tiem vang
+[16:56:55] [connection] 127.0.0.1:64418 requests connection cookie.
+[16:56:56] [connection] incoming connection: 127.0.0.1:64418 id: 0
+[16:56:56] [join] Sion_Ds has joined the server (0:127.0.0.1)
+[16:56:56] [sv:dbg:pawn:SvGetVersion] : playerid(0) : return(0)
+[16:57:02] Sion Ds has logged in.
+[16:57:02] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[16:57:52] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[16:58:53]  -------------------------------------------
+[16:58:53]            SampVoice unloading...           
+[16:58:53]  -------------------------------------------
+[16:58:53] [dbg:raknet:free] : module releasing...
+[16:58:53] [dbg:raknet:free] : module released
+[16:58:53] [sv:dbg:network:free] : module releasing...
+[16:58:53] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:14:40] password = ""  (string)
+[17:14:40] 
+[17:14:40] Server Plugins
+[17:14:40] --------------
+[17:14:40]  Loading plugin: crashdetect
+[17:14:40]   CrashDetect plugin 4.19.1
+[17:14:40]   Loaded.
+[17:14:40]  Loading plugin: streamer
+[17:14:40] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:14:40]   Loaded.
+[17:14:40]  Loading plugin: mysql
+[17:14:40]  >> plugin.mysql: R33 successfully loaded.
+[17:14:40]   Loaded.
+[17:14:40]  Loading plugin: sscanf
+[17:14:40] 
+
+[17:14:40]  ===============================
+
+[17:14:40]       sscanf plugin loaded.     
+
+[17:14:40]          Version:  2.8.3        
+
+[17:14:40]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:14:40]  ===============================
+
+[17:14:40]   Loaded.
+[17:14:40]  Loading plugin: Whirlpool
+[17:14:40]  
+[17:14:40]  ==================
+[17:14:40]  
+[17:14:40]   Whirlpool loaded
+[17:14:40]  
+[17:14:40]  ==================
+[17:14:40]  
+[17:14:40]   Loaded.
+[17:14:40]  Loading plugin: samp-compat
+[17:14:40]   -- samp-compat for 0.3.7-R2 initialized
+[17:14:40]   Loaded.
+[17:14:40]  Loading plugin: sampvoice
+[17:14:40] [sv:dbg:network:init] : module initializing...
+[17:14:40] [dbg:raknet:init] : module initializing...
+[17:14:40] [dbg:raknet:init] : module initialized
+[17:14:40] [sv:dbg:network:init] : module initialized
+[17:14:40] [sv:dbg:main:Load] : creating 4 work threads...
+[17:14:40]  -------------------------------------------    
+[17:14:40]    ___                __   __    _              
+[17:14:40]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[17:14:40]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[17:14:40]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[17:14:40]                   |_|                           
+[17:14:40]  -------------------------------------------    
+[17:14:40]            SampVoice by MOR loaded              
+[17:14:40]  -------------------------------------------    
+[17:14:40]   Loaded.
+[17:14:40]  Loaded 7 plugins.
+
+[17:14:40] 
+[17:14:40] Ban list
+[17:14:40] --------
+[17:14:40]  Loaded: samp.ban
+[17:14:40] 
+[17:14:40] 
+[17:14:40] Filterscripts
+[17:14:40] ---------------
+[17:14:40]   Loading filterscript 'speedcap.amx'...
+[17:14:40] [sv:dbg:main:AmxLoad] : net game pointer (value:02419C58) received
+[17:14:40] [sv:dbg:network:bind] : voice server running on port 65400
+[17:14:40]   Loading filterscript 'BanVaoChan1.amx'...
+[17:14:40]   Loading filterscript 'antinoreload.amx'...
+[17:14:40]   Loading filterscript 'anticbug.amx'...
+[17:14:40]   Loading filterscript 'bolua.amx'...
+[17:14:40]   Loading filterscript 'android-check.amx'...
+[17:14:40] Android check has been successfully loaded.
+[17:14:40]   Loaded 6 filterscripts.
+
+[17:14:40]  
+[17:14:40] --------------------------------------
+[17:14:40]  Anticheat Nex-AC da duoc tai!
+[17:14:40]  Phien ban Anticheat: 1.9.56
+[17:14:40]  Tac gia: Nexius
+[17:14:40] --------------------------------------
+
+[17:14:40]  
+[17:14:40]  ======================================= 
+[17:14:40]  |                                     | 
+[17:14:40]  |        YSI version 3.01.0002        | 
+[17:14:40]  |        By Alex "Y_Less" Cole        | 
+[17:14:40]  |                                     | 
+[17:14:40]  ======================================= 
+[17:14:40]  
+[17:14:40] [connection] 127.0.0.1:50921 requests connection cookie.
+[17:14:41] 
+-----------------------------------------------------------------
+[17:14:41] Chuc nang do xe Mobile / PC da hoat dong
+[17:14:41] -----------------------------------------------------------------
+
+[17:14:41] da chay den day nong trai vui ve
+[17:14:41] [sv:dbg:pawn:SvDebug] : mode(1)
+[17:14:41] [sv:dbg:pawn:SvCreateGStream] : color(0xffff0000), name(Global) : return(0E1B1018)
+[17:14:41] Dang chuan bi tai gamemode, xin vui long cho doi...
+[17:14:41] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[17:14:41] [MySQL] (MainPipeline) Connection successful toward MySQL Database Server!
+[17:14:41] Bai toan cho 10000$ neu ai tra loi dung --> 83 + 96 - 91 + 55 = ?
+[17:14:41] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[17:14:41] [LoadHouses] Loading data from database...
+[17:14:41] [Dynamic Groups] Loading Dynamic Groups...
+[17:14:41] [LoadDynamicGroups] Loading data from database...
+[17:14:41] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[17:14:41] [LoadDynamicGroupVeh] Loading data from database...
+[17:14:41] [LoadGates] Loading data from database...
+[17:14:41] [LoadDynamicDoors] Loading data from database...
+[17:14:41] [LoadDynamicMapIcons] Loading data from database...
+[17:14:41] [LoadMailboxes] Loading data from database...
+[17:14:41] [LoadBusinesses] Loading data from database...
+[17:14:41] [LoadAuctions] Loading data from database...
+[17:14:41] [LoadTxtLabels] Loading data from database...
+[17:14:41] [LoadPlants] Loading data from database...
+[17:14:41] [SpeedCameras] Loading data from database...
+[17:14:41] [LoadPayNSprays] Loading data from database...
+[17:14:41] [LoadArrestPoints] Loading data from database...
+[17:14:41] [LoadImpoundPoints] Loading data from database...
+[17:14:41] [LoadRelayForLifeTeams] Loading data from database...
+[17:14:41] [LoadBusinessSales] Loading data from database...
+[17:14:41] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[17:14:41] [LoadTurfWars] 65 turfs loaded.
+[17:14:41] [LoadPaintballArenas] 10 paintball arenas loaded.
+[17:14:41] [LoadEventPoints] 0 event points loaded.
+[17:14:41] [LoadElevatorStuff] 20 floors loaded.
+[17:14:41] [LoadFamilies] Loading data from database...
+[17:14:41] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[17:14:41] [MiscLoad] Misc Loaded
+[17:14:41] Resetting news...
+[17:14:41] Resetting default server variables..
+[17:14:41] Adjusted the server time...
+[17:14:41] [Textdraws] Loading Textdraws...
+[17:14:41] [Textdraws] Loaded textdraws.
+[17:14:41] Da load het Can Sa
+[17:14:41] [Streamer] Loading Dynamic Static Vehicles...
+[17:14:41] [Streamer] Dynamic Static Vehicles has been loaded.
+[17:14:41] [Streamer] Loading Dynamic Pickups...
+[17:14:41] [Streamer] Dynamic Pickups has been loaded.
+[17:14:41] [Streamer] Loading 3D Text Labels...
+[17:14:41] [Streamer] Dynamic 3D Text Labels has been loaded.
+[17:14:41] [Streamer] Loading Dynamic Buttons...
+[17:14:41] [Streamer] Dynamic Buttons has been loaded.
+[17:14:41] [Streamer] Loading Dynamic Objects...
+[17:14:41] [Streamer] Dynamic Objects has been loaded.
+[17:14:42] 
+---------------------------------------------------------------------------
+[17:14:42] Gamemode VGTA SAMP Roleplay da tai thanh cong voi phien ban V1.0 Cuoc chien tro lai
+[17:14:42] ---------------------------------------------------------------------------
+[17:14:42] Number of vehicle models: 14
+[17:14:42] [connection] incoming connection: 127.0.0.1:53725 id: 0
+[17:14:42]  
+[17:14:42]  
+[17:14:42] ==========================
+[17:14:42] [NONG TRAI VUI VE] Load du lieu thanh cong !
+[17:14:42] ==========================
+[17:14:42] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:14:42] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:14:42] Dumping query from 2022/8/24 (17:14:42)
+Description: Table 'samp.bitcoin' doesn't exist (index 0). Query:
+
+[17:14:42] select * from `bitcoin`
+[17:14:42] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:14:42] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:14:42] Dumping query from 2022/8/24 (17:14:42)
+Description: Table 'samp.giankhoan' doesn't exist (index 0). Query:
+
+[17:14:42] select * from `giankhoan` where `idgiankhoan` = '1'
+[17:14:42] [Dynamic Giftbox] da tai thanh cong Dynamic giftbox.
+[17:14:42] [LoadHouses] 3000 ngoi nha duoc tai.
+[17:14:42] [LoadDynamicDoors] 3000 door duoc tai.
+[17:14:42] [LoadDynamicMapIcons] 400 icons map duoc tai.
+[17:14:42] [LoadMailboxes] 50 mailboxes duoc tai.
+[17:14:42] [LoadBusinesses] 200 businesses rehashed/loaded.
+[17:14:42] [LoadPlants] Successfully loaded 300 plants
+[17:14:42] [SpeedCameras] Tai 17 May ban toc do.
+[17:14:42] [LoadRelayForLifeTeams] 200 teams loaded.
+[17:14:42] TotalSold0: 0 | AmountMade0: 0
+[17:14:42] TotalSold1: 0 | AmountMade1: 0
+[17:14:42] TotalSold2: 0 | AmountMade2: 0
+[17:14:42] TotalSold3: 0 | AmountMade3: 0
+[17:14:42] TotalSold4: 0 | AmountMade4: 0
+[17:14:42] TotalSold5: 0 | AmountMade5: 0
+[17:14:42] TotalSold6: 0 | AmountMade6: 0
+[17:14:42] TotalSold7: 0 | AmountMade7: 0
+[17:14:42] TotalSold8: 0 | AmountMade8: 0
+[17:14:42] TotalSold9: 0 | AmountMade9: 0
+[17:14:42] TotalSold10: 0 | AmountMade10: 0
+[17:14:42] TotalSold11: 0 | AmountMade11: 0
+[17:14:42] TotalSold12: 0 | AmountMade12: 0
+[17:14:42] TotalSold13: 0 | AmountMade13: 0
+[17:14:42] TotalSold14: 0 | AmountMade14: 0
+[17:14:42] TotalSold15: 0 | AmountMade15: 0
+[17:14:42] TotalSold16: 0 | AmountMade16: 0
+[17:14:42] TotalSold17: 0 | AmountMade17: 0
+[17:14:42] TotalSold18: 0 | AmountMade18: 0
+[17:14:42] TotalSold19: 0 | AmountMade19: 0
+[17:14:42] TotalSold20: 0 | AmountMade20: 0
+[17:14:42] TotalSold21: 0 | AmountMade21: 0
+[17:14:42] TotalSold22: 0 | AmountMade22: 0
+[17:14:42] TotalSold23: 0 | AmountMade23: 0
+[17:14:42] TotalSold24: 0 | AmountMade24: 0
+[17:14:42] TotalSold25: 0 | AmountMade25: 0
+[17:14:42] TotalSold26: 0 | AmountMade26: 0
+[17:14:42] TotalSold27: 0 | AmountMade27: 0
+[17:14:42] TotalSold28: 0 | AmountMade28: 0
+[17:14:42] TotalSold29: 0 | AmountMade29: 0
+[17:14:42] Price0: 1000
+[17:14:42] Price1: 199
+[17:14:42] Price2: 180
+[17:14:42] Price3: 80
+[17:14:42] Price4: 100
+[17:14:42] Price5: 300
+[17:14:42] Price6: 250
+[17:14:42] Price7: 100
+[17:14:42] Price8: 25
+[17:14:42] Price9: 80
+[17:14:42] Price10: 25
+[17:14:42] Price11: 150
+[17:14:42] Price12: 200
+[17:14:42] Price13: 300
+[17:14:42] Price14: 299
+[17:14:42] Price15: 100
+[17:14:42] Price16: 60
+[17:14:42] Price17: 50
+[17:14:42] Price18: 2
+[17:14:42] Price19: 4
+[17:14:42] Price20: 11
+[17:14:42] Price21: 10000
+[17:14:42] Price22: 50
+[17:14:42] Price23: 149
+[17:14:42] Price24: 2
+[17:14:42] Price25: 300
+[17:14:42] Price26: 400
+[17:14:42] Price27: 500
+[17:14:42] Price28: 100
+[17:14:42] Price29: 29
+[17:14:42] [Family Points] 8 family points has been loaded.
+[17:14:42] chay thanh cong
+[17:14:42] da chay vo day
+[17:14:42] NULL
+[17:14:42] 0
+[17:14:42] 0
+[17:14:42] 0
+[17:14:42] 0
+[17:14:42] 0
+[17:14:42] [Bui doi cho ca] Duyet du lieu cho ca thanh cong
+[17:14:42] NULL
+[17:14:42] 0
+[17:14:42] Loi
+[17:14:42] Loi
+[17:14:42] lOI KHONG LOAD DUOC DANH SACH XE
+[17:14:42] lOI KHONG LOAD DUOC kho xe shop
+[17:14:42] Loi load tiem vang
+[17:14:42] [join] Sion_Ds has joined the server (0:127.0.0.1)
+[17:14:42] [sv:dbg:pawn:SvGetVersion] : playerid(0) : return(0)
+[17:14:49] Sion Ds has logged in.
+[17:14:49] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:14:58] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:14:58] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:14:58] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:14:58] Dumping query from 2022/8/24 (17:14:58)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:14:58] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=223,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=8,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1`
+[17:14:58] =0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=8,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0,`Gun7`=0 WHERE `id`=3
+[17:14:58] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:14:58] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:14:58] Dumping query from 2022/8/24 (17:14:58)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:14:58] UPDATE `accounts` SET `Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=0,`NVNhanthuong`=0,`SkinKatana`
+[17:14:58] =0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=7000,`Dry`=3600,`Sleep`=7200,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0,`pInv14`=0 WHERE `id`=3
+[17:14:58] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:14:58] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:14:58] Dumping query from 2022/8/24 (17:14:58)
+Description: Unknown column 'pInvAmount14' in 'field list' (index 0). Query:
+
+[17:14:58] UPDATE `accounts` SET `pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvAmount46`=1,
+[17:14:58] `pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:18:04] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:18:04] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:18:04] Dumping query from 2022/8/24 (17:18:4)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:18:04] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=223,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=172,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight
+[17:18:04] 1`=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=172,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:18:04] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:18:04] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:18:04] Dumping query from 2022/8/24 (17:18:4)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:18:04] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=2,`NVNhanthuong
+[17:18:04] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6880,`Dry`=3540,`Sleep`=7140,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=50098,`pInvAmount1`=1,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:18:04] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:18:04] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:18:04] Dumping query from 2022/8/24 (17:18:4)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:18:04] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:18:04] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:18:04] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:18:04] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:18:04] Dumping query from 2022/8/24 (17:18:4)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:18:04] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=223,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=172,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight
+[17:18:04] 1`=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=172,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:18:04] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:18:04] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:18:04] Dumping query from 2022/8/24 (17:18:4)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:18:04] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=2,`NVNhanthuong
+[17:18:04] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6880,`Dry`=3540,`Sleep`=7140,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=50098,`pInvAmount1`=1,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:18:04] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:18:04] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:18:04] Dumping query from 2022/8/24 (17:18:4)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:18:04] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:18:04] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:19:01] [connection] 127.0.0.1:49425 requests connection cookie.
+[17:19:01] [connection] incoming connection: 127.0.0.1:49425 id: 1
+[17:19:01] [join] Sion_D has joined the server (1:127.0.0.1)
+[17:19:01] [sv:dbg:pawn:SvGetVersion] : playerid(1) : return(0)
+[17:19:07] Sion D has logged in.
+[17:19:07] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:07] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:07] Dumping query from 2022/8/24 (17:19:7)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:19:07] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=223,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=227,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight
+[17:19:07] 1`=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=227,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:19:07] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:07] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:07] Dumping query from 2022/8/24 (17:19:7)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:19:07] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=3,`NVNhanthuong
+[17:19:07] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6820,`Dry`=3510,`Sleep`=7110,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=50098,`pInvAmount1`=1,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:19:07] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:07] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:07] Dumping query from 2022/8/24 (17:19:7)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:19:07] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:19:07] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:19:16] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:16] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:16] Dumping query from 2022/8/24 (17:19:16)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:19:16] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=94,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=8,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1`=
+[17:19:16] 0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=-1,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=8,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0,`Gun7`=0 WHERE `id`=2
+[17:19:16] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:16] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:16] Dumping query from 2022/8/24 (17:19:16)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:19:16] UPDATE `accounts` SET `Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=0,`NVNhanthuong`=0,`SkinKatana`
+[17:19:16] =0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=7000,`Dry`=3600,`Sleep`=7200,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0,`pInv14`=0 WHERE `id`=2
+[17:19:16] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:16] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:16] Dumping query from 2022/8/24 (17:19:16)
+Description: Unknown column 'pInvAmount14' in 'field list' (index 0). Query:
+
+[17:19:16] UPDATE `accounts` SET `pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvAmount46`=1,
+[17:19:16] `pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=2
+[17:19:23] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:23] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:23] Dumping query from 2022/8/24 (17:19:23)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:19:23] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=9999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=94,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=14,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1`=
+[17:19:23] 0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=-1,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=14,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0,`Gun7`=0 WHERE `id`=2
+[17:19:23] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:23] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:23] Dumping query from 2022/8/24 (17:19:23)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:19:23] UPDATE `accounts` SET `Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=0,`NVNhanthuong`=0,`SkinKatana`
+[17:19:23] =0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=7000,`Dry`=3600,`Sleep`=7200,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0,`pInv14`=0 WHERE `id`=2
+[17:19:23] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:23] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:23] Dumping query from 2022/8/24 (17:19:23)
+Description: Unknown column 'pInvAmount14' in 'field list' (index 0). Query:
+
+[17:19:23] UPDATE `accounts` SET `pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvAmount46`=1,
+[17:19:23] `pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=2
+[17:19:29] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:29] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:29] Dumping query from 2022/8/24 (17:19:29)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:19:29] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=94,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=20,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1`
+[17:19:29] =0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=-1,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=20,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0,`Gun7`=0 WHERE `id`=2
+[17:19:29] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:29] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:29] Dumping query from 2022/8/24 (17:19:29)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:19:29] UPDATE `accounts` SET `Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=1,`NVNhanthuong`=0,`SkinKatana`
+[17:19:29] =0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=7000,`Dry`=3600,`Sleep`=7200,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0,`pInv14`=0 WHERE `id`=2
+[17:19:29] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:29] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:29] Dumping query from 2022/8/24 (17:19:29)
+Description: Unknown column 'pInvAmount14' in 'field list' (index 0). Query:
+
+[17:19:29] UPDATE `accounts` SET `pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvAmount46`=1,
+[17:19:29] `pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=2
+[17:19:33] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:33] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:33] Dumping query from 2022/8/24 (17:19:33)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:19:33] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=9999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=223,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=250,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1
+[17:19:33] `=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=250,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:19:33] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:33] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:33] Dumping query from 2022/8/24 (17:19:33)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:19:33] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=4,`NVNhanthuong
+[17:19:33] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6820,`Dry`=3510,`Sleep`=7110,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=50098,`pInvAmount1`=1,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:19:33] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:19:33] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:19:33] Dumping query from 2022/8/24 (17:19:33)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:19:33] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:19:33] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:19:57] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=9999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=223,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=350,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1
+[17:21:25] `=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=350,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=5,`NVNhanthuong
+[17:21:25] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6700,`Dry`=3450,`Sleep`=7050,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=50098,`pInvAmount1`=1,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:21:25] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=9999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='41.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=223,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=350,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1
+[17:21:25] `=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=350,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=5,`NVNhanthuong
+[17:21:25] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6700,`Dry`=3450,`Sleep`=7050,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=50098,`pInvAmount1`=1,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:21:25] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=2,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=94,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=123,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1
+[17:21:25] `=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=-1,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=123,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=31,`Gun6`=0 WHERE `id`=2
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `Paper`=0,`MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=2,`NV
+[17:21:25] Nhanthuong`=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6880,`Dry`=3540,`Sleep`=7140,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=2
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:21:25] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=2
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=2,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=94,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=123,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1
+[17:21:25] `=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=-1,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=123,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=31,`Gun6`=0 WHERE `id`=2
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `Paper`=0,`MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=2,`NV
+[17:21:25] Nhanthuong`=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=6880,`Dry`=3540,`Sleep`=7140,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=2
+[17:21:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:21:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:21:25] Dumping query from 2022/8/24 (17:21:25)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:21:25] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:21:25] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=2
+[17:21:45]  -------------------------------------------
+[17:21:45]            SampVoice unloading...           
+[17:21:45]  -------------------------------------------
+[17:21:45] [dbg:raknet:free] : module releasing...
+[17:21:45] [dbg:raknet:free] : module released
+[17:21:45] [sv:dbg:network:free] : module releasing...
+[17:21:45] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:43:53] password = ""  (string)
+[17:43:53] 
+[17:43:53] Server Plugins
+[17:43:53] --------------
+[17:43:53]  Loading plugin: crashdetect
+[17:43:53]   CrashDetect plugin 4.19.1
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: streamer
+[17:43:53] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: mysql
+[17:43:53]  >> plugin.mysql: R33 successfully loaded.
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: sscanf
+[17:43:53] 
+
+[17:43:53]  ===============================
+
+[17:43:53]       sscanf plugin loaded.     
+
+[17:43:53]          Version:  2.8.3        
+
+[17:43:53]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:43:53]  ===============================
+
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: Whirlpool
+[17:43:53]  
+[17:43:53]  ==================
+[17:43:53]  
+[17:43:53]   Whirlpool loaded
+[17:43:53]  
+[17:43:53]  ==================
+[17:43:53]  
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: samp-compat
+[17:43:53]   -- samp-compat for 0.3.7-R2 initialized
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: sampvoice
+[17:43:53] [sv:dbg:network:init] : module initializing...
+[17:43:53] [dbg:raknet:init] : module initializing...
+[17:43:53] [dbg:raknet:init] : module initialized
+[17:43:53] [sv:dbg:network:init] : module initialized
+[17:43:53] [sv:dbg:main:Load] : creating 4 work threads...
+[17:43:53]  -------------------------------------------    
+[17:43:53]    ___                __   __    _              
+[17:43:53]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[17:43:53]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[17:43:53]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[17:43:53]                   |_|                           
+[17:43:53]  -------------------------------------------    
+[17:43:53]            SampVoice by MOR loaded              
+[17:43:53]  -------------------------------------------    
+[17:43:53]   Loaded.
+[17:43:53]  Loaded 7 plugins.
+
+[17:43:53] 
+[17:43:53] Ban list
+[17:43:53] --------
+[17:43:53]  Loaded: samp.ban
+[17:43:53] 
+[17:43:53] 
+[17:43:53] Filterscripts
+[17:43:53] ---------------
+[17:43:53]   Loading filterscript 'speedcap.amx'...
+[17:43:53] [sv:dbg:main:AmxLoad] : net game pointer (value:02489C58) received
+[17:43:53] [sv:dbg:network:bind] : voice server running on port 55339
+[17:43:53]   Loading filterscript 'BanVaoChan1.amx'...
+[17:43:53]   Loading filterscript 'antinoreload.amx'...
+[17:43:53]   Loading filterscript 'anticbug.amx'...
+[17:43:53]   Loading filterscript 'bolua.amx'...
+[17:43:53]   Loading filterscript 'android-check.amx'...
+[17:43:53] Android check has been successfully loaded.
+[17:43:53]   Loaded 6 filterscripts.
+
+[17:43:53] [connection] 127.0.0.1:54850 requests connection cookie.
+[17:43:53]  
+[17:43:53] --------------------------------------
+[17:43:53]  Anticheat Nex-AC da duoc tai!
+[17:43:53]  Phien ban Anticheat: 1.9.56
+[17:43:53]  Tac gia: Nexius
+[17:43:53] --------------------------------------
+
+[17:43:53]  
+[17:43:53]  ======================================= 
+[17:43:53]  |                                     | 
+[17:43:53]  |        YSI version 3.01.0002        | 
+[17:43:53]  |        By Alex "Y_Less" Cole        | 
+[17:43:53]  |                                     | 
+[17:43:53]  ======================================= 
+[17:43:53]  
+[17:43:54] [connection] 127.0.0.1:55338 requests connection cookie.
+[17:43:54] 
+-----------------------------------------------------------------
+[17:43:54] Chuc nang do xe Mobile / PC da hoat dong
+[17:43:54] -----------------------------------------------------------------
+
+[17:43:54] da chay den day nong trai vui ve
+[17:43:54] [sv:dbg:pawn:SvDebug] : mode(1)
+[17:43:54] [sv:dbg:pawn:SvCreateGStream] : color(0xffff0000), name(Global) : return(0E18F820)
+[17:43:54] Dang chuan bi tai gamemode, xin vui long cho doi...
+[17:43:54] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[17:43:54] [MySQL] (MainPipeline) Connection successful toward MySQL Database Server!
+[17:43:54] Bai toan cho 10000$ neu ai tra loi dung --> 95 + 24 - 97 + 77 = ?
+[17:43:54] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[17:43:54] [LoadHouses] Loading data from database...
+[17:43:54] [Dynamic Groups] Loading Dynamic Groups...
+[17:43:54] [LoadDynamicGroups] Loading data from database...
+[17:43:54] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[17:43:54] [LoadDynamicGroupVeh] Loading data from database...
+[17:43:54] [LoadGates] Loading data from database...
+[17:43:54] [LoadDynamicDoors] Loading data from database...
+[17:43:54] [LoadDynamicMapIcons] Loading data from database...
+[17:43:54] [LoadMailboxes] Loading data from database...
+[17:43:54] [LoadBusinesses] Loading data from database...
+[17:43:54] [LoadAuctions] Loading data from database...
+[17:43:54] [LoadTxtLabels] Loading data from database...
+[17:43:54] [LoadPlants] Loading data from database...
+[17:43:54] [SpeedCameras] Loading data from database...
+[17:43:54] [LoadPayNSprays] Loading data from database...
+[17:43:54] [LoadArrestPoints] Loading data from database...
+[17:43:54] [LoadImpoundPoints] Loading data from database...
+[17:43:54] [LoadRelayForLifeTeams] Loading data from database...
+[17:43:54] [LoadBusinessSales] Loading data from database...
+[17:43:54] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[17:43:54] [LoadTurfWars] 65 turfs loaded.
+[17:43:54] [LoadPaintballArenas] 10 paintball arenas loaded.
+[17:43:54] [LoadEventPoints] 0 event points loaded.
+[17:43:54] [LoadElevatorStuff] 20 floors loaded.
+[17:43:54] [LoadFamilies] Loading data from database...
+[17:43:54] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[17:43:54] [MiscLoad] Misc Loaded
+[17:43:54] Resetting news...
+[17:43:54] Resetting default server variables..
+[17:43:54] Adjusted the server time...
+[17:43:54] [Textdraws] Loading Textdraws...
+[17:43:54] [Textdraws] Loaded textdraws.
+[17:43:54] Da load het Can Sa
+[17:43:54] [Streamer] Loading Dynamic Static Vehicles...
+[17:43:54] [Streamer] Dynamic Static Vehicles has been loaded.
+[17:43:54] [Streamer] Loading Dynamic Pickups...
+[17:43:54] [Streamer] Dynamic Pickups has been loaded.
+[17:43:54] [Streamer] Loading 3D Text Labels...
+[17:43:54] [Streamer] Dynamic 3D Text Labels has been loaded.
+[17:43:54] [Streamer] Loading Dynamic Buttons...
+[17:43:54] [Streamer] Dynamic Buttons has been loaded.
+[17:43:54] [Streamer] Loading Dynamic Objects...
+[17:43:54] [Streamer] Dynamic Objects has been loaded.
+[17:43:55] 
+---------------------------------------------------------------------------
+[17:43:55] Gamemode VGTA SAMP Roleplay da tai thanh cong voi phien ban V1.0 Cuoc chien tro lai
+[17:43:55] ---------------------------------------------------------------------------
+[17:43:55] Number of vehicle models: 14
+[17:43:55] [connection] incoming connection: 127.0.0.1:54850 id: 0
+[17:43:55] [join] Sion_D has joined the server (0:127.0.0.1)
+[17:43:55] [sv:dbg:pawn:SvGetVersion] : playerid(0) : return(0)
+[17:43:55] [connection] incoming connection: 127.0.0.1:55338 id: 1
+[17:43:55] [join] Sion_Ds has joined the server (1:127.0.0.1)
+[17:43:55] [sv:dbg:pawn:SvGetVersion] : playerid(1) : return(0)
+[17:43:55]  
+[17:43:55]  
+[17:43:55] ==========================
+[17:43:55] [NONG TRAI VUI VE] Load du lieu thanh cong !
+[17:43:55] ==========================
+[17:43:55] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:43:55] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:43:55] Dumping query from 2022/8/24 (17:43:55)
+Description: Table 'samp.bitcoin' doesn't exist (index 0). Query:
+
+[17:43:55] select * from `bitcoin`
+[17:43:55] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:43:55] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:43:55] Dumping query from 2022/8/24 (17:43:55)
+Description: Table 'samp.giankhoan' doesn't exist (index 0). Query:
+
+[17:43:55] select * from `giankhoan` where `idgiankhoan` = '1'
+[17:43:55] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:43:55] [Dynamic Giftbox] da tai thanh cong Dynamic giftbox.
+[17:43:55] [LoadHouses] 3000 ngoi nha duoc tai.
+[17:43:56] [LoadDynamicDoors] 3000 door duoc tai.
+[17:43:56] [LoadDynamicMapIcons] 400 icons map duoc tai.
+[17:43:56] [LoadMailboxes] 50 mailboxes duoc tai.
+[17:43:56] [LoadBusinesses] 200 businesses rehashed/loaded.
+[17:43:56] [LoadPlants] Successfully loaded 300 plants
+[17:43:56] [SpeedCameras] Tai 17 May ban toc do.
+[17:43:56] [LoadRelayForLifeTeams] 200 teams loaded.
+[17:43:56] TotalSold0: 0 | AmountMade0: 0
+[17:43:56] TotalSold1: 0 | AmountMade1: 0
+[17:43:56] TotalSold2: 0 | AmountMade2: 0
+[17:43:56] TotalSold3: 0 | AmountMade3: 0
+[17:43:56] TotalSold4: 0 | AmountMade4: 0
+[17:43:56] TotalSold5: 0 | AmountMade5: 0
+[17:43:56] TotalSold6: 0 | AmountMade6: 0
+[17:43:56] TotalSold7: 0 | AmountMade7: 0
+[17:43:56] TotalSold8: 0 | AmountMade8: 0
+[17:43:56] TotalSold9: 0 | AmountMade9: 0
+[17:43:56] TotalSold10: 0 | AmountMade10: 0
+[17:43:56] TotalSold11: 0 | AmountMade11: 0
+[17:43:56] TotalSold12: 0 | AmountMade12: 0
+[17:43:56] TotalSold13: 0 | AmountMade13: 0
+[17:43:56] TotalSold14: 0 | AmountMade14: 0
+[17:43:56] TotalSold15: 0 | AmountMade15: 0
+[17:43:56] TotalSold16: 0 | AmountMade16: 0
+[17:43:56] TotalSold17: 0 | AmountMade17: 0
+[17:43:56] TotalSold18: 0 | AmountMade18: 0
+[17:43:56] TotalSold19: 0 | AmountMade19: 0
+[17:43:56] TotalSold20: 0 | AmountMade20: 0
+[17:43:56] TotalSold21: 0 | AmountMade21: 0
+[17:43:56] TotalSold22: 0 | AmountMade22: 0
+[17:43:56] TotalSold23: 0 | AmountMade23: 0
+[17:43:56] TotalSold24: 0 | AmountMade24: 0
+[17:43:56] TotalSold25: 0 | AmountMade25: 0
+[17:43:56] TotalSold26: 0 | AmountMade26: 0
+[17:43:56] TotalSold27: 0 | AmountMade27: 0
+[17:43:56] TotalSold28: 0 | AmountMade28: 0
+[17:43:56] TotalSold29: 0 | AmountMade29: 0
+[17:43:56] Price0: 1000
+[17:43:56] Price1: 199
+[17:43:56] Price2: 180
+[17:43:56] Price3: 80
+[17:43:56] Price4: 100
+[17:43:56] Price5: 300
+[17:43:56] Price6: 250
+[17:43:56] Price7: 100
+[17:43:56] Price8: 25
+[17:43:56] Price9: 80
+[17:43:56] Price10: 25
+[17:43:56] Price11: 150
+[17:43:56] Price12: 200
+[17:43:56] Price13: 300
+[17:43:56] Price14: 299
+[17:43:56] Price15: 100
+[17:43:56] Price16: 60
+[17:43:56] Price17: 50
+[17:43:56] Price18: 2
+[17:43:56] Price19: 4
+[17:43:56] Price20: 11
+[17:43:56] Price21: 10000
+[17:43:56] Price22: 50
+[17:43:56] Price23: 149
+[17:43:56] Price24: 2
+[17:43:56] Price25: 300
+[17:43:56] Price26: 400
+[17:43:56] Price27: 500
+[17:43:56] Price28: 100
+[17:43:56] Price29: 29
+[17:43:56] [Family Points] 8 family points has been loaded.
+[17:43:56] chay thanh cong
+[17:43:56] da chay vo day
+[17:43:56] NULL
+[17:43:56] 0
+[17:43:56] 0
+[17:43:56] 0
+[17:43:56] 0
+[17:43:56] 0
+[17:43:56] [Bui doi cho ca] Duyet du lieu cho ca thanh cong
+[17:43:56] NULL
+[17:43:56] 0
+[17:43:56] Loi
+[17:43:56] Loi
+[17:43:56] lOI KHONG LOAD DUOC DANH SACH XE
+[17:43:56] lOI KHONG LOAD DUOC kho xe shop
+[17:43:56] Loi load tiem vang
+[17:44:01] Sion Ds has logged in.
+[17:44:01] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:44:20]  -------------------------------------------
+[17:44:20]            SampVoice unloading...           
+[17:44:20]  -------------------------------------------
+[17:44:20] [dbg:raknet:free] : module releasing...
+[17:44:20] [dbg:raknet:free] : module released
+[17:44:20] [sv:dbg:network:free] : module releasing...
+[17:44:20] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:45:59] password = ""  (string)
+[17:45:59] 
+[17:45:59] Server Plugins
+[17:45:59] --------------
+[17:45:59]  Loading plugin: crashdetect
+[17:45:59]   CrashDetect plugin 4.19.1
+[17:45:59]   Loaded.
+[17:45:59]  Loading plugin: streamer
+[17:45:59] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:45:59]   Loaded.
+[17:45:59]  Loading plugin: mysql
+[17:45:59]  >> plugin.mysql: R33 successfully loaded.
+[17:45:59]   Loaded.
+[17:45:59]  Loading plugin: sscanf
+[17:45:59] 
+
+[17:45:59]  ===============================
+
+[17:45:59]       sscanf plugin loaded.     
+
+[17:45:59]          Version:  2.8.3        
+
+[17:45:59]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:45:59]  ===============================
+
+[17:45:59]   Loaded.
+[17:45:59]  Loading plugin: Whirlpool
+[17:45:59]  
+[17:45:59]  ==================
+[17:45:59]  
+[17:45:59]   Whirlpool loaded
+[17:45:59]  
+[17:45:59]  ==================
+[17:45:59]  
+[17:45:59]   Loaded.
+[17:45:59]  Loading plugin: samp-compat
+[17:45:59]   -- samp-compat for 0.3.7-R2 initialized
+[17:45:59]   Loaded.
+[17:45:59]  Loading plugin: sampvoice
+[17:45:59] [sv:dbg:network:init] : module initializing...
+[17:45:59] [dbg:raknet:init] : module initializing...
+[17:45:59] [dbg:raknet:init] : module initialized
+[17:45:59] [sv:dbg:network:init] : module initialized
+[17:45:59] [sv:dbg:main:Load] : creating 4 work threads...
+[17:45:59]  -------------------------------------------    
+[17:45:59]    ___                __   __    _              
+[17:45:59]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[17:45:59]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[17:45:59]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[17:45:59]                   |_|                           
+[17:45:59]  -------------------------------------------    
+[17:45:59]            SampVoice by MOR loaded              
+[17:45:59]  -------------------------------------------    
+[17:45:59]   Loaded.
+[17:45:59]  Loaded 7 plugins.
+
+[17:45:59] 
+[17:45:59] Ban list
+[17:45:59] --------
+[17:45:59]  Loaded: samp.ban
+[17:45:59] 
+[17:45:59] 
+[17:45:59] Filterscripts
+[17:45:59] ---------------
+[17:45:59]   Loading filterscript 'speedcap.amx'...
+[17:45:59] [sv:dbg:main:AmxLoad] : net game pointer (value:02559C58) received
+[17:45:59] [sv:dbg:network:bind] : voice server running on port 54705
+[17:45:59]   Loading filterscript 'BanVaoChan1.amx'...
+[17:45:59]   Loading filterscript 'antinoreload.amx'...
+[17:45:59]   Loading filterscript 'anticbug.amx'...
+[17:45:59]   Loading filterscript 'bolua.amx'...
+[17:45:59]   Loading filterscript 'android-check.amx'...
+[17:45:59] Android check has been successfully loaded.
+[17:45:59]   Loaded 6 filterscripts.
+
+[17:45:59]  
+[17:45:59] --------------------------------------
+[17:45:59]  Anticheat Nex-AC da duoc tai!
+[17:45:59]  Phien ban Anticheat: 1.9.56
+[17:45:59]  Tac gia: Nexius
+[17:45:59] --------------------------------------
+
+[17:45:59]  
+[17:45:59]  ======================================= 
+[17:45:59]  |                                     | 
+[17:45:59]  |        YSI version 3.01.0002        | 
+[17:45:59]  |        By Alex "Y_Less" Cole        | 
+[17:45:59]  |                                     | 
+[17:45:59]  ======================================= 
+[17:45:59]  
+[17:46:00] [connection] 127.0.0.1:57735 requests connection cookie.
+[17:46:00] [connection] 127.0.0.1:54293 requests connection cookie.
+[17:46:00] 
+-----------------------------------------------------------------
+[17:46:00] Chuc nang do xe Mobile / PC da hoat dong
+[17:46:00] -----------------------------------------------------------------
+
+[17:46:00] da chay den day nong trai vui ve
+[17:46:00] [sv:dbg:pawn:SvDebug] : mode(1)
+[17:46:00] [sv:dbg:pawn:SvCreateGStream] : color(0xffff0000), name(Global) : return(0E0ADC78)
+[17:46:00] Dang chuan bi tai gamemode, xin vui long cho doi...
+[17:46:00] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[17:46:00] [MySQL] (MainPipeline) Connection successful toward MySQL Database Server!
+[17:46:00] Bai toan cho 10000$ neu ai tra loi dung --> 65 + 42 - 52 + 92 = ?
+[17:46:00] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[17:46:00] [LoadHouses] Loading data from database...
+[17:46:00] [Dynamic Groups] Loading Dynamic Groups...
+[17:46:00] [LoadDynamicGroups] Loading data from database...
+[17:46:00] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[17:46:00] [LoadDynamicGroupVeh] Loading data from database...
+[17:46:00] [LoadGates] Loading data from database...
+[17:46:00] [LoadDynamicDoors] Loading data from database...
+[17:46:00] [LoadDynamicMapIcons] Loading data from database...
+[17:46:00] [LoadMailboxes] Loading data from database...
+[17:46:00] [LoadBusinesses] Loading data from database...
+[17:46:00] [LoadAuctions] Loading data from database...
+[17:46:00] [LoadTxtLabels] Loading data from database...
+[17:46:00] [LoadPlants] Loading data from database...
+[17:46:00] [SpeedCameras] Loading data from database...
+[17:46:00] [LoadPayNSprays] Loading data from database...
+[17:46:00] [LoadArrestPoints] Loading data from database...
+[17:46:00] [LoadImpoundPoints] Loading data from database...
+[17:46:00] [LoadRelayForLifeTeams] Loading data from database...
+[17:46:00] [LoadBusinessSales] Loading data from database...
+[17:46:00] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[17:46:01] [LoadTurfWars] 65 turfs loaded.
+[17:46:01] [LoadPaintballArenas] 10 paintball arenas loaded.
+[17:46:01] [LoadEventPoints] 0 event points loaded.
+[17:46:01] [LoadElevatorStuff] 20 floors loaded.
+[17:46:01] [LoadFamilies] Loading data from database...
+[17:46:01] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[17:46:01] [MiscLoad] Misc Loaded
+[17:46:01] Resetting news...
+[17:46:01] Resetting default server variables..
+[17:46:01] Adjusted the server time...
+[17:46:01] [Textdraws] Loading Textdraws...
+[17:46:01] [Textdraws] Loaded textdraws.
+[17:46:01] Da load het Can Sa
+[17:46:01] [Streamer] Loading Dynamic Static Vehicles...
+[17:46:01] [Streamer] Dynamic Static Vehicles has been loaded.
+[17:46:01] [Streamer] Loading Dynamic Pickups...
+[17:46:01] [Streamer] Dynamic Pickups has been loaded.
+[17:46:01] [Streamer] Loading 3D Text Labels...
+[17:46:01] [Streamer] Dynamic 3D Text Labels has been loaded.
+[17:46:01] [Streamer] Loading Dynamic Buttons...
+[17:46:01] [Streamer] Dynamic Buttons has been loaded.
+[17:46:01] [Streamer] Loading Dynamic Objects...
+[17:46:01] [Streamer] Dynamic Objects has been loaded.
+[17:46:01] 
+---------------------------------------------------------------------------
+[17:46:01] Gamemode VGTA SAMP Roleplay da tai thanh cong voi phien ban V1.0 Cuoc chien tro lai
+[17:46:01] ---------------------------------------------------------------------------
+[17:46:01] Number of vehicle models: 14
+[17:46:01] [connection] incoming connection: 127.0.0.1:57735 id: 0
+[17:46:01]  
+[17:46:01]  
+[17:46:01] ==========================
+[17:46:01] [NONG TRAI VUI VE] Load du lieu thanh cong !
+[17:46:01] ==========================
+[17:46:01] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:46:01] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:01] Dumping query from 2022/8/24 (17:46:1)
+Description: Table 'samp.bitcoin' doesn't exist (index 0). Query:
+
+[17:46:01] select * from `bitcoin`
+[17:46:01] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:46:01] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:01] Dumping query from 2022/8/24 (17:46:1)
+Description: Table 'samp.giankhoan' doesn't exist (index 0). Query:
+
+[17:46:01] select * from `giankhoan` where `idgiankhoan` = '1'
+[17:46:01] [Dynamic Giftbox] da tai thanh cong Dynamic giftbox.
+[17:46:02] [LoadHouses] 3000 ngoi nha duoc tai.
+[17:46:02] [LoadDynamicDoors] 3000 door duoc tai.
+[17:46:02] [LoadDynamicMapIcons] 400 icons map duoc tai.
+[17:46:02] [LoadMailboxes] 50 mailboxes duoc tai.
+[17:46:02] [LoadBusinesses] 200 businesses rehashed/loaded.
+[17:46:02] [LoadPlants] Successfully loaded 300 plants
+[17:46:02] [SpeedCameras] Tai 17 May ban toc do.
+[17:46:02] [LoadRelayForLifeTeams] 200 teams loaded.
+[17:46:02] TotalSold0: 0 | AmountMade0: 0
+[17:46:02] TotalSold1: 0 | AmountMade1: 0
+[17:46:02] TotalSold2: 0 | AmountMade2: 0
+[17:46:02] TotalSold3: 0 | AmountMade3: 0
+[17:46:02] TotalSold4: 0 | AmountMade4: 0
+[17:46:02] TotalSold5: 0 | AmountMade5: 0
+[17:46:02] TotalSold6: 0 | AmountMade6: 0
+[17:46:02] TotalSold7: 0 | AmountMade7: 0
+[17:46:02] TotalSold8: 0 | AmountMade8: 0
+[17:46:02] TotalSold9: 0 | AmountMade9: 0
+[17:46:02] TotalSold10: 0 | AmountMade10: 0
+[17:46:02] TotalSold11: 0 | AmountMade11: 0
+[17:46:02] TotalSold12: 0 | AmountMade12: 0
+[17:46:02] TotalSold13: 0 | AmountMade13: 0
+[17:46:02] TotalSold14: 0 | AmountMade14: 0
+[17:46:02] TotalSold15: 0 | AmountMade15: 0
+[17:46:02] TotalSold16: 0 | AmountMade16: 0
+[17:46:02] TotalSold17: 0 | AmountMade17: 0
+[17:46:02] TotalSold18: 0 | AmountMade18: 0
+[17:46:02] TotalSold19: 0 | AmountMade19: 0
+[17:46:02] TotalSold20: 0 | AmountMade20: 0
+[17:46:02] TotalSold21: 0 | AmountMade21: 0
+[17:46:02] TotalSold22: 0 | AmountMade22: 0
+[17:46:02] TotalSold23: 0 | AmountMade23: 0
+[17:46:02] TotalSold24: 0 | AmountMade24: 0
+[17:46:02] TotalSold25: 0 | AmountMade25: 0
+[17:46:02] TotalSold26: 0 | AmountMade26: 0
+[17:46:02] TotalSold27: 0 | AmountMade27: 0
+[17:46:02] TotalSold28: 0 | AmountMade28: 0
+[17:46:02] TotalSold29: 0 | AmountMade29: 0
+[17:46:02] Price0: 1000
+[17:46:02] Price1: 199
+[17:46:02] Price2: 180
+[17:46:02] Price3: 80
+[17:46:02] Price4: 100
+[17:46:02] Price5: 300
+[17:46:02] Price6: 250
+[17:46:02] Price7: 100
+[17:46:02] Price8: 25
+[17:46:02] Price9: 80
+[17:46:02] Price10: 25
+[17:46:02] Price11: 150
+[17:46:02] Price12: 200
+[17:46:02] Price13: 300
+[17:46:02] Price14: 299
+[17:46:02] Price15: 100
+[17:46:02] Price16: 60
+[17:46:02] Price17: 50
+[17:46:02] Price18: 2
+[17:46:02] Price19: 4
+[17:46:02] Price20: 11
+[17:46:02] Price21: 10000
+[17:46:02] Price22: 50
+[17:46:02] Price23: 149
+[17:46:02] Price24: 2
+[17:46:02] Price25: 300
+[17:46:02] Price26: 400
+[17:46:02] Price27: 500
+[17:46:02] Price28: 100
+[17:46:02] Price29: 29
+[17:46:02] [Family Points] 8 family points has been loaded.
+[17:46:02] chay thanh cong
+[17:46:02] da chay vo day
+[17:46:02] NULL
+[17:46:02] 0
+[17:46:02] 0
+[17:46:02] 0
+[17:46:02] 0
+[17:46:02] 0
+[17:46:02] [Bui doi cho ca] Duyet du lieu cho ca thanh cong
+[17:46:02] NULL
+[17:46:02] 0
+[17:46:02] Loi
+[17:46:02] Loi
+[17:46:02] lOI KHONG LOAD DUOC DANH SACH XE
+[17:46:02] lOI KHONG LOAD DUOC kho xe shop
+[17:46:02] Loi load tiem vang
+[17:46:02] [connection] incoming connection: 127.0.0.1:54293 id: 1
+[17:46:02] [join] Sion_D has joined the server (0:127.0.0.1)
+[17:46:02] [sv:dbg:pawn:SvGetVersion] : playerid(0) : return(0)
+[17:46:02] [join] Sion_Ds has joined the server (1:127.0.0.1)
+[17:46:02] [sv:dbg:pawn:SvGetVersion] : playerid(1) : return(0)
+[17:46:08] Sion Ds has logged in.
+[17:46:08] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:46:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:46:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:25] Dumping query from 2022/8/24 (17:46:25)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:46:25] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=212,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=16,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1
+[17:46:25] `=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=16,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:46:25] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:46:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:46:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:25] Dumping query from 2022/8/24 (17:46:25)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:46:25] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=0,`NVNhanthuong
+[17:46:25] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=7000,`Dry`=3600,`Sleep`=7200,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:46:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:46:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:25] Dumping query from 2022/8/24 (17:46:25)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:46:25] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:46:25] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:46:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:46:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:25] Dumping query from 2022/8/24 (17:46:25)
+Description: Unknown column 'Urani' in 'field list' (index 0). Query:
+
+[17:46:25] UPDATE `accounts` SET `IP`='127.0.0.1',`Registered`=1,`ConnectedTime`=1,`Sex`=1,`BirthDate`='1922-01-01',`Band`=0,`PermBand`=0,`Warnings`=0,`Disabled`=0,`Level`=1,`AdminLevel`=99999,`Hyperion`=0,`SeniorModerator`=0,`Helper`=0,`DonateRank`=2,`Respect`=0,`XP`=0,`Money`=10000,`Bank`=30000,`Urani`=0,`pHealth`='99.00',`pArmor`='0.00',`pSHealth`='0.00',`Int`=0,`VirtualWorld`=0,`Model`=212,`BanAppealer`=0,`PR`=0,`HR`=0,`AP`=1,`Security`=0,`ShopTech`=0,`FactionModerator`=0,`GangModerator`=0,`Undercover`=0,`TogReports`=0,`Radio`=0,`RadioFreq`=0,`UpgradePoints`=0,`Origin`=0,`Muted`=0,`Crimes`=0,`Accent`=1,`CHits`=0,`FHits`=0,`Arrested`=0,`Phonebook`=0,`LottoNr`=0,`Fishes`=0,`BiggestFish`=0,`Job`=0,`Job2`=0,`Paycheck`=16,`HeadValue`=0,`JailTime`=0,`WRestricted`=0,`Materials`=0,`Crates`=0,`Pot`=0,`Crack`=0,`Nation`=0,`Leader`=-1,`Member`=-1,`Division`=-1,`FMember`=255,`Rank`=255,`DetSkill`=0,`SexSkill`=0,`BoxSkill`=0,`LawSkill`=0,`MechSkill`=0,`TruckSkill`=0,`Fish1`=0,`Fish2`=-1,`Fish3`=-1,`Fish4`=-1,`Fish5`=-1,`Weight1
+[17:46:25] `=0,`Weight2`=0,`Weight3`=0,`Weight4`=0,`Weight5`=0,`CanCau`=10,`MoiCau`=10,`BotMi`=0,`DauXanh`=0,`HanhNhan`=0,`DauPhong`=0,`MeDen`=0,`HopBanh`=0,`BanhPia`=0,`BanhHanhNhan`=0,`BanhThapCam`=0,`Diem`=0,`TrungThu`=0,`XepHang`=0,`chaoco`=0,`thuocphao`=0,`phaotiepte`=0,`phaotieptecp`=0,`vophao`=0,`ngoiphao`=0,`phaohoa`=0,`hotquet`=0,`phieutrangphuc`=0,`DrugsSkill`=0,`ArmsSkill`=0,`SmugglerSkill`=0,`FishSkill`=0,`CheckCash`=0,`Checks`=0,`BoatLic`=0,`FlyLic`=0,`GunLic`=1,`FishLic`=1,`FishSkill`=0,`FightingStyle`=0,`PhoneNr`=0,`Apartment`=172,`Apartment2`=-1,`Renting`=-1,`CarLic`=1,`DrugsTime`=0,`LawyerTime`=0,`LawyerFreeTime`=0,`MechTime`=0,`SexTime`=0,`PayDay`=16,`PayDayHad`=0,`CDPlayer`=0,`Dice`=0,`Spraycan`=0,`Rope`=0,`Cigars`=0,`Sprunk`=0,`Bombs`=0,`Wins`=0,`Gun0`=0,`Gun1`=0,`Gun2`=0,`Gun3`=0,`Gun4`=0,`Gun5`=0,`Gun6`=0 WHERE `id`=3
+[17:46:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:46:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:25] Dumping query from 2022/8/24 (17:46:25)
+Description: Unknown column 'NVDate' in 'field list' (index 0). Query:
+
+[17:46:25] UPDATE `accounts` SET `MailEnabled`=1,`Mailbox`=0,`Business`=-1,`BusinessRank`=-1,`TreasureSkill`=0,`MetalDetector`=0,`HelpedBefore`=0,`Trickortreat`=0,`LastCharmReceived`=0,`RHMutes`=0,`RHMuteTime`=0,`GiftCode`=0,`Table`=0,`OpiumSeeds`=0,`RawOpium`=0,`Heroin`=0,`Syringe`=0,`Skins`=0,`Hunger`=300,`HungerTimer`=0,`HungerDeathTimer`=0,`Fitness`=0,`HealthCare`=0,`ReceivedCredits`=0,`RimMod`=0,`Tazer`=0,`Cuff`=0,`CarVoucher`=0,`ReferredBy`='Nobody',`PendingRefReward`=0,`Refers`=0,`Famed`=0,`FamedMuted`=0,`DefendTime`=0,`PVIPVoucher`=0,`VehicleSlot`=0,`ToySlot`=0,`RFLTeam`=-1,`RFLTeamL`=-1,`VehVoucher`=0,`SVIPVoucher`=0,`GVIPVoucher`=0,`GiftVoucher`=0,`FallIntoFun`=0,`HungerVoucher`=0,`BoughtCure`=0,`Vials`=0,`AdvertVoucher`=0,`ShopCounter`=0,`ShopNotice`=0,`SVIPExVoucher`=0,`GVIPExVoucher`=0,`VIPSellable`=0,`Neon`=0,`SuaBo`=0,`C4Robbank`=0,`Balo`=0,`ReceivedPrize`=0,`KKDaQuy`=0,`DLDate`=32,`DLRewardBox0`=0,`DLRewardBox1`=0,`DLRewardBox2`=0,`NVDate`=0,`NVTruck`=0,`NVCauca`=0,`NVCansa`=0,`NVOnline`=0,`NVNhanthuong
+[17:46:25] `=0,`SkinKatana`=0,`SkinM4`=0,`SkinDE`=0,`SkinAk`=0,`SkinMP5`=0,`TongThong`=0,`DiemCongDan`=100,`Hungers`=7000,`Dry`=3600,`Sleep`=7200,`NhanQuaCapDo`=0,`NhanQuaBaoTri`=0,`NhanQuaLanDau`=0,`DaNap`=0,`SeiCoin`=0,`NhiemVu`=0,`TienDo`=0,`DaSuDungLD`=0,`pMask`=0,`pMaskOn`=0,`pKillWarn`=0,`pSoCuuTime`=0,`KatanaMaVang`=0,`DeMaVang`=0,`Mp5MaVang`=0,`M4MaVang`=0,`KatanaHalloween`=0,`DeHalloween`=0,`Mp5Halloween`=0,`M4Halloween`=0,`LevelCuoc`=1,`NongTraiSkill`=0,`pInv0`=50014,`pInvAmount0`=1,`pInv1`=0,`pInvAmount1`=0,`pInv2`=0,`pInvAmount2`=0,`pInv3`=0,`pInvAmount3`=0,`pInv4`=0,`pInvAmount4`=0,`pInv5`=0,`pInvAmount5`=0,`pInv6`=0,`pInvAmount6`=0,`pInv7`=0,`pInvAmount7`=0,`pInv8`=0,`pInvAmount8`=0,`pInv9`=0,`pInvAmount9`=0,`pInv10`=0,`pInvAmount10`=0,`pInv11`=0,`pInvAmount11`=0,`pInv12`=0,`pInvAmount12`=0,`pInv13`=0,`pInvAmount13`=0 WHERE `id`=3
+[17:46:25] [MySQL] Query Error - (ErrorID: 1054) (Handle: 1)
+[17:46:25] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:46:25] Dumping query from 2022/8/24 (17:46:25)
+Description: Unknown column 'pInv14' in 'field list' (index 0). Query:
+
+[17:46:25] UPDATE `accounts` SET `pInv14`=0,`pInvAmount14`=0,`pInv15`=0,`pInvAmount15`=0,`pInv16`=0,`pInvAmount16`=0,`pInv17`=0,`pInvAmount17`=0,`pInv18`=0,`pInvAmount18`=0,`pInv19`=0,`pInvAmount19`=0,`pInv20`=0,`pInvAmount20`=0,`pInv21`=0,`pInvAmount21`=0,`pInv22`=0,`pInvAmount22`=0,`pInv23`=0,`pInvAmount23`=0,`pInv24`=0,`pInvAmount24`=0,`pInv25`=50083,`pInvAmount25`=1,`pInv26`=50083,`pInvAmount26`=1,`pInv27`=50083,`pInvAmount27`=1,`pInv28`=50083,`pInvAmount28`=1,`pInv29`=50083,`pInvAmount29`=1,`pInv30`=50083,`pInvAmount30`=1,`pInv31`=50083,`pInvAmount31`=1,`pInv32`=50083,`pInvAmount32`=1,`pInv33`=50083,`pInvAmount33`=1,`pInv34`=50083,`pInvAmount34`=1,`pInv35`=50083,`pInvAmount35`=1,`pInv36`=50083,`pInvAmount36`=1,`pInv37`=50083,`pInvAmount37`=1,`pInv38`=50083,`pInvAmount38`=1,`pInv39`=50083,`pInvAmount39`=1,`pInv40`=50083,`pInvAmount40`=1,`pInv41`=50083,`pInvAmount41`=1,`pInv42`=50083,`pInvAmount42`=1,`pInv43`=50083,`pInvAmount43`=1,`pInv44`=50083,`pInvAmount44`=1,`pInv45`=50083,`pInvAmount45`=1,`pInv46`=50083,`pInvA
+[17:46:25] mount46`=1,`pInv47`=50083,`pInvAmount47`=1,`pInv48`=50083,`pInvAmount48`=1,`pInv49`=50083,`pInvAmount49`=1 WHERE id=3
+[17:48:09]  -------------------------------------------
+[17:48:09]            SampVoice unloading...           
+[17:48:09]  -------------------------------------------
+[17:48:09] [dbg:raknet:free] : module releasing...
+[17:48:09] [dbg:raknet:free] : module released
+[17:48:09] [sv:dbg:network:free] : module releasing...
+[17:48:09] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:58:09] password = ""  (string)
+[17:58:09] 
+[17:58:09] Server Plugins
+[17:58:09] --------------
+[17:58:09]  Loading plugin: crashdetect
+[17:58:09]   CrashDetect plugin 4.19.1
+[17:58:09]   Loaded.
+[17:58:09]  Loading plugin: streamer
+[17:58:09] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:58:09]   Loaded.
+[17:58:09]  Loading plugin: mysql
+[17:58:09]  >> plugin.mysql: R33 successfully loaded.
+[17:58:09]   Loaded.
+[17:58:09]  Loading plugin: sscanf
+[17:58:09] 
+
+[17:58:09]  ===============================
+
+[17:58:09]       sscanf plugin loaded.     
+
+[17:58:09]          Version:  2.8.3        
+
+[17:58:09]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:58:09]  ===============================
+
+[17:58:09]   Loaded.
+[17:58:09]  Loading plugin: Whirlpool
+[17:58:09]  
+[17:58:09]  ==================
+[17:58:09]  
+[17:58:09]   Whirlpool loaded
+[17:58:09]  
+[17:58:09]  ==================
+[17:58:09]  
+[17:58:09]   Loaded.
+[17:58:09]  Loading plugin: samp-compat
+[17:58:09]   -- samp-compat for 0.3.7-R2 initialized
+[17:58:09]   Loaded.
+[17:58:09]  Loading plugin: sampvoice
+[17:58:09] [sv:dbg:network:init] : module initializing...
+[17:58:09] [dbg:raknet:init] : module initializing...
+[17:58:09] [dbg:raknet:init] : module initialized
+[17:58:09] [sv:dbg:network:init] : module initialized
+[17:58:09] [sv:dbg:main:Load] : creating 4 work threads...
+[17:58:09]  -------------------------------------------    
+[17:58:09]    ___                __   __    _              
+[17:58:09]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[17:58:09]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[17:58:09]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[17:58:09]                   |_|                           
+[17:58:09]  -------------------------------------------    
+[17:58:09]            SampVoice by MOR loaded              
+[17:58:09]  -------------------------------------------    
+[17:58:09]   Loaded.
+[17:58:09]  Loaded 7 plugins.
+
+[17:58:10] 
+[17:58:10] Ban list
+[17:58:10] --------
+[17:58:10]  Loaded: samp.ban
+[17:58:10] 
+[17:58:10] 
+[17:58:10] Filterscripts
+[17:58:10] ---------------
+[17:58:10]   Loading filterscript 'speedcap.amx'...
+[17:58:10] [sv:dbg:main:AmxLoad] : net game pointer (value:024A9C58) received
+[17:58:10] [sv:dbg:network:bind] : voice server running on port 62600
+[17:58:10]   Loading filterscript 'BanVaoChan1.amx'...
+[17:58:10]   Loading filterscript 'antinoreload.amx'...
+[17:58:10]   Loading filterscript 'anticbug.amx'...
+[17:58:10]   Loading filterscript 'bolua.amx'...
+[17:58:10]   Loading filterscript 'android-check.amx'...
+[17:58:10] Android check has been successfully loaded.
+[17:58:10]   Loaded 6 filterscripts.
+
+[17:58:10] [connection] 127.0.0.1:55546 requests connection cookie.
+[17:58:10] [connection] 127.0.0.1:55547 requests connection cookie.
+[17:58:10]  
+[17:58:10] --------------------------------------
+[17:58:10]  Anticheat Nex-AC da duoc tai!
+[17:58:10]  Phien ban Anticheat: 1.9.56
+[17:58:10]  Tac gia: Nexius
+[17:58:10] --------------------------------------
+
+[17:58:10]  
+[17:58:10]  ======================================= 
+[17:58:10]  |                                     | 
+[17:58:10]  |        YSI version 3.01.0002        | 
+[17:58:10]  |        By Alex "Y_Less" Cole        | 
+[17:58:10]  |                                     | 
+[17:58:10]  ======================================= 
+[17:58:10]  
+[17:58:11] 
+-----------------------------------------------------------------
+[17:58:11] Chuc nang do xe Mobile / PC da hoat dong
+[17:58:11] -----------------------------------------------------------------
+
+[17:58:11] da chay den day nong trai vui ve
+[17:58:11] [sv:dbg:pawn:SvDebug] : mode(1)
+[17:58:11] [sv:dbg:pawn:SvCreateGStream] : color(0xffff0000), name(Global) : return(0E20AD70)
+[17:58:11] Dang chuan bi tai gamemode, xin vui long cho doi...
+[17:58:11] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[17:58:11] [MySQL] (MainPipeline) Connection successful toward MySQL Database Server!
+[17:58:11] Bai toan cho 10000$ neu ai tra loi dung --> 46 + 83 - 36 + 64 = ?
+[17:58:11] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[17:58:11] [LoadHouses] Loading data from database...
+[17:58:11] [Dynamic Groups] Loading Dynamic Groups...
+[17:58:11] [LoadDynamicGroups] Loading data from database...
+[17:58:11] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[17:58:11] [LoadDynamicGroupVeh] Loading data from database...
+[17:58:11] [LoadGates] Loading data from database...
+[17:58:11] [LoadDynamicDoors] Loading data from database...
+[17:58:11] [LoadDynamicMapIcons] Loading data from database...
+[17:58:11] [LoadMailboxes] Loading data from database...
+[17:58:11] [LoadBusinesses] Loading data from database...
+[17:58:11] [LoadAuctions] Loading data from database...
+[17:58:11] [LoadTxtLabels] Loading data from database...
+[17:58:11] [LoadPlants] Loading data from database...
+[17:58:11] [SpeedCameras] Loading data from database...
+[17:58:11] [LoadPayNSprays] Loading data from database...
+[17:58:11] [LoadArrestPoints] Loading data from database...
+[17:58:11] [LoadImpoundPoints] Loading data from database...
+[17:58:11] [LoadRelayForLifeTeams] Loading data from database...
+[17:58:11] [LoadBusinessSales] Loading data from database...
+[17:58:11] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[17:58:11] [LoadTurfWars] 65 turfs loaded.
+[17:58:11] [LoadPaintballArenas] 10 paintball arenas loaded.
+[17:58:11] [LoadEventPoints] 0 event points loaded.
+[17:58:11] [LoadElevatorStuff] 20 floors loaded.
+[17:58:11] [LoadFamilies] Loading data from database...
+[17:58:11] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[17:58:11] [MiscLoad] Misc Loaded
+[17:58:11] Resetting news...
+[17:58:11] Resetting default server variables..
+[17:58:11] Adjusted the server time...
+[17:58:11] [Textdraws] Loading Textdraws...
+[17:58:11] [Textdraws] Loaded textdraws.
+[17:58:11] Da load het Can Sa
+[17:58:11] [Streamer] Loading Dynamic Static Vehicles...
+[17:58:11] [Streamer] Dynamic Static Vehicles has been loaded.
+[17:58:11] [Streamer] Loading Dynamic Pickups...
+[17:58:11] [Streamer] Dynamic Pickups has been loaded.
+[17:58:11] [Streamer] Loading 3D Text Labels...
+[17:58:11] [Streamer] Dynamic 3D Text Labels has been loaded.
+[17:58:11] [Streamer] Loading Dynamic Buttons...
+[17:58:11] [Streamer] Dynamic Buttons has been loaded.
+[17:58:11] [Streamer] Loading Dynamic Objects...
+[17:58:11] [Streamer] Dynamic Objects has been loaded.
+[17:58:11] 
+---------------------------------------------------------------------------
+[17:58:11] Gamemode VGTA SAMP Roleplay da tai thanh cong voi phien ban V1.0 Cuoc chien tro lai
+[17:58:11] ---------------------------------------------------------------------------
+[17:58:11] Number of vehicle models: 14
+[17:58:11] [connection] incoming connection: 127.0.0.1:55546 id: 0
+[17:58:11] [connection] incoming connection: 127.0.0.1:55547 id: 1
+[17:58:11] [join] Sion_D has joined the server (0:127.0.0.1)
+[17:58:11] [sv:dbg:pawn:SvGetVersion] : playerid(0) : return(0)
+[17:58:11] [join] Sion_Ds has joined the server (1:127.0.0.1)
+[17:58:11] [sv:dbg:pawn:SvGetVersion] : playerid(1) : return(0)
+[17:58:11]  
+[17:58:11]  
+[17:58:11] ==========================
+[17:58:11] [NONG TRAI VUI VE] Load du lieu thanh cong !
+[17:58:11] ==========================
+[17:58:11] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:58:11] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:58:11] Dumping query from 2022/8/24 (17:58:11)
+Description: Table 'samp.bitcoin' doesn't exist (index 0). Query:
+
+[17:58:11] select * from `bitcoin`
+[17:58:11] [MySQL] Query Error - (ErrorID: 1146) (Handle: 1)
+[17:58:11] [MySQL] Check mysql_log.txt to review the query that threw the error.
+[17:58:11] Dumping query from 2022/8/24 (17:58:11)
+Description: Table 'samp.giankhoan' doesn't exist (index 0). Query:
+
+[17:58:11] select * from `giankhoan` where `idgiankhoan` = '1'
+[17:58:11] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:58:11] [Dynamic Giftbox] da tai thanh cong Dynamic giftbox.
+[17:58:11] [LoadHouses] 3000 ngoi nha duoc tai.
+[17:58:12] [LoadDynamicDoors] 3000 door duoc tai.
+[17:58:12] [LoadDynamicMapIcons] 400 icons map duoc tai.
+[17:58:12] [LoadMailboxes] 50 mailboxes duoc tai.
+[17:58:12] [LoadBusinesses] 200 businesses rehashed/loaded.
+[17:58:12] [LoadPlants] Successfully loaded 300 plants
+[17:58:12] [SpeedCameras] Tai 17 May ban toc do.
+[17:58:12] [LoadRelayForLifeTeams] 200 teams loaded.
+[17:58:12] TotalSold0: 0 | AmountMade0: 0
+[17:58:12] TotalSold1: 0 | AmountMade1: 0
+[17:58:12] TotalSold2: 0 | AmountMade2: 0
+[17:58:12] TotalSold3: 0 | AmountMade3: 0
+[17:58:12] TotalSold4: 0 | AmountMade4: 0
+[17:58:12] TotalSold5: 0 | AmountMade5: 0
+[17:58:12] TotalSold6: 0 | AmountMade6: 0
+[17:58:12] TotalSold7: 0 | AmountMade7: 0
+[17:58:12] TotalSold8: 0 | AmountMade8: 0
+[17:58:12] TotalSold9: 0 | AmountMade9: 0
+[17:58:12] TotalSold10: 0 | AmountMade10: 0
+[17:58:12] TotalSold11: 0 | AmountMade11: 0
+[17:58:12] TotalSold12: 0 | AmountMade12: 0
+[17:58:12] TotalSold13: 0 | AmountMade13: 0
+[17:58:12] TotalSold14: 0 | AmountMade14: 0
+[17:58:12] TotalSold15: 0 | AmountMade15: 0
+[17:58:12] TotalSold16: 0 | AmountMade16: 0
+[17:58:12] TotalSold17: 0 | AmountMade17: 0
+[17:58:12] TotalSold18: 0 | AmountMade18: 0
+[17:58:12] TotalSold19: 0 | AmountMade19: 0
+[17:58:12] TotalSold20: 0 | AmountMade20: 0
+[17:58:12] TotalSold21: 0 | AmountMade21: 0
+[17:58:12] TotalSold22: 0 | AmountMade22: 0
+[17:58:12] TotalSold23: 0 | AmountMade23: 0
+[17:58:12] TotalSold24: 0 | AmountMade24: 0
+[17:58:12] TotalSold25: 0 | AmountMade25: 0
+[17:58:12] TotalSold26: 0 | AmountMade26: 0
+[17:58:12] TotalSold27: 0 | AmountMade27: 0
+[17:58:12] TotalSold28: 0 | AmountMade28: 0
+[17:58:12] TotalSold29: 0 | AmountMade29: 0
+[17:58:12] Price0: 1000
+[17:58:12] Price1: 199
+[17:58:12] Price2: 180
+[17:58:12] Price3: 80
+[17:58:12] Price4: 100
+[17:58:12] Price5: 300
+[17:58:12] Price6: 250
+[17:58:12] Price7: 100
+[17:58:12] Price8: 25
+[17:58:12] Price9: 80
+[17:58:12] Price10: 25
+[17:58:12] Price11: 150
+[17:58:12] Price12: 200
+[17:58:12] Price13: 300
+[17:58:12] Price14: 299
+[17:58:12] Price15: 100
+[17:58:12] Price16: 60
+[17:58:12] Price17: 50
+[17:58:12] Price18: 2
+[17:58:12] Price19: 4
+[17:58:12] Price20: 11
+[17:58:12] Price21: 10000
+[17:58:12] Price22: 50
+[17:58:12] Price23: 149
+[17:58:12] Price24: 2
+[17:58:12] Price25: 300
+[17:58:12] Price26: 400
+[17:58:12] Price27: 500
+[17:58:12] Price28: 100
+[17:58:12] Price29: 29
+[17:58:12] [Family Points] 8 family points has been loaded.
+[17:58:12] chay thanh cong
+[17:58:12] da chay vo day
+[17:58:12] NULL
+[17:58:12] 0
+[17:58:12] 0
+[17:58:12] 0
+[17:58:12] 0
+[17:58:12] 0
+[17:58:12] [Bui doi cho ca] Duyet du lieu cho ca thanh cong
+[17:58:12] NULL
+[17:58:12] 0
+[17:58:12] Loi
+[17:58:12] Loi
+[17:58:12] lOI KHONG LOAD DUOC DANH SACH XE
+[17:58:12] lOI KHONG LOAD DUOC kho xe shop
+[17:58:12] Loi load tiem vang
+[17:58:17] Sion Ds has logged in.
+[17:58:17] [He Thong] Da luu lai thong tin tai khoan thanh cong.
+[17:58:18] [warning] client exceeded 'ackslimit' 127.0.0.1:55547 (3105) Limit: 3000/sec
+[17:58:18] [warning] client exceeded 'ackslimit' 127.0.0.1:55547 (3105) Limit: 3000/sec
+[17:58:18] [warning] client exceeded 'ackslimit' 127.0.0.1:55547 (3105) Limit: 3000/sec
+[17:58:19] [warning] client exceeded 'ackslimit' 127.0.0.1:55547 (3105) Limit: 3000/sec
+[17:58:19] [warning] client exceeded 'ackslimit' 127.0.0.1:55547 (3105) Limit: 3000/sec

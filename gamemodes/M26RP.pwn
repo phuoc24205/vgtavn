@@ -93,6 +93,9 @@
 #include "./includes/giankhoan.pwn"
 #include "./includes/nhiemvu.pwn"
 #include "./includes/damage.pwn"
+#include "./includes/doimanhxe.pwn"
+#include "./includes/xepizza.pwn"
+#include "./includes/nhiemvupizzav2.pwn"
 
 main() {}
 

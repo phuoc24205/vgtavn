@@ -96,7 +96,7 @@ stock GetGiapVatLi(playerid)
     PlayerInfo[playerid][pGiapVatLi] = 0;
     for(new i = 0; i < 6; i++)
     {
-        if(PlayerInfo[playerid][pInvArmor][i] == ITEM_GIAP) PlayerInfo[playerid][pGiapVatLi] += 10;
+        if(PlayerInfo[playerid][pInvArmor][i] == ITEM_GIAP) PlayerInfo[playerid][pGiapVatLi] += 5;
         else if(PlayerInfo[playerid][pInvArmor][i] == ITEM_GIAP2) PlayerInfo[playerid][pGiapVatLi] += 10;
     }
     return PlayerInfo[playerid][pGiapVatLi];
@@ -106,7 +106,7 @@ stock GetGiapPhep(playerid)
     PlayerInfo[playerid][pGiapPhep] = 0;
     for(new i = 0; i < 6; i++)
     {
-        if(PlayerInfo[playerid][pInvArmor][i] == ITEM_GIAP1) PlayerInfo[playerid][pGiapPhep] += 10;
+        if(PlayerInfo[playerid][pInvArmor][i] == ITEM_GIAP1) PlayerInfo[playerid][pGiapPhep] += 5;
     }
 
     return PlayerInfo[playerid][pGiapPhep];

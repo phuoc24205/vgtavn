@@ -32,27 +32,8 @@ hook OnGameModeInit()
     carvid[0][botbanh] = 0;
     carvid[0][nhanbanh] = 0;
     carvid[0][haisan] = 0;
-    print("loi 1");
-    new str[256],idsohuu[64];
-    if(carvid[0][idplayer] == INVALID_PLAYER_ID)
-    {
-        idsohuu = "{F5F5F5}(Trong)";
-        print("loi 2");
-    }
-    else
-    {
-        format(idsohuu, sizeof(idsohuu), "{F5F5F5}cua {F54D42}%s", GetPlayerNameEx(carvid[0][idplayer]));
-        print("loi 3");
-    }
-    format(str, sizeof(str), 
-        "{FFCD00}Xe Cho Hang Pizza {F54D42}%s\n\
-        {FF8356}Bot Banh: {FFCD00}%i\n\
-        {FF8356}Nhan Banh: {FFCD00}%i\n\
-        {FF8356}Hai San: {FFCD00}%i\n\
-        ", idsohuu,carvid[0][botbanh], carvid[0][nhanbanh], carvid[0][haisan]);
-    print("loi 4");
-    XeLayHangPizza_3DText[0] = CreateDynamic3DTextLabel(str, 0xFFFFFFFF, 0.0, 0.0, 0.2, 30.0, INVALID_PLAYER_ID, carvid[0][idxe], 0, -1, -1);
-    print("loi 5");
+
+    
 }
 
 

@@ -118,9 +118,9 @@ timer LayTienStore[1000](playerid)
         new strings[256], stringss[256];
         new render = Random(1,5);
         SendClientMessage(playerid, COLOR_RED, "Cuop thanh cong");
-        PlayerInfo[playerid][pCash] += render*50000;
+        PlayerInfo[playerid][pCash] += render*30000;
 
-        format(strings, sizeof(strings), "Ban cuop thanh cong CircleK va nhan duoc so tien $%s", number_format(render*50000));
+        format(strings, sizeof(strings), "Ban cuop thanh cong CircleK va nhan duoc so tien $%s", number_format(render*30000));
         SendClientMessage(playerid, COLOR_YELLOW, strings);
 
         new szMessage[128];
@@ -259,6 +259,7 @@ public OnPlayerKeypadInput(playerid, keypadID, type, key)
         ClearAnimations(playerid);
         RandCheckpointGold = Random(0, sizeof(CheckpointGold));
         TogglePlayerControllable(playerid, 1);
+        DeleteItem(playerid, InventoryItemCheck(playerid, ITEM_CAYBUA, 1), 1);
         for(new i = 0; i < sizeof(GoldLayVang); i++)
         {
              GoldLayVang[i][DaLay] = false;

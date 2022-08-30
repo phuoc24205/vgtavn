@@ -108,11 +108,11 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 		{
 			if(PlayerInfo[playerid][pFMember] == idgangchoca)
 			{
-				ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$900 SAD/con{FFFFFF}.","BAN","Huy bo");
+				ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$400 SAD/con{FFFFFF}.","BAN","Huy bo");
 			}
 			else
 			{
-				ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$500 SAD/con{FFFFFF}.","BAN","Huy bo");
+				ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$200 SAD/con{FFFFFF}.","BAN","Huy bo");
 			}
 			
 		}
@@ -150,10 +150,10 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		{
 		    if(!IsNumeric(inputtext)) return ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$500 SAD/con{FFFFFF}.","BAN","Huy bo");
 			new amount = strval(inputtext);
-			new moneykaka = 500*amount;
+			new moneykaka = 200*amount;
 			if(PlayerInfo[playerid][pFMember] == idgangchoca)
 			{
-				moneykaka = 900*amount;
+				moneykaka = 400*amount;
 			}
 			
 			
@@ -162,11 +162,11 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				SendClientMessageEx(playerid,COLOR_LIGHTRED,"Ban khong du so CA' de BAN' !");
 				if(PlayerInfo[playerid][pFMember] == idgangchoca)
 				{
-					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$900 SAD/con{FFFFFF}.","BAN","Huy bo");
+					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$400 SAD/con{FFFFFF}.","BAN","Huy bo");
 				}
 				else
 				{
-					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$500 SAD/con{FFFFFF}.","BAN","Huy bo");
+					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$200 SAD/con{FFFFFF}.","BAN","Huy bo");
 				}
 				
 				return 1;
@@ -188,11 +188,11 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			else {
 				if(PlayerInfo[playerid][pFMember] == idgangchoca)
 				{
-					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$900 SAD/con{FFFFFF}.","BAN","Huy bo");
+					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$400 SAD/con{FFFFFF}.","BAN","Huy bo");
 				}
 				else
 				{
-					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$500 SAD/con{FFFFFF}.","BAN","Huy bo");
+					ShowPlayerDialog(playerid, DIALOG_BANCALS, DIALOG_STYLE_INPUT,"{ff0000}Ban CA'","{FFFFFF}Hay nhap so luong CA' muon {FF0000}BAN{FFFFFF} vao day.\ngia: {00FF00}$200 SAD/con{FFFFFF}.","BAN","Huy bo");
 				}
 			}
 		}

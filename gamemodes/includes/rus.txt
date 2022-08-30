@@ -1,35 +1,4 @@
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(24132) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(68517) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(82046) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(82206) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(18) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYERS"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(18) : îøèáêà 010: íåâåðíàÿ ôóíêöèÿ èëè îáúÿâëåíèå
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1297) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_VEHICLES"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1297) : îøèáêà 009: íåâåðíûé ðàçìåð ìàññèâà (îòðèöàòåëüíûé/íóëåâîé ðàçìåð èëè âûõîä çà ïðåäåëû ìàññèâà)
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1298) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_VEHICLES"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1345) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_VEHICLES"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1346) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_VEHICLES"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1427) : îøèáêà 070: ïîääåðæêà ðàöèîíàëüíûõ ÷èñåë íå âêëþ÷åíà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1481) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_VEHICLES"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1481) : îøèáêà 009: íåâåðíûé ðàçìåð ìàññèâà (îòðèöàòåëüíûé/íóëåâîé ðàçìåð èëè âûõîä çà ïðåäåëû ìàññèâà)
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1493) : îøèáêà 070: ïîääåðæêà ðàöèîíàëüíûõ ÷èñåë íå âêëþ÷åíà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1500) : îøèáêà 070: ïîääåðæêà ðàöèîíàëüíûõ ÷èñåë íå âêëþ÷åíà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(1507) : îøèáêà 070: ïîääåðæêà ðàöèîíàëüíûõ ÷èñåë íå âêëþ÷åíà
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2225) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2400) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2416) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2427) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2439) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2450) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2461) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2473) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2588) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2672) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2726) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(2948) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-D:\Server_game\server\gamemodes\includes\M26RP.pwn(3080) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_PLAYER_NAME"
-
-Êîìïèëÿöèÿ îñòàíîâëåíà.
-
-Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
-
+D:\Server_game\server\gamemodes\includes\M26RP.pwn(24082) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà
+D:\Server_game\server\gamemodes\includes\M26RP.pwn(68467) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà
+D:\Server_game\server\gamemodes\includes\M26RP.pwn(81996) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà
+D:\Server_game\server\gamemodes\includes\M26RP.pwn(82156) : ïðåäóïðåæäåíèå 208: ôóíêöèÿ ñ òèïîâûì ðåçóëüòàòîì èñïîëüçóåòñÿ ïåðåä îáúÿâëåíèåì, èíèöèèðîâàíà ïåðåîáðàáîòêà

@@ -533,13 +533,13 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	{
 		if(response)
 		{
-			if(!IsNumeric(inputtext)) return ShowPlayerDialog(playerid, DIALOG_GIAODICHCA, DIALOG_STYLE_INPUT,"{ff0000}Giao Ca' cho cua hang","{FFFFFF}Hay nhap so luong CA' muon {FF0000}GIAO{FFFFFF} vao day.\ngia: {00FF00}$800 SAD/con{FFFFFF}.","Giao","Huy bo");
+			if(!IsNumeric(inputtext)) return ShowPlayerDialog(playerid, DIALOG_GIAODICHCA, DIALOG_STYLE_INPUT,"{ff0000}Giao Ca' cho cua hang","{FFFFFF}Hay nhap so luong CA' muon {FF0000}GIAO{FFFFFF} vao day.\ngia: {00FF00}$300 SAD/con{FFFFFF}.","Giao","Huy bo");
 			new amount = strval(inputtext);
-			new moneykaka = 800*amount;
+			new moneykaka = 300*amount;
 			if(amount >= 1 && InventoryItemCheck(playerid, ITEM_FISH, amount) == 50) 
 			{
 				SendClientMessageEx(playerid,COLOR_LIGHTRED,"Ban khong du so CA' de GIAO !");
-				ShowPlayerDialog(playerid, DIALOG_GIAODICHCA, DIALOG_STYLE_INPUT,"{ff0000}Giao Ca' cho cua hang","{FFFFFF}Hay nhap so luong CA' muon {FF0000}GIAO{FFFFFF} vao day.\ngia: {00FF00}$800 SAD/con{FFFFFF}.","Giao","Huy bo");
+				ShowPlayerDialog(playerid, DIALOG_GIAODICHCA, DIALOG_STYLE_INPUT,"{ff0000}Giao Ca' cho cua hang","{FFFFFF}Hay nhap so luong CA' muon {FF0000}GIAO{FFFFFF} vao day.\ngia: {00FF00}$300 SAD/con{FFFFFF}.","Giao","Huy bo");
 				return 1;
 			}
 			
@@ -557,7 +557,7 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				DatBan = 0;
 				ClearActorAnimations(datban_Actor);
 			}
-			else ShowPlayerDialog(playerid, DIALOG_GIAODICHCA, DIALOG_STYLE_INPUT,"{ff0000}Giao Ca' cho cua hang","{FFFFFF}So luong nhap phai lon hon {FF0000}0\n{FFFFFF}Hay nhap so luong CA' muon {FF0000}GIAO{FFFFFF} vao day.\ngia: {00FF00}$800 SAD/con{FFFFFF}.","Giao","Huy bo");
+			else ShowPlayerDialog(playerid, DIALOG_GIAODICHCA, DIALOG_STYLE_INPUT,"{ff0000}Giao Ca' cho cua hang","{FFFFFF}So luong nhap phai lon hon {FF0000}0\n{FFFFFF}Hay nhap so luong CA' muon {FF0000}GIAO{FFFFFF} vao day.\ngia: {00FF00}$300 SAD/con{FFFFFF}.","Giao","Huy bo");
 		}
 		else
 		{

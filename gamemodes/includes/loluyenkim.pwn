@@ -27,7 +27,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 			if(PlayerInfo[playerid][pDangNung] != 0) return SendClientMessage(playerid, COLOR_GREY, "Ban dang nung 1 loai kim loai nao do roi.");
 			ShowPlayerDialog(playerid, DIALOG_LOLUYENKIM, DIALOG_STYLE_TABLIST,"Ban muon luyen gi ?", 
 					"Nung {ffa3f0}Cuc Sat\t{5ed1ff}(can 25 cuc Sat)\n\
-					Nung {c16bff}Cuc Dong\t{eba400}(can 25 cuc Dong)\n\
+					Nung {c16bff}Cuc Dong\t{eba400}(can 15 cuc Dong)\n\
 					", "Chon", "Huy Bo");//
 			// ShowPlayerDialog(playerid, DIALOG_LOLUYENKIM, DIALOG_STYLE_TABLIST,"Ban muon luyen gi ?", 
 			// 		"{ffa3f0}Xeng\t{5ed1ff}(de dao kho bau tai Dao Dau Lau)\t Can 25 cuc Sat\n
@@ -79,9 +79,9 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				}
 				case 1:
 				{
-					if(InventoryItemCheck(playerid, ITEM_DONG, 25) == 50) return SendClientMessage(playerid, COLOR_GREY, "Ban khong du 25 Cuc Dong de Luyen thanh chia khoa");
-					new	slotid = InventoryItemCheck(playerid, ITEM_DONG, 25);
-					DeleteItem(playerid, slotid, 25);
+					if(InventoryItemCheck(playerid, ITEM_DONG, 15) == 50) return SendClientMessage(playerid, COLOR_GREY, "Ban khong du 15 Cuc Dong de Luyen thanh chia khoa");
+					new	slotid = InventoryItemCheck(playerid, ITEM_DONG, 15);
+					DeleteItem(playerid, slotid, 15);
 					SetPVarInt(playerid, "BatDauNungTime", 30);
 					SetTimerEx("BatDauNung", 1000, false, "ii", playerid,listitem);
 					CucDongNung = CreateObject(2936, 215.141, -224.782, 2.38862, 0.0000, 0.0000, 0.0000); //PointLight13

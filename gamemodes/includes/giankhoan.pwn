@@ -7,7 +7,7 @@ new Text3D:LuongDau_Text;
 new IdDangChiemGianKhoan;
 new SQLIdDangChiemGianKhoan;
 new Xe_GianKhoan[MAX_VEHICLES];
-
+new BanDauKhaiThac_Actor;
 new ThoiGianKetThuc;
 new FNGianKhoan_Time;
 new PickUpBZ = -1;
@@ -258,6 +258,11 @@ hook OnGameModeInit()
 	// {
 	// 	Xe_GianKhoan[i] = INVALID_VEHICLE_ID;
 	// }
+	// actor ban dau khai thac
+	BanDauKhaiThac_Actor = CreateActor(37, 2456.7363,-2212.8354,13.5469,246.7071);
+	PreloadAnimLib(BanDauKhaiThac_Actor, "SMOKING");
+	ApplyActorAnimation(BanDauKhaiThac_Actor, "SMOKING", "M_smklean_loop", 4.0, 1, 0, 0, 0, 0); // Pay anim
+	CreateDynamic3DTextLabel("{F54D42}Nguoi thu mua Dau Khai Thac\n{FFCD00}An ALT de tuong tac", 0xf5f5f5ff, 2456.7363,-2212.8354,13.5469, 30.0);
 }
 
 hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
@@ -303,6 +308,13 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 				"{F5F5F5}Nhan {F54D42}Vu Khi {F5F5F5}chien dau va {FF8356}Thuyen ( Free )\n\n\
 				{F54D42}[*] Luu y: {F5F5F5}Toan bo vu khi dang tren nguoi {FF8356}se bien mat{F5F5F5}, vi vay hay thao ra cat vao tui do truoc khi nhan vu khi Free !!!"
 				, "{FFCD00}Nhan Vu Khi", "{F5F5F5}Tu choi");
+		}
+	}
+	if(IsPlayerInRangeOfPoint(playerid, 5.0, 2456.7363,-2212.8354,13.5469) )
+	{
+		if(newkeys & KEY_WALK)
+		{
+			ShowPlayerDialog(playerid, DIALOG_BANDAUKHAITHAC, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU KHAI THAC VOI GIA: {42f57e}400${FF0000}/thung", "Ban", "Huy bo");
 		}
 	}
 	return 1;
@@ -578,6 +590,70 @@ hook OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			LinkVehicleToInterior(Xe_GianKhoan[playerid], 0);
 			SetVehicleVirtualWorld(Xe_GianKhoan[playerid], 0);
 			PutPlayerInVehicle(playerid, Xe_GianKhoan[playerid], 0);
+		}
+	}
+	else if(dialogid == DIALOG_BANDAUKHAITHAC)
+	{
+		if(response)
+		{
+			new soluong = strval(inputtext);
+			if(soluong < 1)
+			{
+				SendClientMessage(playerid, COLOR_GREY, "Mot lan ban it nhat phai la mot thung");
+				ShowPlayerDialog(playerid, DIALOG_GIAODAUSACH, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU KHAI THAC VOI GIA: {42f57e}400${FF0000}/thung", "Ban", "Huy bo");
+			}
+			else
+			{
+				if(InventoryItemCheck(playerid, ITEM_DAUKHAITHAC, soluong) != 50)
+				{
+					new string[128];
+					new	slotid = InventoryItemCheck(playerid, ITEM_DAUKHAITHAC, soluong);
+					PlayerInfo[playerid][pCash] += soluong * 400;
+					DeleteItem(playerid, slotid, soluong);
+					format(string, sizeof(string), "Ban vua ban %d thung dau khai thac va nhan duoc so tien %d.", soluong, soluong*400);
+					SendClientMessage(playerid, COLOR_CYAN, string);
+					ShowPlayerDialog(playerid, DIALOG_BANDAUKHAITHAC, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU KHAI THAC VOI GIA: {42f57e}400${FF0000}/thung", "Ban", "Huy bo");
+				}
+				else
+				{
+					SendClientMessage(playerid, COLOR_GREY, "Ban khong du so thung dau ma ban muon ban, hay kiem tra lai tui do H.");
+					ShowPlayerDialog(playerid, DIALOG_BANDAUKHAITHAC, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU KHAI THAC VOI GIA: {42f57e}400${FF0000}/thung", "Ban", "Huy bo");
+				}
+			}
+		}
+		else
+		{
+			SendClientMessage(playerid, COLOR_GREY, "Tam biet Quy Khach !");
+		}
+	}
+	else if(dialogid == DIALOG_BANDAUKHAITHAC2)
+	{
+		if(response)
+		{
+			new soluong = strval(inputtext);
+			if(soluong < 1)
+			{
+				SendClientMessage(playerid, COLOR_GREY, "Mot lan ban it nhat phai la mot thung");
+				ShowPlayerDialog(playerid, DIALOG_GIAODAUSACH, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU KHAI THAC VOI GIA: {42f57e}400${FF0000}/thung", "Ban", "Huy bo");
+			}
+			else
+			{
+				if(InventoryItemCheck(playerid, ITEM_DAUKHAITHAC, soluong) != 50)
+				{
+					new string[128];
+					new	slotid = InventoryItemCheck(playerid, ITEM_DAUKHAITHAC, soluong);
+					PlayerInfo[playerid][pCash] += soluong * 400;
+					DeleteItem(playerid, slotid, soluong);
+					format(string, sizeof(string), "Ban vua ban %d thung dau sach va nhan duoc so tien %d.", soluong, soluong*8500);
+					SendClientMessage(playerid, COLOR_CYAN, string);
+					ShowPlayerDialog(playerid, DIALOG_BANDAUKHAITHAC2, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU KHAI THAC VOI GIA: {42f57e}400${FF0000}/thung", "Ban", "Huy bo");
+				}
+				else
+				{
+					SendClientMessage(playerid, COLOR_GREY, "Ban khong du so thung dau ma ban muon ban, hay kiem tra lai tui do H.");
+					ShowPlayerDialog(playerid, DIALOG_BANDAUKHAITHAC2, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU KHAI THAC VOI GIA: {42f57e}400${FF0000}/thung", "Ban", "Huy bo");
+				}
+			}
 		}
 	}
 	return 1;

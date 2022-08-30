@@ -128,6 +128,67 @@ public OnGameModeExit()
 	if (gstream) SvDeleteStream(gstream);
 	// 
     g_mysql_Exit();
+    XoaTextDraws();
 
 	return 1;
+}
+
+XoaTextDraws()
+{
+	// quy truong thanh
+	TextDrawDestroy(QuyTTTD[0]);
+	TextDrawDestroy(QuyTTTD[1]);
+	TextDrawDestroy(QuyTTTD[2]);
+	TextDrawDestroy(QuyTTTD[3]);
+	TextDrawDestroy(QuyTTTD[4]);
+	TextDrawDestroy(QuyTTTD[5]);
+	TextDrawDestroy(QuyTTTD[6]);
+	TextDrawDestroy(QuyTTTD[7]);
+	TextDrawDestroy(QuyTTTD[8]);
+	TextDrawDestroy(QuyTTTD[9]);
+	TextDrawDestroy(QuyTTTD[10]);
+	TextDrawDestroy(QuyTTTD[11]);
+	TextDrawDestroy(QuyTTTD[12]);
+	TextDrawDestroy(QuyTTTD[13]);
+	TextDrawDestroy(QuyTTTD[14]);
+	TextDrawDestroy(QuyTTTD[15]);
+	TextDrawDestroy(QuyTTTD[16]);
+	TextDrawDestroy(QuyTTTD[17]);
+	TextDrawDestroy(QuyTTTD[18]);
+	TextDrawDestroy(QuyTTTD[19]);
+	TextDrawDestroy(QuyTTTD[20]);
+	TextDrawDestroy(QuyTTTD[21]);
+	TextDrawDestroy(QuyTTTD[22]);
+	TextDrawDestroy(QuyTTTD[23]);
+	TextDrawDestroy(QuyTTTD[24]);
+	TextDrawDestroy(QuyTTTD[25]);
+	TextDrawDestroy(QuyTTTD[26]);
+	TextDrawDestroy(QuyTTTD[27]);
+	// quoc khanh
+	TextDrawDestroy(QuocKhanhTD[0]);
+	TextDrawDestroy(QuocKhanhTD[1]);
+	TextDrawDestroy(QuocKhanhTD[2]);
+	TextDrawDestroy(QuocKhanhTD[3]);
+	TextDrawDestroy(QuocKhanhTD[4]);
+	TextDrawDestroy(QuocKhanhTD[5]);
+	TextDrawDestroy(QuocKhanhTD[6]);
+	TextDrawDestroy(QuocKhanhTD[7]);
+	TextDrawDestroy(QuocKhanhTD[8]);
+	// ban giap td
+	TextDrawDestroy(BanGiapTD[0]);
+	TextDrawDestroy(BanGiapTD[1]);
+	TextDrawDestroy(BanGiapTD[2]);
+	TextDrawDestroy(BanGiapTD[3]);
+	TextDrawDestroy(BanGiapTD[4]);
+	TextDrawDestroy(BanGiapTD[5]);
+	TextDrawDestroy(BanGiapTD[6]);
+	TextDrawDestroy(BanGiapTD[7]);
+	TextDrawDestroy(BanGiapTD[8]);
+	TextDrawDestroy(BanGiapTD[9]);
+	TextDrawDestroy(BanGiapTD[10]);
+	TextDrawDestroy(BanGiapTD[11]);
+	TextDrawDestroy(BanGiapTD[12]);
+	TextDrawDestroy(BanGiapTD[13]);
+	TextDrawDestroy(BanGiapTD[14]);
+	TextDrawDestroy(BanGiapTD[15]);
 }

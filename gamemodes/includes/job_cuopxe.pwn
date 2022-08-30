@@ -188,8 +188,8 @@ hook OnPlayerEnterCheckpoint(playerid)
         if(GetPlayerState(playerid) == PLAYER_STATE_DRIVER && GetPlayerVehicleID(playerid) == PlayerInfo[playerid][pIDRobCar])
         {
             new str[128];
-            new Rand = Random(35, 75);
-            new Randd = Random(1, 50);
+            new Rand = Random(1, 20);
+            new Randd = Random(1, 3);
             AddItem(playerid, ITEM_DONG, Rand);
             AddItem(playerid, ITEM_SAT, Randd);
             // PlayerInfo[PlayerInfo[playerid][pIDOwnerRobCar]][pCash] -= Rand;

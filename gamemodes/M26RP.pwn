@@ -124,6 +124,34 @@ public OnGameModeExit()
 	if (gstream) SvDeleteStream(gstream);
 	// 
     g_mysql_Exit();
+    TextDrawDestroy(QuyTTTD[0]);
+	TextDrawDestroy(QuyTTTD[1]);
+	TextDrawDestroy(QuyTTTD[2]);
+	TextDrawDestroy(QuyTTTD[3]);
+	TextDrawDestroy(QuyTTTD[4]);
+	TextDrawDestroy(QuyTTTD[5]);
+	TextDrawDestroy(QuyTTTD[6]);
+	TextDrawDestroy(QuyTTTD[7]);
+	TextDrawDestroy(QuyTTTD[8]);
+	TextDrawDestroy(QuyTTTD[9]);
+	TextDrawDestroy(QuyTTTD[10]);
+	TextDrawDestroy(QuyTTTD[11]);
+	TextDrawDestroy(QuyTTTD[12]);
+	TextDrawDestroy(QuyTTTD[13]);
+	TextDrawDestroy(QuyTTTD[14]);
+	TextDrawDestroy(QuyTTTD[15]);
+	TextDrawDestroy(QuyTTTD[16]);
+	TextDrawDestroy(QuyTTTD[17]);
+	TextDrawDestroy(QuyTTTD[18]);
+	TextDrawDestroy(QuyTTTD[19]);
+	TextDrawDestroy(QuyTTTD[20]);
+	TextDrawDestroy(QuyTTTD[21]);
+	TextDrawDestroy(QuyTTTD[22]);
+	TextDrawDestroy(QuyTTTD[23]);
+	TextDrawDestroy(QuyTTTD[24]);
+	TextDrawDestroy(QuyTTTD[25]);
+	TextDrawDestroy(QuyTTTD[26]);
+	TextDrawDestroy(QuyTTTD[27]);
 
 	return 1;
 }

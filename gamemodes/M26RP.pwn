@@ -124,7 +124,15 @@ public OnGameModeExit()
 	if (gstream) SvDeleteStream(gstream);
 	// 
     g_mysql_Exit();
-    TextDrawDestroy(QuyTTTD[0]);
+    XoaTextDraws();
+
+	return 1;
+}
+
+XoaTextDraws()
+{
+	// quy truong thanh
+	TextDrawDestroy(QuyTTTD[0]);
 	TextDrawDestroy(QuyTTTD[1]);
 	TextDrawDestroy(QuyTTTD[2]);
 	TextDrawDestroy(QuyTTTD[3]);
@@ -152,6 +160,14 @@ public OnGameModeExit()
 	TextDrawDestroy(QuyTTTD[25]);
 	TextDrawDestroy(QuyTTTD[26]);
 	TextDrawDestroy(QuyTTTD[27]);
-
-	return 1;
+	// quoc khanh
+	TextDrawDestroy(QuocKhanhTD[0]);
+	TextDrawDestroy(QuocKhanhTD[1]);
+	TextDrawDestroy(QuocKhanhTD[2]);
+	TextDrawDestroy(QuocKhanhTD[3]);
+	TextDrawDestroy(QuocKhanhTD[4]);
+	TextDrawDestroy(QuocKhanhTD[5]);
+	TextDrawDestroy(QuocKhanhTD[6]);
+	TextDrawDestroy(QuocKhanhTD[7]);
+	TextDrawDestroy(QuocKhanhTD[8]);
 }

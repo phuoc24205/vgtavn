@@ -384,7 +384,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 	{
 		if(IsPlayerInRangeOfPoint(playerid, 3.0, 1054.1160,2087.3403,10.8203))
 		{
-			ShowPlayerDialog(playerid, DIALOG_GIAODAUSACH, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU SACH VOI GIA: {42f57e}8.000${FF0000}/thung", "Ban", "Huy bo");
+			ShowPlayerDialog(playerid, DIALOG_GIAODAUSACH, 1, "{FFFF00}CTY Xang Dau PETRO VN", "{FFFFFF}DAU SACH VOI GIA: {42f57e}8.500${FF0000}/thung", "Ban", "Huy bo");
 		}
 		if(IsPlayerInRangeOfPoint(playerid, 3.0, -214.8430,1077.0455,19.7422))
 		{

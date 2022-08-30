@@ -290,6 +290,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                 if(IsPlayerInRangeOfPoint(playerid, 2.0, GoldPoints[i][PosX], GoldPoints[i][PosY], GoldPoints[i][PosZ]))
                 {
                     // return SendClientMessage(playerid, COLOR_RED, "Tam Khoa v4.1");
+                    if(InventoryItemCheck(playerid, ITEM_CAYBUA, 1) == 50) return SendClientMessage(playerid, COLOR_GREY, "Ban khong co Cay Bua, che tao o Lo Luyen Kim");
                     new str[128];
                     if(PlayerInfo[playerid][pDangCuopGold] == 100) 
                     {
@@ -301,6 +302,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                         }
                         if(GoldPoints[i][DangCuop] == true) return 1;
                         BatDauCuopGold(playerid, i);
+                        
                     }
                     else
                     {

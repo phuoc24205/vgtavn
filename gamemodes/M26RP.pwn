@@ -170,4 +170,21 @@ XoaTextDraws()
 	TextDrawDestroy(QuocKhanhTD[6]);
 	TextDrawDestroy(QuocKhanhTD[7]);
 	TextDrawDestroy(QuocKhanhTD[8]);
+	// ban giap td
+	TextDrawDestroy(BanGiapTD[0]);
+	TextDrawDestroy(BanGiapTD[1]);
+	TextDrawDestroy(BanGiapTD[2]);
+	TextDrawDestroy(BanGiapTD[3]);
+	TextDrawDestroy(BanGiapTD[4]);
+	TextDrawDestroy(BanGiapTD[5]);
+	TextDrawDestroy(BanGiapTD[6]);
+	TextDrawDestroy(BanGiapTD[7]);
+	TextDrawDestroy(BanGiapTD[8]);
+	TextDrawDestroy(BanGiapTD[9]);
+	TextDrawDestroy(BanGiapTD[10]);
+	TextDrawDestroy(BanGiapTD[11]);
+	TextDrawDestroy(BanGiapTD[12]);
+	TextDrawDestroy(BanGiapTD[13]);
+	TextDrawDestroy(BanGiapTD[14]);
+	TextDrawDestroy(BanGiapTD[15]);
 }

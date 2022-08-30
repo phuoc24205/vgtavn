@@ -50,7 +50,7 @@ hook OnPlayerGiveDamage(playerid, damagedid, Float:amount, weaponid)
          amount = amount - (PlayerInfo[damagedid][pGiapVatLi] * amount / 100);
          SetArmorQuality(playerid, true);
     }
-    else if(GetGiapPhep(damagedid) > 0) { 
+    else if(CheckSung(weaponid) == false && GetGiapPhep(damagedid) > 0) { 
         amount = amount - (PlayerInfo[damagedid][pGiapPhep] * amount / 100);
         SetArmorQuality(playerid, false);
     }

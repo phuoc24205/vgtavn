@@ -2,6 +2,7 @@
 
 hook OnPlayerGiveDamage(playerid, damagedid, Float:amount, weaponid)
 {
+    if(GetPVarType(damagedid, "pGodMode")) return 1;
     new Float:health,
         Float:armour;
     switch(weaponid)
@@ -88,11 +89,10 @@ stock SetArmorQuality(playerid, bool:loai)
 {
     for(new i = 0; i < 6; i++)
     {
-        printf("check");
         if(CheckArmor(PlayerInfo[playerid][pInvArmor][i]) == loai && PlayerInfo[playerid][pInvArmor_Quality][i] >= 2)
         {
             PlayerInfo[playerid][pInvArmor_Quality][i] -= 2;
-            printf("check1");
+            if(PlayerInfo[playerid][pInvArmor_Quality][i] <= 0) PlayerInfo[playerid][pInvArmor][i] = 0;
         } 
     }
 }

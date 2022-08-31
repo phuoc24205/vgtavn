@@ -48,11 +48,11 @@ hook OnPlayerGiveDamage(playerid, damagedid, Float:amount, weaponid)
     SendClientMessage(playerid, COLOR_WHITE, str);
     if(CheckSung(weaponid) == true && GetGiapVatLi(damagedid) > 0) {
          amount = amount - (PlayerInfo[damagedid][pGiapVatLi] * amount / 100);
-         SetArmorQuality(playerid, true);
+         SetArmorQuality(damagedid, true);
     }
     else if(CheckSung(weaponid) == false && GetGiapPhep(damagedid) > 0) { 
         amount = amount - (PlayerInfo[damagedid][pGiapPhep] * amount / 100);
-        SetArmorQuality(playerid, false);
+        SetArmorQuality(damagedid, false);
     }
     format(str, sizeof(str), "amount co giap %f", amount);
     SendClientMessage(playerid, COLOR_WHITE, str);
@@ -82,13 +82,18 @@ stock CheckSung(weaponid)
 stock CheckArmor(armorid) // true : giap vat li || false : giap phep
 {
     if(armorid == ITEM_GIAP || armorid == ITEM_GIAP2) return true;
-    else return false;
+    return false;
 }
 stock SetArmorQuality(playerid, bool:loai)
 {
     for(new i = 0; i < 6; i++)
     {
-        if(CheckArmor(PlayerInfo[playerid][pInvArmor][i]) == loai && PlayerInfo[playerid][pInvArmor_Quality][i] >= 2) PlayerInfo[playerid][pInvArmor_Quality][i] -= 2;
+        printf("check");
+        if(CheckArmor(PlayerInfo[playerid][pInvArmor][i]) == loai && PlayerInfo[playerid][pInvArmor_Quality][i] >= 2)
+        {
+            PlayerInfo[playerid][pInvArmor_Quality][i] -= 2;
+            printf("check1");
+        } 
     }
 }
 stock GetGiapVatLi(playerid)

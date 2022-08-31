@@ -94,7 +94,11 @@
 #include "./includes/nhiemvu.pwn"
 #include "./includes/damage.pwn"
 #include "./includes/doimanhxe.pwn"
-#include "./includes/xepizza.pwn"
+#include "./includes/PizzaJob/pizza_variables.pwn"
+#include "./includes/PizzaJob/pizza_label.pwn"
+#include "./includes/PizzaJob/pizza_vehicles.pwn"
+#include "./includes/PizzaJob/pizza_callback.pwn"
+#include "./includes/PizzaJob/pizza_functions.pwn"
 #include "./includes/nhiemvupizzav2.pwn"
 
 main() {}

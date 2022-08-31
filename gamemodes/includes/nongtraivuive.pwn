@@ -52,7 +52,7 @@ new NongTraiPoints[][eNongTraiPos] = {
 	{930.6460, -317.4168, 54.4015, 0, 0, 0, 240, 0, 19320, "VGTA", 0},
 	{930.4439, -311.3267, 54.1375, 0, 0, 0, 240, 0, 19320, "VGTA", 0}// het lane 3
 };
-task NongTraiVuiVe[1000]() 
+task NongTraiVuiVe[60000]() 
 {
 	for(new i = 0; i < sizeof(NongTraiPoints); i++)
     {
@@ -267,7 +267,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 			ShowPlayerDialog(playerid, DIALOG_MUAHATGIONGNT, DIALOG_STYLE_TABLIST_HEADERS,"Mua hat giong nong trai",
 			"Hat giong\tGia Tien\tNhan duoc\tThoi gian trong\n\
 			{EB7F00}Bi Ngo\t{73EB09}$20.000\t{15ABEB}(Bi Ngo event Halloween)\t4h\n\
-			{EBCC06}Lua Nuoc\t{73EB09}$5.000\t{15EB83}(Bo Rom de cho bo an)\t2h","Mua","Huy bo"); 
+			{EBCC06}Lua Nuoc\t{73EB09}$5.000\t{15EB83}(Bo rom de ban lay tien)\t2h","Mua","Huy bo"); 
 		}
 	}
 	else if(IsPlayerInRangeOfPoint(playerid, 3.0, 1104.5362, -319.8571, 73.9883))
@@ -368,13 +368,13 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
             		if(NongTraiPoints[i][solanxoidat] == 200) return SendClientMessage(playerid, COLOR_GREY, "Manh dat nay da co nguoi trong.");
             		if(!CheckCayTrong(playerid))
             		{
-            			return SendClientMessage(playerid, COLOR_GREY, "[NONG TRAI VUI VE] Ban chi duoc trong toi da 3 cay thoi, neu muon trong tiep hay thu hoach 1 cay truoc do.");
+            			return SendClientMessage(playerid, COLOR_GREY, "[NONG TRAI VUI VE] Ban chi duoc trong toi da 1 cay thoi, neu muon trong tiep hay thu hoach 1 cay truoc do.");
             		}
             		SetPVarInt(playerid, "ManhDatDangChon", i);
             		ShowPlayerDialog(playerid, DIALOG_TRONGHATGIONG, DIALOG_STYLE_TABLIST_HEADERS,"Trong Hat Giong",
 					"Hat giong\tNhan duoc\tThoi gian trong\n\
 					{EB7F00}Bi Ngo\t{15ABEB}(Bi Ngo event Halloween)\t4h\n\
-					{EBCC06}Lua Nuoc\t{15EB83}(Bo Rom de cho bo an)\t2h","Trong","Huy bo");
+					{EBCC06}Lua Nuoc\t{15EB83}(Bo Rom de ban lay tien)\t2h","Trong","Huy bo");
             	}
             	return 1;
             }
@@ -854,7 +854,7 @@ CheckCayTrong(playerid)
 			count++;
 		}
 	}
-	if(count >= 3)
+	if(count >= 1)
 	{
 		// SendClientMessage(playerid, COLOR_GREY, "Ban chi duoc trong toi da 3 cay.");
 		return 0;

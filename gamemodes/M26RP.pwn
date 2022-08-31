@@ -191,4 +191,7 @@ XoaTextDraws()
 	TextDrawDestroy(BanGiapTD[13]);
 	TextDrawDestroy(BanGiapTD[14]);
 	TextDrawDestroy(BanGiapTD[15]);
+	// logo
+	TextDrawDestroy(logoTD[0]);
+	TextDrawDestroy(logoTD[1]);
 }

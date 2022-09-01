@@ -170,9 +170,9 @@ CMD:laybanh(playerid, params[])
 				        SendClientMessageEx(playerid, COLOR_YELLOW, "Ban khong chay xe Pizza Stack khong the lam viec.");
 				        return 1;
 				    }
-					if(PizzaInfo[Pizza] <= 0) return SendClientMessageEx(playerid, COLOR_YELLOW, "So luong Pizza da het ! Ban phai che bien pizza de co the giao.");
-                    PizzaInfo[Pizza] -= 1;
-                    UpdatePizzaLabel();
+					// if(PizzaInfo[Pizza] <= 0) return SendClientMessageEx(playerid, COLOR_YELLOW, "So luong Pizza da het ! Ban phai che bien pizza de co the giao.");
+     //                PizzaInfo[Pizza] -= 1;
+     //                UpdatePizzaLabel();
 					SetPVarInt(playerid, "IsFrozen", 1);
 					SendClientMessage(playerid, COLOR_WHITE, "Dang lay banh vui long cho {ffff00}5 giay.");
 					GameTextForPlayer(playerid, "Dang Lay Banh.....", 5000, 5);

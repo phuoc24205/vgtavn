@@ -110,7 +110,7 @@ task xhPickUpBZ[60000]()
 	if(PickUpBZ == -1 && chiemdong_giankhoan == 1)
 	{
 		new rand = Random(1,18);
-		PickUpBZ = CreatePickup(19056, 1, PosPickUpBZ[rand][0], PosPickUpBZ[rand][1], PosPickUpBZ[rand][2], 0);
+		PickUpBZ = CreatePickup(2061, 1, PosPickUpBZ[rand][0], PosPickUpBZ[rand][1], PosPickUpBZ[rand][2], 0);
 		// PickUpBZT = 1;
 		
 	}
@@ -367,7 +367,7 @@ public ChiemGianKhoan_VGTA(playerid)
 		PlayerInfo[playerid][pHanhDong] = 0;
 		ClearAnimations(playerid);
 		KillTimer(ChiemGianKhoan_Time);
-		ThoiGianKetThuc = 60;
+		ThoiGianKetThuc = 900;
 		FNGianKhoan_Time = SetTimerEx("Time_FNGianKhoan", 1000, true, "i",playerid);
 	}
 	return 1;

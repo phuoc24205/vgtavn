@@ -130,7 +130,7 @@ task ResetGoldRob[1000]()
     }
     return 1;
 }
-timer LayTienGold[200](playerid)
+timer LayTienGold[200](playerid, i)
 {
     if(PlayerInfo[playerid][pTimeLayVang] < 120)
     {
@@ -174,11 +174,12 @@ timer LayTienGold[200](playerid)
             new str[64];
             format(str,sizeof(str),"Tui 3 gang: %i/30 Vang",PlayerInfo[playerid][pLayVang]);
             Notify_Send(playerid, str, 3000);
+            DestroyDynamic3DTextLabel(Gold3DText[i]);
         }
-         HidePlayerProgressBar(playerid,GoldRob_Bar[playerid]);
+        HidePlayerProgressBar(playerid,GoldRob_Bar[playerid]);
         return 1;
     }
-    defer LayTienGold(playerid);
+    defer LayTienGold(playerid, i);
     return 1;
 }
 CancelGoldRob(playerid)
@@ -295,7 +296,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
             {
                 if(IsPlayerInRangeOfPoint(playerid, 2.0, GoldPoints[i][PosX], GoldPoints[i][PosY], GoldPoints[i][PosZ]))
                 {
-                    return SendClientMessage(playerid, COLOR_RED, "Tam Khoa !");
+                    //return SendClientMessage(playerid, COLOR_RED, "Tam Khoa !");
                     if(InventoryItemCheck(playerid, ITEM_CAYBUA, 1) == 50) return SendClientMessage(playerid, COLOR_GREY, "Ban khong co Cay Bua, che tao o Lo Luyen Kim");
                     new str[128];
                     if(PlayerInfo[playerid][pDangCuopGold] == 100) 
@@ -334,7 +335,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                         GoldLayVang[i][DaLay] = true;
                         ShowPlayerProgressBar(playerid,GoldRob_Bar[playerid]);
                         PlayerInfo[playerid][pHanhDong] = 1;
-                        defer LayTienGold(playerid);
+                        defer LayTienGold(playerid, i);
                     }
                     return 1;
                 }
@@ -362,7 +363,7 @@ hook OnPlayerEnterCheckpoint(playerid)
         }
         for(new i = 0; i < sizeof(GoldLayVang); i++)
         {
-            Gold3DText[i] = INVALID_3DTEXT_ID;
+            GoldLayVang[i][DaLay] = true;
             DestroyDynamic3DTextLabel(Gold3DText[i]);
         }
     }

@@ -276,6 +276,12 @@ hook OnPlayerDisconnect(playerid)
        CancelGoldRob(playerid);
     }
     DestroyPlayerProgressBar(playerid, GoldRob_Bar[playerid]);
+    if(playerid == PlayerInfo[playerid][pDangCuopGold])
+    {
+        GoldPoints[PlayerInfo[playerid][pDangCuopGold]][DaCuop] = true;
+        GoldPoints[PlayerInfo[playerid][pDangCuopGold]][TimeRespawn] = 60*300;
+    }
+    
     return 1;
 }
 
@@ -289,7 +295,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
             {
                 if(IsPlayerInRangeOfPoint(playerid, 2.0, GoldPoints[i][PosX], GoldPoints[i][PosY], GoldPoints[i][PosZ]))
                 {
-                    // return SendClientMessage(playerid, COLOR_RED, "Tam Khoa v4.1");
+                    return SendClientMessage(playerid, COLOR_RED, "Tam Khoa !");
                     if(InventoryItemCheck(playerid, ITEM_CAYBUA, 1) == 50) return SendClientMessage(playerid, COLOR_GREY, "Ban khong co Cay Bua, che tao o Lo Luyen Kim");
                     new str[128];
                     if(PlayerInfo[playerid][pDangCuopGold] == 100) 
@@ -316,6 +322,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                 if(IsPlayerInRangeOfPoint(playerid, 0.5, GoldLayVang[i][PosX], GoldLayVang[i][PosY], GoldLayVang[i][PosZ]))
                 {
                     if(KhoKetSatVang < 1) return SendClientMessage(playerid, COLOR_GREY, "Tiem vang nay da bi cuop het vang roi.");
+                    
                     if(PlayerInfo[playerid][pLayVang] == 30)
                     {
                         return SendClientMessage(playerid, COLOR_GREY, "Tui 3 gang cua ban da chua day vang roi.");
@@ -324,7 +331,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
                     {
                         // if(PlayerInfo[playerid][pLayVang] != 0) return SendClientMessage(playerid, COLOR_RED, "Ban da lay vang roi");
                         PlayerInfo[playerid][pTimeLayVang] = 0;
-                        GoldLayVang[i][DaLay] = false;
+                        GoldLayVang[i][DaLay] = true;
                         ShowPlayerProgressBar(playerid,GoldRob_Bar[playerid]);
                         PlayerInfo[playerid][pHanhDong] = 1;
                         defer LayTienGold(playerid);
@@ -348,9 +355,15 @@ hook OnPlayerEnterCheckpoint(playerid)
         SendClientMessageToAll(0xD48026FF, string);
         PlayerInfo[playerid][pLayVang] = 0;
         DisablePlayerCheckpoint(playerid);
+        
         if(IsPlayerAttachedObjectSlotUsed(playerid, 1))
         {
              RemovePlayerAttachedObject(playerid, 1);
+        }
+        for(new i = 0; i < sizeof(GoldLayVang); i++)
+        {
+            Gold3DText[i] = INVALID_3DTEXT_ID;
+            DestroyDynamic3DTextLabel(Gold3DText[i]);
         }
     }
     return 1;

@@ -44,9 +44,9 @@ hook OnPlayerGiveDamage(playerid, damagedid, Float:amount, weaponid)
         case 41: amount = 16;
         case 42: amount = 17;
     }
-    new str[128];
-    format(str, sizeof(str), "amount thuong %f", amount);
-    SendClientMessage(playerid, COLOR_WHITE, str);
+    // new str[128];
+    // format(str, sizeof(str), "amount thuong %f", amount);
+    // SendClientMessage(playerid, COLOR_WHITE, str);
     if(CheckSung(weaponid) == true && GetGiapVatLi(damagedid) > 0) {
          amount = amount - (PlayerInfo[damagedid][pGiapVatLi] * amount / 100);
          SetArmorQuality(damagedid, true);
@@ -55,9 +55,9 @@ hook OnPlayerGiveDamage(playerid, damagedid, Float:amount, weaponid)
         amount = amount - (PlayerInfo[damagedid][pGiapPhep] * amount / 100);
         SetArmorQuality(damagedid, false);
     }
-    format(str, sizeof(str), "amount co giap %f", amount);
-    SendClientMessage(playerid, COLOR_WHITE, str);
-    SendClientMessage(playerid, COLOR_WHITE, str);
+    // format(str, sizeof(str), "amount co giap %f", amount);
+    // SendClientMessage(playerid, COLOR_WHITE, str);
+    // SendClientMessage(playerid, COLOR_WHITE, str);
     GetPlayerHealth(damagedid,health);
     GetPlayerArmour(damagedid,armour);
     armour = armour - amount;

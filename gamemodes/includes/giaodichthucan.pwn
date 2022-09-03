@@ -48,7 +48,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 			ApplyActorAnimation(datban_Actor, "PED", "IDLE_CHAT", 4.0, 1, 0, 0, 0, 0); // Pay anim
 			new string[256];
 			format(string,sizeof(string),"{fff41c}MUA PHIEU AN\t{20ff1c}$%s\t1 phieu\n\
-				{7b42ff}GIAO CA\t{20ff1c}$800\t1 con", number_format(giaphieu_quanan));
+				{7b42ff}GIAO CA\t{20ff1c}$300\t1 con", number_format(giaphieu_quanan));
 			ShowPlayerDialog(playerid, DIALOG_GIAODICHTHUCAN, DIALOG_STYLE_TABLIST, "NHAN VIEN CUA HANG",
 				string,
 				"Dong Y", "Huy Bo");
